@@ -53,6 +53,7 @@ export function SocialSection() {
             data-widget-id="311635"
             data-website="1"
           />
+          <script src="https://widget.tagembed.com/embed.min.js" type="text/javascript"></script>
         </div>
       </div>
     </section>
