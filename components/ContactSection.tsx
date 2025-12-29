@@ -366,7 +366,7 @@ export function ContactSection() {
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
                       {getText(content.prices.courses.title, language)}
                     </label>
-                    <div className="space-y-2 max-h-40 overflow-y-auto">
+                    <div className="space-y-2 max-h-none md:max-h-40 md:overflow-y-auto">
                       {content.prices.courses.options.map((option) => (
                         <label key={option.value} className="flex items-center gap-2 cursor-pointer">
                           <input
@@ -384,7 +384,7 @@ export function ContactSection() {
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
                       {getText(content.prices.specialty.title, language)}
                     </label>
-                    <div className="space-y-2 max-h-40 overflow-y-auto">
+                    <div className="space-y-2 max-h-none md:max-h-40 md:overflow-y-auto">
                       {content.prices.specialty.options.map((option) => (
                         <label key={option.value} className="flex items-center gap-2 cursor-pointer">
                           <input
