@@ -33,6 +33,7 @@ export interface HeroContent {
 
 export interface IntroContent {
   title: TranslatedText;
+  aboutMe?: TranslatedText;
   paragraphs: TranslatedText[];
 }
 
