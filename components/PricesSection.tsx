@@ -12,7 +12,7 @@ import {
   formatPrice,
   type Currency 
 } from '@/lib/currency';
-import { getAssetPath } from '@/lib/content';
+import { getAssetPath, getNavPath } from '@/lib/content';
 
 export function PricesSection() {
   const { language } = useLanguage();
