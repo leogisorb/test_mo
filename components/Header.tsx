@@ -71,31 +71,44 @@ export function Header() {
       <nav className="w-full px-4 md:px-8 lg:px-12">
         <div className="w-[90%] mx-auto flex items-center justify-between gap-4 py-5 md:py-6">
           {isCoursesPage && (
-            <button
-              onClick={() => window.location.href = getNavPath('/')}
-              className="text-text hover:text-primary transition-colors font-medium md:font-bold text-base md:text-sm flex items-center gap-2"
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-              </svg>
-              <span>{language === 'de' ? 'Zurück' : language === 'ru' ? 'Назад' : language === 'ar' ? 'رجوع' : language === 'en' ? 'Back' : 'Retour'}</span>
-            </button>
+            <div className="flex items-center gap-4">
+              <button
+                onClick={() => window.location.href = getNavPath('/')}
+                className="text-text hover:text-primary transition-colors font-medium md:font-bold text-base md:text-sm flex items-center gap-2"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                </svg>
+                <span>{language === 'de' ? 'Zurück' : language === 'ru' ? 'Назад' : language === 'ar' ? 'رجوع' : language === 'en' ? 'Back' : 'Retour'}</span>
+              </button>
+              <button
+                onClick={() => window.location.href = getNavPath('/')}
+                className="text-text hover:text-primary transition-colors font-medium md:font-bold text-base md:text-sm flex items-center gap-2"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                </svg>
+                <span>{language === 'de' ? 'Home' : language === 'ru' ? 'Главная' : language === 'ar' ? 'الرئيسية' : language === 'en' ? 'Home' : 'Accueil'}</span>
+              </button>
+            </div>
           )}
           <ul
             className={`fixed md:static top-16 left-0 w-full md:w-auto h-[calc(100vh-4rem)] md:h-auto bg-white md:bg-transparent flex-col md:flex-row items-center justify-start md:justify-center gap-8 md:gap-6 pt-12 md:pt-0 transition-transform duration-300 ${
               mobileMenuOpen ? 'flex' : 'hidden md:flex'
             }`}
           >
-            {content.navigation.items.map((item) => (
-              <li key={item.id}>
-                <button
-                  onClick={() => scrollToSection(item.id)}
-                  className="text-text hover:text-primary transition-colors font-medium md:font-bold text-base md:text-sm"
-                >
-                  {getText(item.label, language)}
-                </button>
-              </li>
-            ))}
+            {content.navigation.items
+              .filter((item) => item.id !== 'about') // "Über mich" entfernen
+              .map((item) => (
+                <li key={item.id}>
+                  <button
+                    onClick={() => scrollToSection(item.id)}
+                    className="text-text hover:text-primary transition-colors font-medium md:font-bold text-base md:text-sm"
+                  >
+                    {getText(item.label, language)}
+                  </button>
+                </li>
+              ))}
           </ul>
 
           <div className="flex items-center gap-2">
