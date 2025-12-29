@@ -169,13 +169,26 @@ export function ContactSection() {
     setSubmitStatus('idle');
 
     try {
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      setSubmitStatus('success');
-      setFormData({ name: '', email: '', subject: '', message: '' });
-      setBookingData(null);
+      // Generate full message with booking details
+      const fullMessage = generateMessageText();
+      const emailBody = `${formData.message}\n\n---\n${fullMessage}`;
+
+      // Use mailto as fallback for static sites
+      // In production, you should use EmailJS, Formspree, or a similar service
+      const mailtoLink = `mailto:info@tauchwelt-hurghada.com?subject=${encodeURIComponent(formData.subject || 'Kontaktanfrage')}&body=${encodeURIComponent(`Von: ${formData.name} (${formData.email})\n\n${emailBody}`)}`;
+      
+      // Open email client
+      window.location.href = mailtoLink;
+      
+      // Show success message after a short delay
+      setTimeout(() => {
+        setSubmitStatus('success');
+        setFormData({ name: '', email: '', subject: '', message: '' });
+        setBookingData(null);
+        setIsSubmitting(false);
+      }, 500);
     } catch (error) {
       setSubmitStatus('error');
-    } finally {
       setIsSubmitting(false);
     }
   };
