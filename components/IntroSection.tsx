@@ -26,11 +26,6 @@ export function IntroSection() {
                     src={getAssetPath('/assets/images/mohamed-salah.jpg')}
                     alt={language === 'de' ? 'Mohamed Salah - Tauchlehrer' : language === 'ru' ? 'Мохамед Салах - инструктор по дайвингу' : language === 'ar' ? 'محمد صلاح - مدرب غوص' : language === 'en' ? 'Mohamed Salah - Diving Instructor' : 'Mohamed Salah - Instructeur de plongée'}
                     className="w-full h-full object-cover"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.style.background = 'linear-gradient(135deg, #000b10, #001a2e)';
-                      target.style.display = 'none';
-                    }}
                   />
                 </div>
               </div>
