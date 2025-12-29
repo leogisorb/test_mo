@@ -300,15 +300,6 @@ export function CoursesPage() {
           {getText(content.courses.description, language)}
         </p>
 
-        <div 
-          className="overflow-x-auto hide-scrollbar"
-          style={{
-            WebkitOverflowScrolling: 'touch',
-            touchAction: 'pan-x',
-            overscrollBehaviorX: 'contain',
-          }}
-        >
-          <div className="flex gap-8 md:gap-12 min-w-max">
         {sections.map((section, sectionIndex) => {
           const isVisible = visibleSections.has(section.id);
           const prevSectionVisible = sectionIndex === 0 || visibleSections.has(sections[sectionIndex - 1].id);
@@ -335,7 +326,7 @@ export function CoursesPage() {
               ref={(el) => {
                 sectionRefs.current[section.id] = el;
               }}
-              className={`flex-shrink-0 w-[90vw] md:w-[85vw] lg:w-[80vw] transition-all duration-1000 ${
+              className={`transition-all duration-1000 ${
                 isSectionExpanded ? 'mb-20 md:mb-32' : 'mb-5 md:mb-8'
               } ${
                 isVisible
@@ -447,8 +438,6 @@ export function CoursesPage() {
             </div>
           );
         })}
-          </div>
-        </div>
       </div>
     </main>
   );

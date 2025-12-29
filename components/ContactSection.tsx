@@ -215,9 +215,9 @@ export function ContactSection() {
             {getText(content.footer.contact.title, language)}
           </h2>
 
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-8">
             {/* Left: Contact Form */}
-            <div className="lg:col-span-2">
+            <div className="lg:col-span-1 xl:col-span-2">
               <div className="bg-white rounded-lg shadow-lg p-6 md:p-8">
                 <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6">
                   {language === 'de' ? 'Kontaktieren Sie uns' : 
