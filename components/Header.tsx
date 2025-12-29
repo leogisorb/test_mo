@@ -73,35 +73,21 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md" style={{ background: 'linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.99) 8%, rgba(255, 255, 255, 0.97) 15%, rgba(255, 255, 255, 0.94) 22%, rgba(255, 255, 255, 0.91) 28%, rgba(255, 255, 255, 0.87) 34%, rgba(255, 255, 255, 0.82) 40%, rgba(255, 255, 255, 0.76) 46%, rgba(255, 255, 255, 0.69) 52%, rgba(255, 255, 255, 0.61) 58%, rgba(255, 255, 255, 0.52) 64%, rgba(255, 255, 255, 0.43) 70%, rgba(255, 255, 255, 0.34) 76%, rgba(255, 255, 255, 0.26) 82%, rgba(255, 255, 255, 0.19) 88%, rgba(255, 255, 255, 0.13) 94%, rgba(255, 255, 255, 0.08) 97%, rgba(255, 255, 255, 0.05) 99%, rgba(255, 255, 255, 0.03) 99.5%, rgba(255, 255, 255, 0.01) 99.8%, rgba(255, 255, 255, 0) 100%)' }}>
       <nav className="w-full px-4 md:px-8 lg:px-12">
         <div className="w-[90%] mx-auto flex items-center justify-between gap-4 py-5 md:py-6">
-          {!isMainPage && (
-            <button
-              onClick={() => window.location.href = getNavPath('/')}
-              className="text-text hover:text-primary transition-colors font-medium md:font-bold text-base md:text-sm flex items-center gap-2"
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-              </svg>
-              <span>{language === 'de' ? 'Home' : language === 'ru' ? 'Главная' : language === 'ar' ? 'الرئيسية' : language === 'en' ? 'Home' : 'Accueil'}</span>
-            </button>
-          )}
           <ul
             className={`fixed md:static top-16 left-0 w-full md:w-auto h-[calc(100vh-4rem)] md:h-auto bg-white md:bg-transparent flex-col md:flex-row items-center justify-start md:justify-center gap-8 md:gap-6 pt-12 md:pt-0 transition-transform duration-300 ${
               mobileMenuOpen ? 'flex' : 'hidden md:flex'
             }`}
           >
             {!isMainPage && (
-              <li className="md:hidden">
+              <li>
                 <button
                   onClick={() => {
                     window.location.href = getNavPath('/');
                     setMobileMenuOpen(false);
                   }}
-                  className="text-text hover:text-primary transition-colors font-medium md:font-bold text-base md:text-sm flex items-center gap-2"
+                  className="text-text hover:text-primary transition-colors font-medium md:font-bold text-base md:text-sm"
                 >
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                  </svg>
-                  <span>{language === 'de' ? 'Home' : language === 'ru' ? 'Главная' : language === 'ar' ? 'الرئيسية' : language === 'en' ? 'Home' : 'Accueil'}</span>
+                  {language === 'de' ? 'Home' : language === 'ru' ? 'Главная' : language === 'ar' ? 'الرئيسية' : language === 'en' ? 'Home' : 'Accueil'}
                 </button>
               </li>
             )}
