@@ -351,20 +351,28 @@ export function ContactSection() {
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    <label className="block text-xs font-semibold text-gray-700 mb-2">
                       {getText(content.prices.dailyDiving.selectLabel, language)}
                     </label>
-                    <select
-                      value={dailyDays}
-                      onChange={(e) => setDailyDays(Number(e.target.value))}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
-                    >
-                      {content.prices.dailyDiving.options.map((option) => (
-                        <option key={option.value} value={option.value}>
-                          {getText(option.label, language)}
-                        </option>
-                      ))}
-                    </select>
+                    <div className="relative">
+                      <select
+                        value={dailyDays}
+                        onChange={(e) => setDailyDays(Number(e.target.value))}
+                        className="w-full border border-primary rounded-lg p-3 pr-10 text-base bg-white text-gray-800 cursor-pointer hover:border-primary focus:outline-none focus:border-primary appearance-none"
+                        style={{
+                          backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%231d334a' d='M6 9L1 4h10z'/%3E%3C/svg%3E")`,
+                          backgroundRepeat: 'no-repeat',
+                          backgroundPosition: 'right 12px center',
+                          paddingRight: '2.5rem'
+                        }}
+                      >
+                        {content.prices.dailyDiving.options.map((option) => (
+                          <option key={option.value} value={option.value}>
+                            {getText(option.label, language)}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
                   </div>
                 </div>
               </div>
