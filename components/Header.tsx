@@ -21,18 +21,20 @@ export function Header() {
       setMobileMenuOpen(false);
       return;
     }
+    // If we're on courses page, navigate to main page first
+    if (pathname !== '/') {
+      window.location.href = getNavPath(`/#${id}`);
+      setMobileMenuOpen(false);
+      return;
+    }
+    // On main page, scroll to section
     if (id === 'contact') {
-      // Always go to main page contact section
-      if (pathname !== '/') {
-        window.location.href = getNavPath('/#contact');
-      } else {
-        const element = document.getElementById('contact');
-        if (element) {
-          const headerOffset = 80;
-          const elementPosition = element.getBoundingClientRect().top;
-          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-          window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
-        }
+      const element = document.getElementById('contact');
+      if (element) {
+        const headerOffset = 80;
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+        window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
       }
       setMobileMenuOpen(false);
       return;
