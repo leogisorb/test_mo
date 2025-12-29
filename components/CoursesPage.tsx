@@ -292,7 +292,7 @@ export function CoursesPage() {
 
   return (
     <main className="min-h-screen bg-gray-50">
-      <div className="w-[85%] lg:w-[90%] xl:w-[95%] 2xl:max-w-[1400px] mx-auto py-16 md:py-24">
+      <div className="w-[85%] mx-auto py-16 md:py-24">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-4 text-left">
           {getText(content.courses.title, language)}
         </h1>

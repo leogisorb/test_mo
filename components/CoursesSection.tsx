@@ -13,8 +13,7 @@ export function CoursesSection() {
 
   return (
     <section id="courses" className="section bg-gray-50">
-      <div className="container">
-        <div className="w-[85%] lg:w-[90%] xl:w-[95%] 2xl:max-w-[1400px] mx-auto">
+      <div className="w-[85%] mx-auto">
           <h2 className="section-title">
             {getText(content.courses.title, language)}
           </h2>
@@ -30,7 +29,6 @@ export function CoursesSection() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
           </button>
-        </div>
       </div>
     </section>
   );

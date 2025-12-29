@@ -9,8 +9,7 @@ export function IntroSection() {
 
   return (
     <section id="about" className="section bg-white">
-      <div className="container">
-        <div className="w-[85%] lg:w-[90%] xl:w-[95%] 2xl:max-w-[1400px] mx-auto">
+      <div className="w-[85%] mx-auto">
           <h2 className="section-title">
             {getText(content.intro.title, language)}
           </h2>
@@ -22,7 +21,6 @@ export function IntroSection() {
               {getText(paragraph, language)}
             </p>
           ))}
-        </div>
       </div>
     </section>
   );

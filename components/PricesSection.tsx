@@ -123,8 +123,7 @@ export function PricesSection() {
 
   return (
     <section id="prices" className="section bg-primary py-16 md:py-24">
-      <div className="container">
-        <div className="w-[85%] lg:w-[90%] xl:w-[95%] 2xl:max-w-[1400px] mx-auto">
+      <div className="w-[85%] mx-auto">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-12 md:mb-16 gap-4">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-left">
               {getText(content.prices.title, language)}
@@ -294,7 +293,6 @@ export function PricesSection() {
             );
           })}
           </div>
-        </div>
       </div>
     </section>
   );
