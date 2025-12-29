@@ -216,8 +216,8 @@ export function ContactSection() {
           </h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Left: Large Contact Form */}
-            <div className="lg:col-span-2">
+            {/* Left: Contact Form */}
+            <div className="lg:col-span-1">
               <div className="bg-white rounded-lg shadow-lg p-6 md:p-8">
                 <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6">
                   {language === 'de' ? 'Kontaktieren Sie uns' : 
@@ -316,8 +316,8 @@ export function ContactSection() {
               </div>
             </div>
 
-            {/* Right: 3 Cards */}
-            <div className="space-y-6">
+            {/* Middle: Persons & Courses */}
+            <div className="lg:col-span-1 space-y-6">
               {/* Card 1: Persons & Daily Courses */}
               <div className="bg-white rounded-lg shadow-lg p-6">
                 <h4 className="text-xl font-bold text-primary mb-4">
@@ -400,8 +400,10 @@ export function ContactSection() {
                   </div>
                 </div>
               </div>
+            </div>
 
-              {/* Card 3: Price */}
+            {/* Right: Price */}
+            <div className="lg:col-span-1">
               <div className="bg-primary text-white rounded-lg shadow-lg p-6">
                 <h4 className="text-xl font-bold mb-4">
                   {language === 'de' ? 'Gesamtpreis' : language === 'ru' ? 'Общая цена' : language === 'ar' ? 'السعر الإجمالي' : language === 'en' ? 'Total Price' : 'Prix total'}
