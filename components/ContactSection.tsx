@@ -338,7 +338,7 @@ export function ContactSection() {
                 </h4>
                 <div className="space-y-4">
                   <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    <label className="block text-xs font-semibold text-gray-700 mb-2">
                       {language === 'de' ? 'Anzahl Personen' : language === 'ru' ? 'Количество человек' : language === 'ar' ? 'عدد الأشخاص' : language === 'en' ? 'Number of Persons' : 'Nombre de personnes'}
                     </label>
                     <input
@@ -347,7 +347,7 @@ export function ContactSection() {
                       max="10"
                       value={persons}
                       onChange={(e) => setPersons(parseInt(e.target.value) || 1)}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
+                      className="w-full border border-primary rounded-lg p-3 text-base bg-white text-gray-800 cursor-pointer hover:border-primary focus:outline-none focus:border-primary"
                     />
                   </div>
                   <div>
