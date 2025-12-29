@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-text antialiased;
+    font-family: 'area-normal', sans-serif;
+  }
+}
+
+@layer components {
+  .section {
+    @apply py-section px-4 md:px-8;
+  }
+
+  .container {
+    @apply max-w-7xl mx-auto w-full;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-primary text-center md:text-left mb-12;
+  }
+
+  .hide-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+

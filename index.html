@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tauchwelt Hurghada - Professionelle Tauchschule in Ägypten">
+    <title>Tauchwelt Hurghada - Willkommen in der Unterwasserwelt</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Tauchwelt Hurghada</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Startseite</a></li>
+                    <li><a href="#about" class="nav-link">Wer wir sind</a></li>
+                    <li><a href="#courses" class="nav-link">Tauchkurse</a></li>
+                    <li><a href="#prices" class="nav-link">Preise</a></li>
+                    <li><a href="#contact" class="nav-link">Kontakt</a></li>
+                </ul>
+                <div class="language-selector">
+                    <button class="lang-btn active" data-lang="de" aria-label="Deutsch">
+                        <span class="flag-icon">🇩🇪</span>
+                        <span class="lang-code">DE</span>
+                    </button>
+                    <button class="lang-btn" data-lang="en" aria-label="English">
+                        <span class="flag-icon">🇬🇧</span>
+                        <span class="lang-code">EN</span>
+                    </button>
+                    <button class="lang-btn" data-lang="ar" aria-label="العربية">
+                        <span class="flag-icon">🇪🇬</span>
+                        <span class="lang-code">AR</span>
+                    </button>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Menü öffnen">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Video -->
+    <section id="home" class="hero">
+        <div class="video-container">
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="assets/video/diving-hero.mp4" type="video/mp4">
+                <source src="assets/video/diving-hero.webm" type="video/webm">
+                <!-- Fallback image if video doesn't load -->
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h2 class="hero-title" data-i18n="hero.title">Willkommen in der Tauchwelt Hurghada</h2>
+        </div>
+    </section>
+
+    <!-- Section 1: Intro / Welcome Text -->
+    <section id="about" class="section intro-section">
+        <div class="container">
+            <div class="intro-content">
+                <h2 class="section-title" data-i18n="intro.title">Willkommen in unserer Tauchwelt</h2>
+                <p class="intro-text" data-i18n="intro.text">
+                    Tauchen Sie ein in die faszinierende Unterwasserwelt des Roten Meeres. 
+                    In Hurghada bieten wir Ihnen professionelle Tauchkurse und unvergessliche 
+                    Tauchabenteuer. Unsere Leidenschaft fürs Tauchen und unsere jahrelange 
+                    Erfahrung garantieren Ihnen ein sicheres und aufregendes Erlebnis unter Wasser.
+                </p>
+                <p class="intro-text" data-i18n="intro.text2">
+                    Wir sind stolz darauf, eine der führenden Tauchschulen in Hurghada zu sein 
+                    und freuen uns darauf, Ihnen die Schönheit der Unterwasserwelt zu zeigen. 
+                    Ob Sie Anfänger oder erfahrener Taucher sind – bei uns finden Sie das 
+                    perfekte Angebot für Ihr nächstes Tauchabenteuer.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Instagram / Social Proof -->
+    <section class="section social-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="social.title">Unsere Tauchabenteuer</h2>
+            <div class="social-grid">
+                <div class="social-item">
+                    <img src="assets/images/dive-1.jpg" alt="Tauchbild 1" class="social-image">
+                </div>
+                <div class="social-item">
+                    <img src="assets/images/dive-2.jpg" alt="Tauchbild 2" class="social-image">
+                </div>
+                <div class="social-item">
+                    <img src="assets/images/dive-3.jpg" alt="Tauchbild 3" class="social-image">
+                </div>
+                <div class="social-item">
+                    <img src="assets/images/dive-4.jpg" alt="Tauchbild 4" class="social-image">
+                </div>
+                <div class="social-item">
+                    <img src="assets/images/dive-5.jpg" alt="Tauchbild 5" class="social-image">
+                </div>
+                <div class="social-item">
+                    <img src="assets/images/dive-6.jpg" alt="Tauchbild 6" class="social-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Prices & Dynamic Price Calculation -->
+    <section id="prices" class="section prices-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="prices.title">Preise & Angebote</h2>
+            <div class="prices-grid">
+                <!-- Card 1: Diving Prices -->
+                <div class="price-card">
+                    <h3 class="price-card-title" data-i18n="prices.diving.title">Diving Prices</h3>
+                    <div class="price-card-content">
+                        <div class="price-selector">
+                            <label for="diving-days" data-i18n="prices.diving.select">Anzahl Tauchtage:</label>
+                            <select id="diving-days" class="price-select">
+                                <option value="1" data-i18n="prices.diving.days.1">1 Tag</option>
+                                <option value="2" data-i18n="prices.diving.days.2">2 Tage</option>
+                                <option value="3" data-i18n="prices.diving.days.3">3 Tage</option>
+                                <option value="5" data-i18n="prices.diving.days.5">5 Tage</option>
+                                <option value="10" data-i18n="prices.diving.days.10">10 Tage</option>
+                            </select>
+                        </div>
+                        <div class="price-display">
+                            <span class="old-price" id="diving-old-price">€0</span>
+                            <span class="new-price" id="diving-new-price">€0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: PADI Diving Courses -->
+                <div class="price-card">
+                    <h3 class="price-card-title" data-i18n="prices.padi.title">PADI Diving Kurse</h3>
+                    <div class="price-card-content">
+                        <div class="price-selector">
+                            <label for="padi-course" data-i18n="prices.padi.select">Kurs auswählen:</label>
+                            <select id="padi-course" class="price-select">
+                                <option value="open-water" data-i18n="prices.padi.courses.openwater">Open Water Diver</option>
+                                <option value="advanced" data-i18n="prices.padi.courses.advanced">Advanced Open Water</option>
+                                <option value="rescue" data-i18n="prices.padi.courses.rescue">Rescue Diver</option>
+                                <option value="divemaster" data-i18n="prices.padi.courses.divemaster">Divemaster</option>
+                            </select>
+                        </div>
+                        <div class="price-display">
+                            <span class="old-price" id="padi-old-price">€0</span>
+                            <span class="new-price" id="padi-new-price">€0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Courses (Placeholder) -->
+    <section id="courses" class="section courses-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="courses.title">Unsere Tauchkurse</h2>
+            <div class="courses-content">
+                <p class="courses-text" data-i18n="courses.text">
+                    Entdecken Sie unsere vielfältigen Tauchkurse, die für jedes Niveau geeignet sind.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title" data-i18n="footer.contact">Kontakt</h3>
+                    <p class="footer-text" data-i18n="footer.email">E-Mail: info@tauchwelt-hurghada.com</p>
+                    <p class="footer-text" data-i18n="footer.phone">Telefon: +20 123 456 7890</p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title" data-i18n="footer.location">Standort</h3>
+                    <p class="footer-text">Hurghada, Ägypten</p>
+                    <p class="footer-text">Rotes Meer</p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title" data-i18n="footer.social">Folgen Sie uns</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <span>Instagram</span>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <span>Facebook</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright" data-i18n="footer.copyright">&copy; 2024 Tauchwelt Hurghada. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
