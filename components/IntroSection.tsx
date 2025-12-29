@@ -16,6 +16,11 @@ export function IntroSection() {
             </svg>
             <span>{getText(content.intro.title, language)}</span>
           </h2>
+          {content.intro.aboutMe && (
+            <div className="text-base md:text-lg lg:text-xl text-text mb-8 leading-relaxed whitespace-pre-line">
+              {getText(content.intro.aboutMe, language)}
+            </div>
+          )}
           {content.intro.paragraphs.map((paragraph, index) => (
             <p
               key={index}
