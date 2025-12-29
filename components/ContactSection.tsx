@@ -224,11 +224,8 @@ export function ContactSection() {
   return (
     <section id="contact" className="section bg-gray-50 py-16 md:py-24">
       <div className="w-[85%] mx-auto">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-12 text-left flex items-center gap-3">
-            <svg className="w-8 h-8 md:w-10 md:h-10 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-            <span>{getText(content.footer.contact.title, language)}</span>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-12 text-left">
+            {getText(content.footer.contact.title, language)}
           </h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-8">
