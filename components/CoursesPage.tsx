@@ -370,6 +370,9 @@ export function CoursesPage() {
                     style={{
                       scrollbarWidth: 'none',
                       msOverflowStyle: 'none',
+                      WebkitOverflowScrolling: 'touch',
+                      touchAction: 'pan-x',
+                      overscrollBehaviorX: 'contain',
                     }}
                   >
                     {section.courses.map((course: Course) => (

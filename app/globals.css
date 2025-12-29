@@ -29,6 +29,7 @@
   .hide-scrollbar {
     scrollbar-width: none;
     -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
   }
 
   .hide-scrollbar::-webkit-scrollbar {
