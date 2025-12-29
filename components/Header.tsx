@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import { useLanguage } from './LanguageProvider';
-import { getContent, getText } from '@/lib/content';
+import { getContent, getText, getNavPath } from '@/lib/content';
 import type { Language } from '@/types/content';
 
 export function Header() {
@@ -17,14 +17,14 @@ export function Header() {
 
   const scrollToSection = (id: string) => {
     if (id === 'courses') {
-      window.location.href = '/courses';
+      window.location.href = getNavPath('/courses');
       setMobileMenuOpen(false);
       return;
     }
     if (id === 'contact') {
       // Always go to main page contact section
       if (pathname !== '/') {
-        window.location.href = '/#contact';
+        window.location.href = getNavPath('/#contact');
       } else {
         const element = document.getElementById('contact');
         if (element) {
@@ -72,7 +72,7 @@ export function Header() {
         <div className="w-[90%] mx-auto flex items-center justify-between gap-4 py-5 md:py-6">
           {isCoursesPage && (
             <button
-              onClick={() => window.location.href = '/'}
+              onClick={() => window.location.href = getNavPath('/')}
               className="text-text hover:text-primary transition-colors font-medium md:font-bold text-base md:text-sm flex items-center gap-2"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -1,7 +1,7 @@
 'use client';
 
 import { useLanguage } from './LanguageProvider';
-import { getContent, getText } from '@/lib/content';
+import { getContent, getText, getAssetPath, getNavPath } from '@/lib/content';
 
 export function Hero() {
   const { language } = useLanguage();
@@ -9,7 +9,7 @@ export function Hero() {
 
   const scrollToSection = (id: string) => {
     if (id === 'courses') {
-      window.location.href = '/courses';
+      window.location.href = getNavPath('/courses');
       return;
     }
     const element = document.getElementById(id);
@@ -31,8 +31,8 @@ export function Hero() {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src={content.hero.video.src} type="video/quicktime" />
-          <source src={content.hero.video.fallback} type="video/quicktime" />
+          <source src={getAssetPath(content.hero.video.src)} type="video/quicktime" />
+          <source src={getAssetPath(content.hero.video.fallback)} type="video/quicktime" />
         </video>
         <div className="absolute inset-0 bg-black/50" />
       </div>

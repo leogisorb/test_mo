@@ -12,6 +12,7 @@ import {
   formatPrice,
   type Currency 
 } from '@/lib/currency';
+import { getAssetPath } from '@/lib/content';
 
 export function PricesSection() {
   const { language } = useLanguage();
@@ -79,7 +80,7 @@ export function PricesSection() {
     {
       id: 'daily',
       title: content.prices.dailyDiving.title,
-      image: '/assets/images/dive-price-1.jpg',
+      image: getAssetPath('/assets/images/dive-price-1.jpg'),
       price: dailyPrice,
       selectLabel: content.prices.dailyDiving.selectLabel,
       options: content.prices.dailyDiving.options,
@@ -93,7 +94,7 @@ export function PricesSection() {
     {
       id: 'courses',
       title: content.prices.courses.title,
-      image: '/assets/images/dive-price-2.jpg',
+      image: getAssetPath('/assets/images/dive-price-2.jpg'),
       price: coursePrice,
       selectLabel: content.prices.courses.selectLabel,
       options: content.prices.courses.options,
@@ -107,7 +108,7 @@ export function PricesSection() {
     {
       id: 'specialty',
       title: content.prices.specialty.title,
-      image: '/assets/images/dive-price-3.jpg',
+      image: getAssetPath('/assets/images/dive-price-3.jpg'),
       price: specialtyPrice,
       selectLabel: content.prices.specialty.selectLabel,
       options: content.prices.specialty.options,
@@ -129,7 +130,7 @@ export function PricesSection() {
               {getText(content.prices.title, language)}
             </h2>
             <button
-              onClick={() => window.location.href = '/courses'}
+              onClick={() => window.location.href = getNavPath('/courses')}
               className="bg-white text-primary px-6 py-3 font-semibold text-base hover:bg-gray-100 transition-colors rounded-lg flex items-center gap-2 whitespace-nowrap"
             >
               <span>{language === 'de' ? 'Zur detaillierten Kursübersicht' : language === 'ru' ? 'К детальному обзору курсов' : language === 'ar' ? 'إلى نظرة عامة مفصلة على الدورات' : language === 'en' ? 'To Detailed Course Overview' : 'Vers l\'aperçu détaillé des cours'}</span>

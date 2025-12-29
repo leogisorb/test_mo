@@ -9,6 +9,9 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp'],
   },
   trailingSlash: true, // Für GitHub Pages kompatibel
+  env: {
+    NEXT_PUBLIC_BASE_PATH: '/test_mo',
+  },
 }
 
 module.exports = nextConfig
