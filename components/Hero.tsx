@@ -36,7 +36,7 @@ export function Hero() {
         </video>
         <div className="absolute inset-0 bg-black/50" />
       </div>
-      <div className="relative z-10 text-left w-[85%] mx-auto">
+      <div className="relative z-10 text-left w-[85%] lg:w-[90%] xl:w-[95%] 2xl:max-w-[1400px] mx-auto">
         <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white drop-shadow-lg mb-8">
           {getText(content.hero.title, language)}
         </h2>

@@ -10,7 +10,7 @@ export function Footer() {
   return (
     <footer id="contact" className="bg-text text-white py-16 px-4 md:px-8">
       <div className="container">
-        <div className="w-[85%] mx-auto">
+        <div className="w-[85%] lg:w-[90%] xl:w-[95%] 2xl:max-w-[1400px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 mb-12">
           <div className="flex flex-col gap-4">
             <h3 className="text-xl md:text-2xl font-bold mb-4">
