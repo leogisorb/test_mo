@@ -366,18 +366,41 @@ export function CoursesPage() {
                     ref={(el) => {
                       scrollContainerRefs.current[section.id] = el;
                     }}
-                    className="flex gap-6 md:gap-8 overflow-x-auto pb-4 hide-scrollbar snap-x snap-mandatory"
+                    className="flex gap-6 md:gap-8 overflow-x-auto overflow-y-hidden pb-4 hide-scrollbar"
                     style={{
                       scrollbarWidth: 'none',
                       msOverflowStyle: 'none',
                       WebkitOverflowScrolling: 'touch',
                       touchAction: 'pan-x',
                       overscrollBehaviorX: 'contain',
-                      scrollSnapType: 'x mandatory',
+                      cursor: 'grab',
+                    }}
+                    onMouseDown={(e) => {
+                      const container = scrollContainerRefs.current[section.id];
+                      if (!container) return;
+                      const startX = e.pageX - container.offsetLeft;
+                      const scrollLeft = container.scrollLeft;
+                      const isDown = true;
+
+                      const handleMouseMove = (e: MouseEvent) => {
+                        if (!isDown) return;
+                        e.preventDefault();
+                        const x = e.pageX - container.offsetLeft;
+                        const walk = (x - startX) * 2;
+                        container.scrollLeft = scrollLeft - walk;
+                      };
+
+                      const handleMouseUp = () => {
+                        document.removeEventListener('mousemove', handleMouseMove);
+                        document.removeEventListener('mouseup', handleMouseUp);
+                      };
+
+                      document.addEventListener('mousemove', handleMouseMove);
+                      document.addEventListener('mouseup', handleMouseUp);
                     }}
                   >
                     {section.courses.map((course: Course) => (
-                      <div key={course.id} className="flex-shrink-0 w-[85%] md:w-[60%] lg:w-[45%] xl:w-[35%] flex snap-start">
+                      <div key={course.id} className="flex-shrink-0 w-[90%] md:w-[45%] lg:w-[30%] flex">
                         {renderCourseCard(course, section.id, maxTitleHeight, maxDescHeight)}
                       </div>
                     ))}
