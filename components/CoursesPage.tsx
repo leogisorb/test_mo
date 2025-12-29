@@ -366,17 +366,18 @@ export function CoursesPage() {
                     ref={(el) => {
                       scrollContainerRefs.current[section.id] = el;
                     }}
-                    className="flex gap-6 md:gap-8 overflow-x-auto pb-4 hide-scrollbar"
+                    className="flex gap-6 md:gap-8 overflow-x-auto pb-4 hide-scrollbar snap-x snap-mandatory"
                     style={{
                       scrollbarWidth: 'none',
                       msOverflowStyle: 'none',
                       WebkitOverflowScrolling: 'touch',
                       touchAction: 'pan-x',
                       overscrollBehaviorX: 'contain',
+                      scrollSnapType: 'x mandatory',
                     }}
                   >
                     {section.courses.map((course: Course) => (
-                      <div key={course.id} className="flex-shrink-0 w-[90%] md:w-[45%] lg:w-[30%] flex">
+                      <div key={course.id} className="flex-shrink-0 w-[85%] md:w-[60%] lg:w-[45%] xl:w-[35%] flex snap-start">
                         {renderCourseCard(course, section.id, maxTitleHeight, maxDescHeight)}
                       </div>
                     ))}
