@@ -182,9 +182,9 @@ export function ContactSection() {
       
       // Show success message after a short delay
       setTimeout(() => {
-        setSubmitStatus('success');
-        setFormData({ name: '', email: '', subject: '', message: '' });
-        setBookingData(null);
+      setSubmitStatus('success');
+      setFormData({ name: '', email: '', subject: '', message: '' });
+      setBookingData(null);
         setIsSubmitting(false);
       }, 500);
     } catch (error) {
@@ -223,7 +223,7 @@ export function ContactSection() {
 
   return (
     <section id="contact" className="section bg-gray-50 py-16 md:py-24">
-      <div className="w-[85%] mx-auto">
+        <div className="w-[85%] mx-auto">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-12 text-left">
             {getText(content.footer.contact.title, language)}
           </h2>
@@ -347,7 +347,7 @@ export function ContactSection() {
                       max="10"
                       value={persons}
                       onChange={(e) => setPersons(parseInt(e.target.value) || 1)}
-                      className="w-full border border-primary rounded-lg p-3 text-base bg-white text-gray-800 cursor-pointer hover:border-primary focus:outline-none focus:border-primary"
+                      className="w-full border border-primary rounded-lg px-4 py-3 text-base bg-white text-gray-800 cursor-pointer hover:border-primary focus:outline-none focus:border-primary"
                     />
                   </div>
                   <div>
@@ -355,23 +355,23 @@ export function ContactSection() {
                       {getText(content.prices.dailyDiving.selectLabel, language)}
                     </label>
                     <div className="relative">
-                      <select
-                        value={dailyDays}
-                        onChange={(e) => setDailyDays(Number(e.target.value))}
-                        className="w-full border border-primary rounded-lg p-3 pr-10 text-base bg-white text-gray-800 cursor-pointer hover:border-primary focus:outline-none focus:border-primary appearance-none"
+                    <select
+                      value={dailyDays}
+                      onChange={(e) => setDailyDays(Number(e.target.value))}
+                        className="w-full border border-primary rounded-lg px-4 py-3 pr-10 text-base bg-white text-gray-800 cursor-pointer hover:border-primary focus:outline-none focus:border-primary appearance-none"
                         style={{
                           backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%231d334a' d='M6 9L1 4h10z'/%3E%3C/svg%3E")`,
                           backgroundRepeat: 'no-repeat',
                           backgroundPosition: 'right 12px center',
                           paddingRight: '2.5rem'
                         }}
-                      >
-                        {content.prices.dailyDiving.options.map((option) => (
-                          <option key={option.value} value={option.value}>
-                            {getText(option.label, language)}
-                          </option>
-                        ))}
-                      </select>
+                    >
+                      {content.prices.dailyDiving.options.map((option) => (
+                        <option key={option.value} value={option.value}>
+                          {getText(option.label, language)}
+                        </option>
+                      ))}
+                    </select>
                     </div>
                   </div>
                 </div>
@@ -384,10 +384,10 @@ export function ContactSection() {
                 </h4>
                 <div className="space-y-4">
                   <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    <label className="block text-xs font-semibold text-gray-700 mb-2">
                       {getText(content.prices.courses.title, language)}
                     </label>
-                    <div className="space-y-2">
+                    <div className="w-full border border-primary rounded-lg px-4 py-3 space-y-2 bg-white min-h-[48px]">
                       {content.prices.courses.options.map((option) => (
                         <label key={option.value} className="flex items-center gap-2 cursor-pointer">
                           <input
@@ -402,10 +402,10 @@ export function ContactSection() {
                     </div>
                   </div>
                   <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    <label className="block text-xs font-semibold text-gray-700 mb-2">
                       {getText(content.prices.specialty.title, language)}
                     </label>
-                    <div className="space-y-2">
+                    <div className="w-full border border-primary rounded-lg px-4 py-3 space-y-2 bg-white min-h-[48px]">
                       {content.prices.specialty.options.map((option) => (
                         <label key={option.value} className="flex items-center gap-2 cursor-pointer">
                           <input
@@ -418,10 +418,10 @@ export function ContactSection() {
                         </label>
                       ))}
                     </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
             {/* Right: Price - Order 2 on mobile */}
             <div className="lg:col-span-1 order-2">
@@ -445,10 +445,10 @@ export function ContactSection() {
                      language === 'en' ? `for ${persons} ${persons === 1 ? 'person' : 'persons'}` :
                      `pour ${persons} ${persons === 1 ? 'personne' : 'personnes'}`}
                   </p>
-                </div>
               </div>
             </div>
           </div>
+        </div>
       </div>
     </section>
   );
