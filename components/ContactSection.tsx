@@ -228,7 +228,7 @@ export function ContactSection() {
             {getText(content.footer.contact.title, language)}
           </h2>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-8 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-8 items-stretch">
             {/* Left: Contact Form - Order 3 on mobile, order 1 on desktop */}
             <div className="lg:col-span-1 xl:col-span-2 order-3 lg:order-1 flex">
               <div className="bg-white rounded-lg shadow-lg p-6 md:p-8 w-full flex flex-col">
@@ -330,7 +330,7 @@ export function ContactSection() {
             </div>
 
             {/* Middle: Persons & Courses - Order 1 on mobile */}
-            <div className="lg:col-span-1 space-y-6 order-1 flex flex-col">
+            <div className="lg:col-span-1 space-y-6 order-1 flex flex-col h-full">
               {/* Card 1: Persons & Daily Courses */}
               <div className="bg-white rounded-lg shadow-lg p-6 flex-1">
                 <h4 className="text-xl font-bold text-primary mb-4">
@@ -378,7 +378,7 @@ export function ContactSection() {
               </div>
 
               {/* Card 2: Courses & Specialties */}
-              <div className="bg-white rounded-lg shadow-lg p-6">
+              <div className="bg-white rounded-lg shadow-lg p-6 flex-1">
                 <h4 className="text-xl font-bold text-primary mb-4">
                   {language === 'de' ? 'Kurse & Spezialkurse' : language === 'ru' ? 'Курсы и специализации' : language === 'ar' ? 'الدورات والدورات المتخصصة' : language === 'en' ? 'Courses & Specialties' : 'Cours et spécialités'}
                 </h4>
@@ -424,8 +424,8 @@ export function ContactSection() {
               </div>
 
             {/* Right: Price - Order 2 on mobile */}
-            <div className="lg:col-span-1 order-2 flex">
-              <div className="bg-primary text-white rounded-lg shadow-lg p-6 w-full flex flex-col">
+            <div className="lg:col-span-1 order-2 flex h-full">
+              <div className="bg-primary text-white rounded-lg shadow-lg p-6 w-full flex flex-col h-full">
                 <h4 className="text-xl font-bold mb-4">
                   {language === 'de' ? 'Gesamtpreis' : language === 'ru' ? 'Общая цена' : language === 'ar' ? 'السعر الإجمالي' : language === 'en' ? 'Total Price' : 'Prix total'}
                 </h4>
