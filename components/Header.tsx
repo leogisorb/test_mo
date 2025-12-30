@@ -30,12 +30,12 @@ export function Header() {
     }
     // On main page, scroll to section
     if (id === 'contact') {
-      const element = document.getElementById('contact');
-      if (element) {
-        const headerOffset = 80;
-        const elementPosition = element.getBoundingClientRect().top;
-        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-        window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+        const element = document.getElementById('contact');
+        if (element) {
+          const headerOffset = 80;
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+          window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
       }
       setMobileMenuOpen(false);
       return;
@@ -85,9 +85,9 @@ export function Header() {
                     window.location.href = getNavPath('/');
                     setMobileMenuOpen(false);
                   }}
-                  className="text-text hover:text-primary transition-colors font-medium md:font-bold text-base md:text-sm flex items-center gap-2"
+                  className="text-text hover:text-primary transition-colors font-medium md:font-bold text-[17px] md:text-sm xl:text-base flex items-center gap-2"
                 >
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-[17px] h-[17px] md:w-4 md:h-4 xl:w-[18px] xl:h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                   </svg>
                   <span>{language === 'de' ? 'Home' : language === 'ru' ? 'Главная' : language === 'ar' ? 'الرئيسية' : language === 'en' ? 'Home' : 'Accueil'}</span>
@@ -102,19 +102,19 @@ export function Header() {
                   switch (item.id) {
                     case 'courses':
                       return (
-                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-[17px] h-[17px] md:w-4 md:h-4 xl:w-[18px] xl:h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                         </svg>
                       );
                     case 'prices':
                       return (
-                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-[17px] h-[17px] md:w-4 md:h-4 xl:w-[18px] xl:h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                       );
                     case 'contact':
                       return (
-                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-[17px] h-[17px] md:w-4 md:h-4 xl:w-[18px] xl:h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
                       );
@@ -127,7 +127,7 @@ export function Header() {
                   <li key={item.id}>
                     <button
                       onClick={() => scrollToSection(item.id)}
-                      className="text-text hover:text-primary transition-colors font-medium md:font-bold text-base md:text-sm flex items-center gap-2"
+                      className="text-text hover:text-primary transition-colors font-medium md:font-bold text-[17px] md:text-sm xl:text-base flex items-center gap-2"
                     >
                       {getIcon()}
                       <span>{getText(item.label, language)}</span>
@@ -141,14 +141,14 @@ export function Header() {
             <div className="relative" ref={languageDropdownRef}>
               <button
                 onClick={() => setLanguageDropdownOpen(!languageDropdownOpen)}
-                className="flex items-center gap-1 px-3 py-1.5 rounded border border-primary bg-transparent hover:bg-primary/5 text-primary text-sm transition-colors"
+                className="flex items-center gap-1 px-3 py-1.5 rounded border border-primary bg-transparent hover:bg-primary/5 text-primary text-[15px] md:text-sm xl:text-base transition-colors"
                 aria-label="Sprache ändern"
               >
                 {currentLanguage && (
                   <span className="font-semibold">{currentLanguage.code.toUpperCase()}</span>
                 )}
                 <svg
-                  className={`w-4 h-4 transition-transform text-primary ${
+                  className={`w-[17px] h-[17px] md:w-4 md:h-4 xl:w-[18px] xl:h-[18px] transition-transform text-primary ${
                     languageDropdownOpen ? 'rotate-180' : ''
                   }`}
                   fill="none"
@@ -175,7 +175,7 @@ export function Header() {
                           setLanguage(lang.code as Language);
                           setLanguageDropdownOpen(false);
                         }}
-                        className="w-full flex items-center gap-2 px-4 py-2 text-sm hover:bg-gray-100 transition-colors text-left"
+                        className="w-full flex items-center gap-2 px-4 py-2 text-[15px] md:text-sm xl:text-base hover:bg-gray-100 transition-colors text-left"
                       >
                         <span className="font-semibold">{lang.code.toUpperCase()}</span>
                         <span className="text-gray-500 ml-auto">{lang.name}</span>
