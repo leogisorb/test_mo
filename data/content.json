@@ -38,8 +38,8 @@
       }
     },
     "video": {
-      "src": "/assets/video/AdobeStock_1299863720_Video_HD_Preview.mov",
-      "fallback": "/assets/video/AdobeStock_1299863720_Video_HD_Preview.mov"
+      "src": "/assets/video/hero-video-compressed.mp4",
+      "fallback": "/assets/video/hero-video-compressed.mp4"
     }
   },
   "intro": {
@@ -1447,7 +1447,7 @@
         "en": "Contact",
         "fr": "Contact"
       },
-      "email": "info@tauchwelt-hurghada.com",
+      "email": "info@tauchwelthurghada.com",
       "phone": "+20 123 456 7890"
     },
     "location": {
@@ -1458,6 +1458,7 @@
         "en": "Location",
         "fr": "Localisation"
       },
+      "address": "Old Port\nHurghada, Ägypten\nRotes Meer",
       "city": "Hurghada, Ägypten",
       "region": "Rotes Meer"
     },
@@ -1475,11 +1476,11 @@
       ]
     },
     "copyright": {
-      "de": "© 2024 Tauchwelt Hurghada. Alle Rechte vorbehalten.",
-      "ru": "© 2024 Мир дайвинга Хургады. Все права защищены.",
-      "ar": "© 2024 عالم الغوص في الغردقة. جميع الحقوق محفوظة.",
-      "en": "© 2024 Diving World Hurghada. All rights reserved.",
-      "fr": "© 2024 Monde de la plongée Hurghada. Tous droits réservés."
+      "de": "© 2026 Tauchwelt Hurghada. Alle Rechte vorbehalten.",
+      "ru": "© 2026 Мир дайвинга Хургады. Все права защищены.",
+      "ar": "© 2026 عالم الغوص في الغردقة. جميع الحقوق محفوظة.",
+      "en": "© 2026 Diving World Hurghada. All rights reserved.",
+      "fr": "© 2026 Monde de la plongée Hurghada. Tous droits réservés."
     }
   },
   "languages": [

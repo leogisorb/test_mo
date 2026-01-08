@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useMemo } from 'react';
+import emailjs from '@emailjs/browser';
 import { useLanguage } from './LanguageProvider';
 import { useBooking } from './BookingProvider';
 import { getContent, getText } from '@/lib/content';
@@ -11,6 +12,11 @@ import {
   formatPrice,
   type Currency 
 } from '@/lib/currency';
+
+// EmailJS Configuration
+const EMAILJS_SERVICE_ID = 'service_1hz8xu8';
+const EMAILJS_TEMPLATE_ID = 'template_9g21mgn';
+const EMAILJS_PUBLIC_KEY = 'OYGUBTddph6nAKgmN';
 
 export function ContactSection() {
   const { language } = useLanguage();
@@ -173,21 +179,40 @@ export function ContactSection() {
       const fullMessage = generateMessageText();
       const emailBody = `${formData.message}\n\n---\n${fullMessage}`;
 
-      // Use mailto as fallback for static sites
-      // In production, you should use EmailJS, Formspree, or a similar service
-      const mailtoLink = `mailto:info@tauchwelt-hurghada.com?subject=${encodeURIComponent(formData.subject || 'Kontaktanfrage')}&body=${encodeURIComponent(`Von: ${formData.name} (${formData.email})\n\n${emailBody}`)}`;
+      // Initialize EmailJS with public key
+      emailjs.init(EMAILJS_PUBLIC_KEY);
+
+      // Prepare template parameters
+      // Note: Template uses 'name', 'time', and 'message' variables
+      const templateParams = {
+        name: formData.name,
+        time: new Date().toLocaleString('de-DE', { 
+          year: 'numeric', 
+          month: 'long', 
+          day: 'numeric', 
+          hour: '2-digit', 
+          minute: '2-digit' 
+        }),
+        message: emailBody,
+        // Additional info for email headers (if needed)
+        from_email: formData.email,
+        subject: formData.subject || (language === 'de' ? 'Kontaktanfrage' : language === 'ru' ? 'Запрос' : language === 'ar' ? 'استفسار' : language === 'en' ? 'Contact Request' : 'Demande de contact'),
+      };
+
+      // Send email via EmailJS
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        templateParams
+      );
       
-      // Open email client
-      window.location.href = mailtoLink;
-      
-      // Show success message after a short delay
-      setTimeout(() => {
+      // Show success message
       setSubmitStatus('success');
       setFormData({ name: '', email: '', subject: '', message: '' });
       setBookingData(null);
-        setIsSubmitting(false);
-      }, 500);
+      setIsSubmitting(false);
     } catch (error) {
+      console.error('EmailJS Error:', error);
       setSubmitStatus('error');
       setIsSubmitting(false);
     }
