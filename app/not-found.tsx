@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { getAssetPath } from '@/lib/content';
 
 export default function NotFound() {
   return (
@@ -9,7 +10,7 @@ export default function NotFound() {
       <div className="flex-1 flex flex-col items-center justify-center py-16 px-4">
         <div className="text-center max-w-2xl mx-auto">
           <img
-            src="/logo-white.svg"
+            src={getAssetPath('/logo-white.svg')}
             alt="Tauchwelt Hurghada Logo"
             className="h-24 md:h-32 lg:h-40 w-auto mx-auto mb-8"
           />

@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import { useLanguage } from './LanguageProvider';
-import { getContent, getText, getNavPath } from '@/lib/content';
+import { getContent, getText, getNavPath, getAssetPath } from '@/lib/content';
 import type { Language } from '@/types/content';
 
 export function Header() {
@@ -80,7 +80,7 @@ export function Header() {
               aria-label="Home"
             >
               <img
-                src="/favicon.svg"
+                src={getAssetPath('/favicon.svg')}
                 alt="Tauchwelt Hurghada Logo"
                 className="h-9 md:h-12 w-auto"
               />

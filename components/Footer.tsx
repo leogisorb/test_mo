@@ -1,7 +1,7 @@
 'use client';
 
 import { useLanguage } from './LanguageProvider';
-import { getContent, getText } from '@/lib/content';
+import { getContent, getText, getAssetPath } from '@/lib/content';
 
 export function Footer() {
   const { language } = useLanguage();
@@ -14,7 +14,7 @@ export function Footer() {
             <div className="flex justify-start">
               <a href="/" aria-label="Home">
                 <img
-                  src="/logo-white.svg"
+                  src={getAssetPath('/logo-white.svg')}
                   alt="Tauchwelt Hurghada Logo"
                   className="h-20 md:h-28 lg:h-32 w-auto"
                 />
