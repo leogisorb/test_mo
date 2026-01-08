@@ -163,6 +163,7 @@ export interface ContactInfo {
 
 export interface LocationInfo {
   title: TranslatedText;
+  address?: string;
   city: string;
   region: string;
 }

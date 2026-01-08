@@ -123,21 +123,21 @@ export function PricesSection() {
 
   return (
     <section id="prices" className="section bg-primary py-16 md:py-24">
-      <div className="w-[85%] mx-auto">
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-12 md:mb-16 gap-4">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-left">
-            {getText(content.prices.title, language)}
-          </h2>
-          <button
+        <div className="w-[85%] mx-auto">
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-12 md:mb-16 gap-4">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-left">
+              {getText(content.prices.title, language)}
+            </h2>
+            <button
             onClick={() => window.location.href = getNavPath('/courses')}
-            className="bg-white text-primary px-6 py-3 font-semibold text-base hover:bg-gray-100 transition-colors rounded-lg flex items-center gap-2 whitespace-nowrap"
-          >
-            <span>{language === 'de' ? 'Zur detaillierten Kursübersicht' : language === 'ru' ? 'К детальному обзору курсов' : language === 'ar' ? 'إلى نظرة عامة مفصلة على الدورات' : language === 'en' ? 'To Detailed Course Overview' : 'Vers l\'aperçu détaillé des cours'}</span>
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
-        </div>
+              className="bg-white text-primary px-6 py-3 font-semibold text-base hover:bg-gray-100 transition-colors rounded-lg flex items-center gap-2 whitespace-nowrap"
+            >
+              <span>{language === 'de' ? 'Zur detaillierten Kursübersicht' : language === 'ru' ? 'К детальному обзору курсов' : language === 'ar' ? 'إلى نظرة عامة مفصلة على الدورات' : language === 'en' ? 'To Detailed Course Overview' : 'Vers l\'aperçu détaillé des cours'}</span>
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 items-stretch">
           {cards.map((card) => {

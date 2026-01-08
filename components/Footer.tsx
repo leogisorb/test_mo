@@ -9,8 +9,17 @@ export function Footer() {
 
   return (
     <footer id="contact" className="bg-text text-white py-16 px-4 md:px-8">
-      <div className="w-[85%] mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 mb-12">
+        <div className="w-[85%] mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 lg:gap-12 mb-12 items-start">
+            <div className="flex justify-start">
+              <a href="/" aria-label="Home">
+                <img
+                  src="/logo-white.svg"
+                  alt="Tauchwelt Hurghada Logo"
+                  className="h-20 md:h-28 lg:h-32 w-auto"
+                />
+              </a>
+            </div>
           <div className="flex flex-col gap-4">
             <h3 className="text-xl md:text-2xl font-bold mb-4">
               {getText(content.footer.contact.title, language)}
@@ -23,8 +32,16 @@ export function Footer() {
             <h3 className="text-xl md:text-2xl font-bold mb-4">
               {getText(content.footer.location.title, language)}
             </h3>
-            <p className="text-white/80">{content.footer.location.city}</p>
-            <p className="text-white/80">{content.footer.location.region}</p>
+            {content.footer.location.address && (
+              <a
+                href="https://www.google.com/maps?q=27.23463,33.84846"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/80 hover:text-white transition-colors cursor-pointer underline whitespace-pre-line"
+              >
+                {content.footer.location.address}
+              </a>
+            )}
           </div>
 
           <div className="flex flex-col gap-4">
@@ -49,7 +66,7 @@ export function Footer() {
             <p className="text-white/60 text-sm">
               {getText(content.footer.copyright, language)}
             </p>
-          </div>
+        </div>
       </div>
     </footer>
   );

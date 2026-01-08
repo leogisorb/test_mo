@@ -72,12 +72,24 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md" style={{ background: 'linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.99) 8%, rgba(255, 255, 255, 0.97) 15%, rgba(255, 255, 255, 0.94) 22%, rgba(255, 255, 255, 0.91) 28%, rgba(255, 255, 255, 0.87) 34%, rgba(255, 255, 255, 0.82) 40%, rgba(255, 255, 255, 0.76) 46%, rgba(255, 255, 255, 0.69) 52%, rgba(255, 255, 255, 0.61) 58%, rgba(255, 255, 255, 0.52) 64%, rgba(255, 255, 255, 0.43) 70%, rgba(255, 255, 255, 0.34) 76%, rgba(255, 255, 255, 0.26) 82%, rgba(255, 255, 255, 0.19) 88%, rgba(255, 255, 255, 0.13) 94%, rgba(255, 255, 255, 0.08) 97%, rgba(255, 255, 255, 0.05) 99%, rgba(255, 255, 255, 0.03) 99.5%, rgba(255, 255, 255, 0.01) 99.8%, rgba(255, 255, 255, 0) 100%)' }}>
       <nav className="w-full px-4 md:px-8 lg:px-12">
-        <div className="w-[90%] mx-auto flex items-center justify-between gap-4 py-5 md:py-6">
-          <ul
-            className={`fixed md:static top-16 left-0 w-full md:w-auto h-[calc(100vh-4rem)] md:h-auto bg-white md:bg-transparent flex-col md:flex-row items-center justify-start md:justify-center gap-8 md:gap-6 pt-12 md:pt-0 transition-transform duration-300 ${
-              mobileMenuOpen ? 'flex' : 'hidden md:flex'
-            }`}
-          >
+        <div className="w-[90%] mx-auto flex items-center justify-between gap-4 py-6 md:py-[1.8rem]">
+          <div className="flex items-center gap-7 md:gap-9">
+            <a
+              href={getNavPath('/')}
+              className="flex items-center z-10"
+              aria-label="Home"
+            >
+              <img
+                src="/favicon.svg"
+                alt="Tauchwelt Hurghada Logo"
+                className="h-9 md:h-12 w-auto"
+              />
+            </a>
+            <ul
+              className={`fixed md:static top-16 left-0 w-full md:w-auto h-[calc(100vh-4rem)] md:h-auto bg-white md:bg-transparent flex-col md:flex-row items-center justify-start md:justify-start gap-8 md:gap-6 pt-12 md:pt-0 transition-transform duration-300 ${
+                mobileMenuOpen ? 'flex' : 'hidden md:flex'
+              }`}
+            >
             {!isMainPage && (
               <li>
                 <button
@@ -135,7 +147,8 @@ export function Header() {
                   </li>
                 );
               })}
-          </ul>
+            </ul>
+          </div>
 
           <div className="flex items-center gap-2">
             <div className="relative" ref={languageDropdownRef}>

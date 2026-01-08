@@ -13,7 +13,7 @@ export function CoursesSection() {
 
   return (
     <section id="courses" className="section bg-gray-50">
-      <div className="w-[85%] mx-auto">
+        <div className="w-[85%] mx-auto">
           <h2 className="section-title">
             {getText(content.courses.title, language)}
           </h2>

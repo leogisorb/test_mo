@@ -9,7 +9,7 @@ export function IntroSection() {
 
   return (
     <section id="about" className="section bg-white">
-      <div className="w-[85%] mx-auto">
+        <div className="w-[85%] mx-auto">
           <h2 className="section-title">
             {getText(content.intro.title, language)}
           </h2>

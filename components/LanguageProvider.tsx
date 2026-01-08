@@ -17,9 +17,9 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     setMounted(true);
     if (typeof window !== 'undefined') {
-      const savedLang = localStorage.getItem('preferred-language') as Language;
-      if (savedLang && ['de', 'ru', 'ar', 'en', 'fr'].includes(savedLang)) {
-        setLanguageState(savedLang);
+    const savedLang = localStorage.getItem('preferred-language') as Language;
+    if (savedLang && ['de', 'ru', 'ar', 'en', 'fr'].includes(savedLang)) {
+      setLanguageState(savedLang);
         document.documentElement.lang = savedLang;
       }
     }
@@ -28,8 +28,8 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);
     if (typeof window !== 'undefined') {
-      localStorage.setItem('preferred-language', lang);
-      document.documentElement.lang = lang;
+    localStorage.setItem('preferred-language', lang);
+    document.documentElement.lang = lang;
     }
   };
 

@@ -31,8 +31,8 @@ export function Hero() {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src={getAssetPath(content.hero.video.src)} type="video/quicktime" />
-          <source src={getAssetPath(content.hero.video.fallback)} type="video/quicktime" />
+          <source src={getAssetPath(content.hero.video.src)} type="video/mp4" />
+          <source src={getAssetPath(content.hero.video.fallback)} type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/50" />
       </div>
