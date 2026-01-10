@@ -21,6 +21,14 @@ module.exports = {
           DEFAULT: '#2c3e50',
           light: '#7f8c8d',
         },
+        maritime: {
+          light: '#E6F3FF',      // Sehr helles Blau (flaches Wasser)
+          'light-medium': '#B8E0F0', // Helles Blau
+          medium: '#7EC8E3',     // Mittleres Blau
+          'medium-dark': '#4A9BC4',  // Dunkleres Blau
+          dark: '#1E6B8A',       // Dunkles Blau (tiefes Meer)
+          darker: '#0F4C75',    // Sehr dunkles Blau (Ozean)
+        },
       },
       fontFamily: {
         sans: ['area-normal', 'area-extended', 'sans-serif'],

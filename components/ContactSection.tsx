@@ -247,7 +247,7 @@ export function ContactSection() {
   const finalPrice = calculatePrice(totalPrice);
 
   return (
-    <section id="contact" className="section bg-gray-50 py-16 md:py-24">
+    <section id="contact" className="section bg-maritime-medium-dark py-16 md:py-24">
         <div className="w-[85%] mx-auto">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-12 text-left">
             {getText(content.footer.contact.title, language)}

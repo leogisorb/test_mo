@@ -8,7 +8,7 @@ export function IntroSection() {
   const content = getContent();
 
   return (
-    <section id="about" className="section bg-white">
+    <section id="about" className="section bg-maritime-light">
         <div className="w-[85%] mx-auto">
           <h2 className="section-title">
             {getText(content.intro.title, language)}

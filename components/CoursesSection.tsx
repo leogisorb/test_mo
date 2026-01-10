@@ -12,7 +12,7 @@ export function CoursesSection() {
   };
 
   return (
-    <section id="courses" className="section bg-gray-50">
+    <section id="courses" className="section bg-maritime-light-medium">
         <div className="w-[85%] mx-auto">
           <div className="flex flex-col md:flex-row md:items-center md:gap-6 mb-6 md:mb-12 gap-4">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary text-left flex-1">
