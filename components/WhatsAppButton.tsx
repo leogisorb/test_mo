@@ -1,10 +1,9 @@
 'use client';
 
 export function WhatsAppButton() {
-  // Platzhalter für die WhatsApp-Nummer - wird später eingefügt
-  // Format: 491234567890 (ohne + und Leerzeichen, nur Ziffern)
-  // Beispiel: '491234567890' für +49 123 4567890
-  const whatsappNumber = 'PLATZHALTER_NUMMER'; // TODO: Nummer hier eintragen
+  // WhatsApp-Nummer
+  // Format: 201007077738 (ohne + und Leerzeichen, nur Ziffern)
+  const whatsappNumber = '201007077738';
   
   // Button immer anzeigen, auch wenn noch keine Nummer eingetragen ist
   // Wenn keine Nummer vorhanden, wird ein Platzhalter-Link verwendet
