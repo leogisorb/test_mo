@@ -14,7 +14,7 @@ export function Footer() {
             <div className="flex justify-start">
               <a href="/" aria-label="Home">
                 <img
-                  src={getAssetPath('/logo-white.svg')}
+                  src={getAssetPath('/logo_v2_white.svg')}
                   alt="Tauchwelt Hurghada Logo"
                   className="h-20 md:h-28 lg:h-32 w-auto"
                 />

@@ -14,9 +14,9 @@ export const metadata: Metadata = {
     siteName: 'Tauchwelt Hurghada',
     images: [
       {
-        url: '/logo-white.svg',
-        width: 501,
-        height: 378,
+        url: '/logo_v2_white.svg',
+        width: 856,
+        height: 852,
         alt: 'Tauchwelt Hurghada Logo',
       },
     ],
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Tauchwelt Hurghada - Professionelle Tauchschule',
     description: 'Professionelle Tauchschule in Hurghada, Ägypten. Tauchkurse, PADI-Zertifizierung und unvergessliche Tauchabenteuer im Roten Meer.',
-    images: ['/logo-white.svg'],
+    images: ['/logo_v2_white.svg'],
   },
 };
 

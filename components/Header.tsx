@@ -80,7 +80,7 @@ export function Header() {
               aria-label="Home"
             >
               <img
-                src={getAssetPath('/favicon.svg')}
+                src={getAssetPath('/logo_v2.svg')}
                 alt="Tauchwelt Hurghada Logo"
                 className="h-9 md:h-12 w-auto"
               />

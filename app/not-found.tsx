@@ -10,7 +10,7 @@ export default function NotFound() {
       <div className="flex-1 flex flex-col items-center justify-center py-16 px-4">
         <div className="text-center max-w-2xl mx-auto">
           <img
-            src={getAssetPath('/logo-white.svg')}
+            src={getAssetPath('/logo_v2_white.svg')}
             alt="Tauchwelt Hurghada Logo"
             className="h-24 md:h-32 lg:h-40 w-auto mx-auto mb-8"
           />
