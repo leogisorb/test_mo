@@ -22,12 +22,12 @@ module.exports = {
           light: '#7f8c8d',
         },
         maritime: {
-          light: '#E6F3FF',      // Sehr helles Blau (flaches Wasser)
-          'light-medium': '#B8E0F0', // Helles Blau
-          medium: '#7EC8E3',     // Mittleres Blau
-          'medium-dark': '#4A9BC4',  // Dunkleres Blau
-          dark: '#1E6B8A',       // Dunkles Blau (tiefes Meer)
-          darker: '#0F4C75',    // Sehr dunkles Blau (Ozean)
+          light: '#4DD0E1',      // Kräftiges Türkis (flaches Wasser)
+          'light-medium': '#00ACC1', // Lebendiges Cyan-Blau
+          medium: '#0097A7',     // Kräftiges Türkisblau
+          'medium-dark': '#00838F',  // Tiefes Türkis
+          dark: '#006064',       // Dunkles Türkis (tiefes Meer)
+          darker: '#004D40',    // Sehr dunkles Türkis (Ozean)
         },
       },
       fontFamily: {

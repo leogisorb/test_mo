@@ -35,6 +35,15 @@
         }
       },
       {
+        "id": "gallery",
+        "label": {
+          "de": "Galerie",
+          "ru": "Галерея",
+          "en": "Gallery",
+          "fr": "Galerie"
+        }
+      },
+      {
         "id": "contact",
         "label": {
           "de": "Kontakt",
