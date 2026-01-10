@@ -450,20 +450,20 @@ export function ContactSection() {
 
             {/* Right: Price - Order 2 on mobile */}
             <div className="lg:col-span-1 order-2 flex h-full">
-              <div className="bg-primary text-white rounded-lg shadow-lg p-6 w-full flex flex-col h-full">
-                <h4 className="text-xl font-bold mb-4">
+              <div className="bg-white border-2 border-primary rounded-lg shadow-lg p-6 w-full flex flex-col h-full">
+                <h4 className="text-xl font-bold mb-4 text-primary">
                   {language === 'de' ? 'Gesamtpreis' : language === 'ru' ? 'Общая цена' :  language === 'en' ? 'Total Price' : 'Prix total'}
                 </h4>
                 <div className="space-y-2">
                   <div className="flex justify-between items-center">
-                    <span className="text-white/80 line-through">
+                    <span className="text-text/60 line-through">
                       {formatPrice(finalPrice.original, currency)}
                     </span>
-                    <span className="text-3xl font-bold">
+                    <span className="text-3xl font-bold text-primary">
                       {formatPrice(finalPrice.discounted, currency)}
                     </span>
                   </div>
-                  <p className="text-sm text-white/80 mt-4">
+                  <p className="text-sm text-text/80 mt-4">
                     {language === 'de' ? `für ${persons} ${persons === 1 ? 'Person' : 'Personen'}` : 
                      language === 'ru' ? `для ${persons} ${persons === 1 ? 'человека' : 'человек'}` :
                      language === 'en' ? `for ${persons} ${persons === 1 ? 'person' : 'persons'}` :

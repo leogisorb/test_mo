@@ -122,10 +122,10 @@ export function PricesSection() {
   ];
 
   return (
-    <section id="prices" className="section bg-primary py-16 md:py-24">
+    <section id="prices" className="section bg-gray-50 py-16 md:py-24">
         <div className="w-[85%] mx-auto">
           <div className="flex flex-col md:flex-row md:items-center md:gap-6 mb-12 md:mb-16 gap-4">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-left flex-1">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary text-left flex-1">
               {getText(content.prices.title, language)}
             </h2>
             <button
