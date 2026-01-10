@@ -40,7 +40,7 @@ export function SocialSection() {
   }, []);
 
   return (
-    <section className="bg-maritime-medium py-section">
+    <section className="bg-white py-section">
       <div className="w-full">
           <h2 className="section-title px-4 md:px-8">
             {getText(content.social.title, language)}

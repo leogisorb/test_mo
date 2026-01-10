@@ -247,7 +247,7 @@ export function ContactSection() {
   const finalPrice = calculatePrice(totalPrice);
 
   return (
-    <section id="contact" className="section bg-maritime-medium-dark py-16 md:py-24">
+    <section id="contact" className="section bg-white py-16 md:py-24">
         <div className="w-[85%] mx-auto">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-12 text-left">
             {getText(content.footer.contact.title, language)}
@@ -332,7 +332,7 @@ export function ContactSection() {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-primary-button text-white px-6 py-3 font-semibold text-lg rounded-lg hover:bg-primary-hover transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="w-full bg-maritime-medium text-white px-6 py-3 font-semibold text-lg rounded-lg hover:bg-maritime-medium-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     {isSubmitting 
                       ? (language === 'de' ? 'Wird gesendet...' : language === 'ru' ? 'Отправка...' :  language === 'en' ? 'Sending...' : 'Envoi...')
@@ -450,20 +450,20 @@ export function ContactSection() {
 
             {/* Right: Price - Order 2 on mobile */}
             <div className="lg:col-span-1 order-2 flex h-full">
-              <div className="bg-white border-2 border-primary rounded-lg shadow-lg p-6 w-full flex flex-col h-full">
-                <h4 className="text-xl font-bold mb-4 text-primary">
+              <div className="bg-maritime-medium-dark text-white rounded-lg shadow-lg p-6 w-full flex flex-col h-full">
+                <h4 className="text-xl font-bold mb-4 text-white">
                   {language === 'de' ? 'Gesamtpreis' : language === 'ru' ? 'Общая цена' :  language === 'en' ? 'Total Price' : 'Prix total'}
                 </h4>
                 <div className="space-y-2">
                   <div className="flex justify-between items-center">
-                    <span className="text-text/60 line-through">
+                    <span className="text-white/60 line-through">
                       {formatPrice(finalPrice.original, currency)}
                     </span>
-                    <span className="text-3xl font-bold text-primary">
+                    <span className="text-3xl font-bold text-white">
                       {formatPrice(finalPrice.discounted, currency)}
                     </span>
                   </div>
-                  <p className="text-sm text-text/80 mt-4">
+                  <p className="text-sm text-white/80 mt-4">
                     {language === 'de' ? `für ${persons} ${persons === 1 ? 'Person' : 'Personen'}` : 
                      language === 'ru' ? `для ${persons} ${persons === 1 ? 'человека' : 'человек'}` :
                      language === 'en' ? `for ${persons} ${persons === 1 ? 'person' : 'persons'}` :
