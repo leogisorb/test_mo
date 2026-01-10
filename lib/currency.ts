@@ -4,7 +4,6 @@ export const languageToCurrency: Record<string, Currency> = {
   de: 'EUR',
   en: 'USD',
   ru: 'RUB',
-  ar: 'EGP',
   fr: 'EUR',
 };
 

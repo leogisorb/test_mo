@@ -221,7 +221,7 @@ export function CoursesPage() {
             <div>
               <div className="flex justify-between items-center mb-1">
                 <span className="text-xs font-semibold text-gray-700">
-                  {language === 'de' ? 'Tage' : language === 'ru' ? 'Дни' : language === 'ar' ? 'أيام' : language === 'en' ? 'Days' : 'Jours'}
+                  {language === 'de' ? 'Tage' : language === 'ru' ? 'Дни' : language === 'en' ? 'Days' : 'Jours'}
                 </span>
                 <span className="text-xs font-bold text-primary">{course.days}</span>
               </div>
@@ -235,7 +235,7 @@ export function CoursesPage() {
             <div>
               <div className="flex justify-between items-center mb-1">
                 <span className="text-xs font-semibold text-gray-700">
-                  {language === 'de' ? 'Tauchgänge' : language === 'ru' ? 'Погружения' : language === 'ar' ? 'غطسات' : language === 'en' ? 'Dives' : 'Plongées'}
+                  {language === 'de' ? 'Tauchgänge' : language === 'ru' ? 'Погружения' : language === 'en' ? 'Dives' : 'Plongées'}
                 </span>
                 <span className="text-xs font-bold text-primary">{course.dives}</span>
               </div>
@@ -260,7 +260,7 @@ export function CoursesPage() {
               </p>
               <div>
                 <h4 className="text-sm font-bold text-primary mb-2">
-                  {language === 'de' ? 'Enthalten:' : language === 'ru' ? 'Включено:' : language === 'ar' ? 'مشمول:' : language === 'en' ? 'Includes:' : 'Inclus:'}
+                  {language === 'de' ? 'Enthalten:' : language === 'ru' ? 'Включено:' : language === 'en' ? 'Includes:' : 'Inclus:'}
                 </h4>
                 <ul className="space-y-1">
                   {(course.includes[language as keyof typeof course.includes] || []).map((item: string, idx: number) => (
@@ -277,7 +277,7 @@ export function CoursesPage() {
                 onClick={scrollToContact}
                 className="mt-6 w-full bg-primary-button text-white px-6 py-3 font-semibold text-base hover:bg-primary-hover transition-colors rounded-lg"
               >
-                {language === 'de' ? 'Anfragen' : language === 'ru' ? 'Запросить' : language === 'ar' ? 'استفسر' : language === 'en' ? 'Inquire' : 'Demander'}
+                {language === 'de' ? 'Anfragen' : language === 'ru' ? 'Запросить' : language === 'en' ? 'Inquire' : 'Demander'}
               </button>
             </div>
           </div>
@@ -448,7 +448,7 @@ export function CoursesPage() {
                     <div className="mt-6 pt-6 border-t border-gray-300">
                       <div className="bg-white rounded-lg p-4 shadow-sm">
                         <h3 className="text-lg font-bold text-primary mb-3">
-                          {language === 'de' ? 'Zusätzliche Informationen' : language === 'ru' ? 'Дополнительная информация' : language === 'ar' ? 'معلومات إضافية' : language === 'en' ? 'Additional Information' : 'Informations supplémentaires'}
+                          {language === 'de' ? 'Zusätzliche Informationen' : language === 'ru' ? 'Дополнительная информация' : language === 'en' ? 'Additional Information' : 'Informations supplémentaires'}
                         </h3>
                         <ul className="space-y-2">
                           {section.additionalInfo[language as keyof typeof section.additionalInfo]?.map((info: string, idx: number) => (
@@ -467,7 +467,7 @@ export function CoursesPage() {
                     <div className="mt-6 pt-6 border-t border-gray-300">
                       <div className="bg-white rounded-lg p-4 shadow-sm">
                         <h3 className="text-lg font-bold text-primary mb-3">
-                          {language === 'de' ? 'Transfer-Informationen' : language === 'ru' ? 'Информация о трансфере' : language === 'ar' ? 'معلومات النقل' : language === 'en' ? 'Transfer Information' : 'Informations de transfert'}
+                          {language === 'de' ? 'Transfer-Informationen' : language === 'ru' ? 'Информация о трансфере' : language === 'en' ? 'Transfer Information' : 'Informations de transfert'}
                         </h3>
                         <p className="text-sm text-gray-700 leading-relaxed">
                           {getText(content.courses.transferInfo, language)}

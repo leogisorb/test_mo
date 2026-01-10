@@ -1,9 +1,8 @@
-export type Language = 'de' | 'ru' | 'ar' | 'en' | 'fr';
+export type Language = 'de' | 'ru' | 'en' | 'fr';
 
 export interface TranslatedText {
   de: string;
   ru: string;
-  ar: string;
   en: string;
   fr: string;
 }

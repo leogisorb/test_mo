@@ -7,17 +7,48 @@
   },
   "navigation": {
     "items": [
-      { "id": "about", "label": { "de": "Über mich", "ru": "Обо мне", "ar": "عني", "en": "About Me", "fr": "À propos de moi" } },
-      { "id": "courses", "label": { "de": "Tauchkurse", "ru": "Курсы дайвинга", "ar": "دورات الغوص", "en": "Diving Courses", "fr": "Cours de plongée" } },
-      { "id": "prices", "label": { "de": "Preise", "ru": "Цены", "ar": "الأسعار", "en": "Prices", "fr": "Tarifs" } },
-      { "id": "contact", "label": { "de": "Kontakt", "ru": "Контакты", "ar": "اتصل بنا", "en": "Contact", "fr": "Contact" } }
+      {
+        "id": "about",
+        "label": {
+          "de": "Über mich",
+          "ru": "Обо мне",
+          "en": "About Me",
+          "fr": "À propos de moi"
+        }
+      },
+      {
+        "id": "courses",
+        "label": {
+          "de": "Tauchkurse",
+          "ru": "Курсы дайвинга",
+          "en": "Diving Courses",
+          "fr": "Cours de plongée"
+        }
+      },
+      {
+        "id": "prices",
+        "label": {
+          "de": "Preise",
+          "ru": "Цены",
+          "en": "Prices",
+          "fr": "Tarifs"
+        }
+      },
+      {
+        "id": "contact",
+        "label": {
+          "de": "Kontakt",
+          "ru": "Контакты",
+          "en": "Contact",
+          "fr": "Contact"
+        }
+      }
     ]
   },
   "hero": {
     "title": {
       "de": "Willkommen in der Tauchwelt Hurghada",
       "ru": "Добро пожаловать в мир дайвинга Хургады",
-      "ar": "مرحباً بكم في عالم الغوص في الغردقة",
       "en": "Welcome to Diving World Hurghada",
       "fr": "Bienvenue dans le monde de la plongée à Hurghada"
     },
@@ -25,14 +56,12 @@
       "contact": {
         "de": "Jetzt kontaktieren",
         "ru": "Связаться сейчас",
-        "ar": "اتصل الآن",
         "en": "Contact Now",
         "fr": "Contactez maintenant"
       },
       "courses": {
         "de": "Zu unseren Kursen",
         "ru": "К нашим курсам",
-        "ar": "إلى دوراتنا",
         "en": "To Our Courses",
         "fr": "À nos cours"
       }
@@ -46,14 +75,12 @@
     "title": {
       "de": "Willkommen in unserer Tauchwelt",
       "ru": "Добро пожаловать в наш мир дайвинга",
-      "ar": "مرحباً بكم في عالم الغوص",
       "en": "Welcome to Our Diving World",
       "fr": "Bienvenue dans notre monde de la plongée"
     },
     "aboutMe": {
       "de": "Wir sind ein Team von Tauchlehrern und arbeiten seit 2004 in Hurghada. Das Rote Meer ist unser Arbeitsplatz, und nach über 20 Jahren kennen wir seine Riffe, Wracks und Strömungen in- und auswendig.\n\nAls zertifizierte PADI- und SSI-Tauchlehrer begleiten wir sowohl Anfänger bei ihren ersten Atemzügen unter Wasser als auch erfahrene Taucher bei anspruchsvolleren Tauchgängen. Wir unterrichten in kleinen Gruppen und legen Wert auf persönliche Betreuung, denn jeder Taucher hat sein eigenes Tempo. Unsere Spezialisierungen reichen von Sidemount- und Tieftauchen über Nitrox- und Wracktauchen bis hin zu Solo-Diving und Trockentauchen. Als Emergency First Responder und Oxygen Provider ist Sicherheit für uns selbstverständlich und nicht verhandelbar.\n\nMit fundiertem Wissen und zwei Jahrzehnten Erfahrung zeigen wir Ihnen das Rote Meer so, wie es ist: faszinierend, vielfältig und manchmal auch herausfordernd.",
       "ru": "Мы — команда инструкторов по дайвингу, работающих в Хургаде с 2004 года. Красное море — это наше рабочее место, и за более чем 20 лет мы досконально изучили его рифы, затонувшие корабли и течения.\n\nКак сертифицированные инструкторы PADI и SSI, мы сопровождаем как новичков, делающих свои первые вдохи под водой, так и опытных дайверов в более сложных погружениях. Мы преподаем в небольших группах и уделяем особое внимание индивидуальному подходу, потому что каждый дайвер имеет свой собственный темп. Наши специализации варьируются от бокового крепления баллонов и глубокого погружения до погружений с нитроксом и погружений к затонувшим кораблям, а также соло-дайвинга и погружений в сухом костюме. Как специалисты по оказанию первой помощи и кислородной поддержки, мы считаем безопасность само собой разумеющейся и не подлежащей обсуждению.\n\nБлагодаря глубоким знаниям и двадцатилетнему опыту мы покажем вам Красное море таким, каким оно есть: увлекательным, разнообразным и иногда сложным.",
-      "ar": "نحن فريق من مدربي الغوص ونعمل في الغردقة منذ عام 2004. البحر الأحمر هو مكان عملنا، وبعد أكثر من 20 عامًا، أصبحنا نعرف شعابه وحطامه وتياراته عن ظهر قلب.\n\nبصفتنا مدربي غوص معتمدين من PADI و SSI، نرافق المبتدئين في أول أنفاسهم تحت الماء وكذلك الغواصين ذوي الخبرة في الغوصات الأكثر صعوبة. نقوم بالتدريس في مجموعات صغيرة ونولي أهمية كبيرة للرعاية الشخصية، لأن كل غواص له وتيرته الخاصة. تتراوح تخصصاتنا من الغوص الجانبي والغوص العميق إلى الغوص بالنيتروكس والغوص على حطام السفن وصولاً إلى الغوص الفردي والغوص الجاف. بصفتنا مسعفين أوليين ومزودين للأكسجين، فإن السلامة بالنسبة لنا أمر بديهي وغير قابل للتفاوض.\n\nبفضل معرفتنا العميقة وخبرتنا التي تمتد لعقدين من الزمن، سنريكم البحر الأحمر كما هو: ساحر ومتنوع وأحياناً صعب.",
       "en": "We are a team of diving instructors and have been working in Hurghada since 2004. The Red Sea is our workplace, and after over 20 years, we know its reefs, wrecks, and currents like the back of our hand.\n\nAs certified PADI and SSI dive instructors, we accompany beginners on their first breaths underwater, as well as experienced divers on more challenging dives. We teach in small groups and emphasize personal attention, because every diver has their own pace. Our specializations include sidemount diving, deep diving, nitrox diving, wreck diving, solo diving, and dry suit diving. As Emergency First Responders and Oxygen Providers, safety is second nature to us and non-negotiable.\n\nWith our extensive knowledge and two decades of experience, we will show you the Red Sea as it is: fascinating, diverse, and sometimes challenging.",
       "fr": "Nous sommes une équipe de moniteurs de plongée et travaillons à Hurghada depuis 2004. La mer Rouge est notre lieu de travail et, après plus de 20 ans, nous connaissons ses récifs, ses épaves et ses courants comme notre poche.\n\nEn tant que moniteurs PADI et SSI certifiés, nous accompagnons les débutants pour leurs premières respirations sous l'eau, ainsi que les plongeurs confirmés pour des plongées plus techniques. Nous donnons des cours en petits groupes et veillons à ce que chacun reçoive une attention personnalisée, car chaque plongeur a son propre rythme. Nous sommes spécialisés dans le sidemount, le profond, le nitrox, le wrak, le solo et le sec. En tant qu'Emergency First Responders et Oxygen Providers, la sécurité est une priorité absolue pour nous.\n\nGrâce à nos connaissances approfondies et à nos 20 ans d'expérience, nous vous montrons la mer Rouge telle qu'elle est : fascinante, variée et parfois exigeante."
     },
@@ -63,24 +90,70 @@
     "title": {
       "de": "Unsere Tauchabenteuer",
       "ru": "Наши приключения в дайвинге",
-      "ar": "مغامراتنا في الغوص",
       "en": "Our Diving Adventures",
       "fr": "Nos aventures de plongée"
     },
     "images": [
-      { "src": "/assets/images/dive-1.jpg", "alt": { "de": "Tauchbild 1", "ru": "Изображение дайвинга 1", "ar": "صورة غوص 1", "en": "Diving Image 1", "fr": "Image de plongée 1" } },
-      { "src": "/assets/images/dive-2.jpg", "alt": { "de": "Tauchbild 2", "ru": "Изображение дайвинга 2", "ar": "صورة غوص 2", "en": "Diving Image 2", "fr": "Image de plongée 2" } },
-      { "src": "/assets/images/dive-3.jpg", "alt": { "de": "Tauchbild 3", "ru": "Изображение дайвинга 3", "ar": "صورة غوص 3", "en": "Diving Image 3", "fr": "Image de plongée 3" } },
-      { "src": "/assets/images/dive-4.jpg", "alt": { "de": "Tauchbild 4", "ru": "Изображение дайвинга 4", "ar": "صورة غوص 4", "en": "Diving Image 4", "fr": "Image de plongée 4" } },
-      { "src": "/assets/images/dive-5.jpg", "alt": { "de": "Tauchbild 5", "ru": "Изображение дайвинга 5", "ar": "صورة غوص 5", "en": "Diving Image 5", "fr": "Image de plongée 5" } },
-      { "src": "/assets/images/dive-6.jpg", "alt": { "de": "Tauchbild 6", "ru": "Изображение дайвинга 6", "ar": "صورة غوص 6", "en": "Diving Image 6", "fr": "Image de plongée 6" } }
+      {
+        "src": "/assets/images/dive-1.jpg",
+        "alt": {
+          "de": "Tauchbild 1",
+          "ru": "Изображение дайвинга 1",
+          "en": "Diving Image 1",
+          "fr": "Image de plongée 1"
+        }
+      },
+      {
+        "src": "/assets/images/dive-2.jpg",
+        "alt": {
+          "de": "Tauchbild 2",
+          "ru": "Изображение дайвинга 2",
+          "en": "Diving Image 2",
+          "fr": "Image de plongée 2"
+        }
+      },
+      {
+        "src": "/assets/images/dive-3.jpg",
+        "alt": {
+          "de": "Tauchbild 3",
+          "ru": "Изображение дайвинга 3",
+          "en": "Diving Image 3",
+          "fr": "Image de plongée 3"
+        }
+      },
+      {
+        "src": "/assets/images/dive-4.jpg",
+        "alt": {
+          "de": "Tauchbild 4",
+          "ru": "Изображение дайвинга 4",
+          "en": "Diving Image 4",
+          "fr": "Image de plongée 4"
+        }
+      },
+      {
+        "src": "/assets/images/dive-5.jpg",
+        "alt": {
+          "de": "Tauchbild 5",
+          "ru": "Изображение дайвинга 5",
+          "en": "Diving Image 5",
+          "fr": "Image de plongée 5"
+        }
+      },
+      {
+        "src": "/assets/images/dive-6.jpg",
+        "alt": {
+          "de": "Tauchbild 6",
+          "ru": "Изображение дайвинга 6",
+          "en": "Diving Image 6",
+          "fr": "Image de plongée 6"
+        }
+      }
     ]
   },
   "prices": {
     "title": {
       "de": "Preise & Angebote",
       "ru": "Цены и предложения",
-      "ar": "الأسعار والعروض",
       "en": "Prices & Offers",
       "fr": "Tarifs et offres"
     },
@@ -88,47 +161,148 @@
       "title": {
         "de": "Tages-Tauchpakete",
         "ru": "Дневные пакеты дайвинга",
-        "ar": "باقات الغوص اليومية",
         "en": "Daily Diving Packages",
         "fr": "Forfaits de plongée quotidiens"
       },
       "selectLabel": {
         "de": "Anzahl Tage:",
         "ru": "Количество дней:",
-        "ar": "عدد الأيام:",
         "en": "Number of days:",
         "fr": "Nombre de jours:"
       },
       "options": [
-        { "value": 1, "label": { "de": "1 Tag - 2 Tauchgänge", "ru": "1 день - 2 погружения", "ar": "يوم واحد - 2 غوصات", "en": "1 Day - 2 dives", "fr": "1 jour - 2 plongées" }, "price": 45 },
-        { "value": 2, "label": { "de": "2 Tage - 4 Tauchgänge", "ru": "2 дня - 4 погружения", "ar": "يومان - 4 غوصات", "en": "2 Days - 4 dives", "fr": "2 jours - 4 plongées" }, "price": 85 },
-        { "value": 3, "label": { "de": "3 Tage - 6 Tauchgänge", "ru": "3 дня - 6 погружений", "ar": "3 أيام - 6 غوصات", "en": "3 Days - 6 dives", "fr": "3 jours - 6 plongées" }, "price": 125 },
-        { "value": 4, "label": { "de": "4 Tage - 8 Tauchgänge", "ru": "4 дня - 8 погружений", "ar": "4 أيام - 8 غوصات", "en": "4 Days - 8 dives", "fr": "4 jours - 8 plongées" }, "price": 160 },
-        { "value": 5, "label": { "de": "5 Tage - 10 Tauchgänge", "ru": "5 дней - 10 погружений", "ar": "5 أيام - 10 غوصات", "en": "5 Days - 10 dives", "fr": "5 jours - 10 plongées" }, "price": 196 },
-        { "value": 6, "label": { "de": "6 Tage - 12 Tauchgänge", "ru": "6 дней - 12 погружений", "ar": "6 أيام - 12 غوصة", "en": "6 Days - 12 dives", "fr": "6 jours - 12 plongées" }, "price": 238 },
-        { "value": 7, "label": { "de": "7 Tage - 14 Tauchgänge", "ru": "7 дней - 14 погружений", "ar": "7 أيام - 14 غوصة", "en": "7 Days - 14 dives", "fr": "7 jours - 14 plongées" }, "price": 285 },
-        { "value": 8, "label": { "de": "8 Tage - 16 Tauchgänge", "ru": "8 дней - 16 погружений", "ar": "8 أيام - 16 غوصة", "en": "8 Days - 16 dives", "fr": "8 jours - 16 plongées" }, "price": 312 },
-        { "value": 9, "label": { "de": "9 Tage - 18 Tauchgänge", "ru": "9 дней - 18 погружений", "ar": "9 أيام - 18 غوصة", "en": "9 Days - 18 dives", "fr": "9 jours - 18 plongées" }, "price": 347 },
-        { "value": 10, "label": { "de": "10 Tage - 20 Tauchgänge", "ru": "10 дней - 20 погружений", "ar": "10 أيام - 20 غوصة", "en": "10 Days - 20 dives", "fr": "10 jours - 20 plongées" }, "price": 380 }
+        {
+          "value": 1,
+          "label": {
+            "de": "1 Tag - 2 Tauchgänge",
+            "ru": "1 день - 2 погружения",
+            "en": "1 Day - 2 dives",
+            "fr": "1 jour - 2 plongées"
+          },
+          "price": 45
+        },
+        {
+          "value": 2,
+          "label": {
+            "de": "2 Tage - 4 Tauchgänge",
+            "ru": "2 дня - 4 погружения",
+            "en": "2 Days - 4 dives",
+            "fr": "2 jours - 4 plongées"
+          },
+          "price": 85
+        },
+        {
+          "value": 3,
+          "label": {
+            "de": "3 Tage - 6 Tauchgänge",
+            "ru": "3 дня - 6 погружений",
+            "en": "3 Days - 6 dives",
+            "fr": "3 jours - 6 plongées"
+          },
+          "price": 125
+        },
+        {
+          "value": 4,
+          "label": {
+            "de": "4 Tage - 8 Tauchgänge",
+            "ru": "4 дня - 8 погружений",
+            "en": "4 Days - 8 dives",
+            "fr": "4 jours - 8 plongées"
+          },
+          "price": 160
+        },
+        {
+          "value": 5,
+          "label": {
+            "de": "5 Tage - 10 Tauchgänge",
+            "ru": "5 дней - 10 погружений",
+            "en": "5 Days - 10 dives",
+            "fr": "5 jours - 10 plongées"
+          },
+          "price": 196
+        },
+        {
+          "value": 6,
+          "label": {
+            "de": "6 Tage - 12 Tauchgänge",
+            "ru": "6 дней - 12 погружений",
+            "en": "6 Days - 12 dives",
+            "fr": "6 jours - 12 plongées"
+          },
+          "price": 238
+        },
+        {
+          "value": 7,
+          "label": {
+            "de": "7 Tage - 14 Tauchgänge",
+            "ru": "7 дней - 14 погружений",
+            "en": "7 Days - 14 dives",
+            "fr": "7 jours - 14 plongées"
+          },
+          "price": 285
+        },
+        {
+          "value": 8,
+          "label": {
+            "de": "8 Tage - 16 Tauchgänge",
+            "ru": "8 дней - 16 погружений",
+            "en": "8 Days - 16 dives",
+            "fr": "8 jours - 16 plongées"
+          },
+          "price": 312
+        },
+        {
+          "value": 9,
+          "label": {
+            "de": "9 Tage - 18 Tauchgänge",
+            "ru": "9 дней - 18 погружений",
+            "en": "9 Days - 18 dives",
+            "fr": "9 jours - 18 plongées"
+          },
+          "price": 347
+        },
+        {
+          "value": 10,
+          "label": {
+            "de": "10 Tage - 20 Tauchgänge",
+            "ru": "10 дней - 20 погружений",
+            "en": "10 Days - 20 dives",
+            "fr": "10 jours - 20 plongées"
+          },
+          "price": 380
+        }
       ],
       "features": {
         "de": "Tauchführer inklusive",
         "ru": "Гид включен",
-        "ar": "مرشد الغوص مشمول",
         "en": "Dive guide included",
         "fr": "Guide de plongée inclus"
       },
       "contentDetails": {
-        "de": ["2 Tauchgänge pro Tag", "2 verschiedene Tauchplätze täglich", "Marine Park Fee inklusive"],
-        "ru": ["2 погружения в день", "2 разных места для дайвинга ежедневно", "Сбор морского парка включен"],
-        "ar": ["2 غوصة في اليوم", "موقعان مختلفان للغوص يومياً", "رسوم الحديقة البحرية مشمولة"],
-        "en": ["2 dives per day", "2 different dive sites daily", "Marine Park Fee included"],
-        "fr": ["2 plongées par jour", "2 sites de plongée différents par jour", "Frais du parc marin inclus"]
+        "de": [
+          "2 Tauchgänge pro Tag",
+          "2 verschiedene Tauchplätze täglich",
+          "Marine Park Fee inklusive"
+        ],
+        "ru": [
+          "2 погружения в день",
+          "2 разных места для дайвинга ежедневно",
+          "Сбор морского парка включен"
+        ],
+        "en": [
+          "2 dives per day",
+          "2 different dive sites daily",
+          "Marine Park Fee included"
+        ],
+        "fr": [
+          "2 plongées par jour",
+          "2 sites de plongée différents par jour",
+          "Frais du parc marin inclus"
+        ]
       },
       "reachLabel": {
         "de": "Tauchgänge pro Paket",
         "ru": "Погружения в пакете",
-        "ar": "غوصات في الباقة",
         "en": "Dives per package",
         "fr": "Plongées par forfait"
       },
@@ -137,7 +311,6 @@
           "label": {
             "de": "Ausrüstung nicht enthalten (€ 15/Tag)",
             "ru": "Снаряжение не включено (€ 15/день)",
-            "ar": "المعدات غير مشمولة (15 يورو/يوم)",
             "en": "Equipment not included (€ 15/day)",
             "fr": "Équipement non inclus (€ 15/jour)"
           },
@@ -147,7 +320,6 @@
           "label": {
             "de": "Tauchführer inklusive",
             "ru": "Гид включен",
-            "ar": "مرشد الغوص مشمول",
             "en": "Dive guide included",
             "fr": "Guide de plongée inclus"
           },
@@ -155,54 +327,134 @@
         }
       ],
       "additionalInfo": {
-        "de": ["Tauchausrüstung Miete: € 15 pro Tag", "Schnorcheltour / Nicht-Taucher: 25€", "Transfer: Für Hotels in Hurghada ist der Transfer vom/zum Hotel kostenlos. Für Hotels in Makadi Bay, Sahl Hasheesh und El Gouna beträgt der Transfer vom/zum Hotel einen Aufpreis von € 20 pro Tag."],
-        "ru": ["Аренда снаряжения для дайвинга: € 15 в день", "Снорклинг-тур / Не дайверы: 25€", "Трансфер: Для отелей в Хургаде трансфер от/до отеля бесплатный. Для отелей в Макади Бэй, Сахль Хашиш и Эль Гуна трансфер от/до отеля стоит дополнительно € 20 в день."],
-        "ar": ["إيجار معدات الغوص: 15 يورو في اليوم", "رحلة الغطس / غير الغواصين: 25 يورو", "النقل: للفنادق داخل الغردقة، النقل من/إلى الفندق مجاني. للفنادق في مكادي باي، سهل حشيش والجونة، النقل من/إلى الفندق مقابل رسوم إضافية قدرها 20 يورو في اليوم."],
-        "en": ["Dive equipment rental: € 15 per day", "Snorkeling Trip / Non Divers: 25€", "Transfer: For hotels inside Hurghada, Transfer from/to Hotel is free of charge. For Hotels in Makadi Bay, Sahl Hasheesh and El Gouna, Transfer from /To Hotel is for a surcharge of € 20 per day per car."],
-        "fr": ["Location d'équipement de plongée: € 15 par jour", "Excursion snorkeling / Non plongeurs: 25€", "Transfert: Pour les hôtels à Hurghada, le transfert depuis/vers l'hôtel est gratuit. Pour les hôtels à Makadi Bay, Sahl Hasheesh et El Gouna, le transfert depuis/vers l'hôtel coûte un supplément de € 20 par jour par voiture."]
+        "de": [
+          "Tauchausrüstung Miete: € 15 pro Tag",
+          "Schnorcheltour / Nicht-Taucher: 25€",
+          "Transfer: Für Hotels in Hurghada ist der Transfer vom/zum Hotel kostenlos. Für Hotels in Makadi Bay, Sahl Hasheesh und El Gouna beträgt der Transfer vom/zum Hotel einen Aufpreis von € 20 pro Tag."
+        ],
+        "ru": [
+          "Аренда снаряжения для дайвинга: € 15 в день",
+          "Снорклинг-тур / Не дайверы: 25€",
+          "Трансфер: Для отелей в Хургаде трансфер от/до отеля бесплатный. Для отелей в Макади Бэй, Сахль Хашиш и Эль Гуна трансфер от/до отеля стоит дополнительно € 20 в день."
+        ],
+        "en": [
+          "Dive equipment rental: € 15 per day",
+          "Snorkeling Trip / Non Divers: 25€",
+          "Transfer: For hotels inside Hurghada, Transfer from/to Hotel is free of charge. For Hotels in Makadi Bay, Sahl Hasheesh and El Gouna, Transfer from /To Hotel is for a surcharge of € 20 per day per car."
+        ],
+        "fr": [
+          "Location d'équipement de plongée: € 15 par jour",
+          "Excursion snorkeling / Non plongeurs: 25€",
+          "Transfert: Pour les hôtels à Hurghada, le transfert depuis/vers l'hôtel est gratuit. Pour les hôtels à Makadi Bay, Sahl Hasheesh et El Gouna, le transfert depuis/vers l'hôtel coûte un supplément de € 20 par jour par voiture."
+        ]
       }
     },
     "courses": {
       "title": {
         "de": "PADI Kurse",
         "ru": "Курсы PADI",
-        "ar": "دورات PADI",
         "en": "PADI Courses",
         "fr": "Cours PADI"
       },
       "selectLabel": {
         "de": "Kurs auswählen:",
         "ru": "Выберите курс:",
-        "ar": "اختر الدورة:",
         "en": "Select course:",
         "fr": "Sélectionner un cours:"
       },
       "options": [
-        { "value": "scuba", "label": { "de": "Scuba Diver", "ru": "Scuba Diver", "ar": "Scuba Diver", "en": "Scuba Diver", "fr": "Scuba Diver" }, "price": 260 },
-        { "value": "owd", "label": { "de": "Open Water Diver (OWD)", "ru": "Open Water Diver (OWD)", "ar": "Open Water Diver (OWD)", "en": "Open Water Diver (OWD)", "fr": "Open Water Diver (OWD)" }, "price": 335 },
-        { "value": "aowd", "label": { "de": "Advanced Open Water Diver (AOWD)", "ru": "Advanced Open Water Diver (AOWD)", "ar": "Advanced Open Water Diver (AOWD)", "en": "Advanced Open Water Diver (AOWD)", "fr": "Advanced Open Water Diver (AOWD)" }, "price": 250 },
-        { "value": "rescue", "label": { "de": "Rescue Diver", "ru": "Rescue Diver", "ar": "Rescue Diver", "en": "Rescue Diver", "fr": "Rescue Diver" }, "price": 350 },
-        { "value": "efr", "label": { "de": "Emergency First Response & CPR", "ru": "Emergency First Response & CPR", "ar": "Emergency First Response & CPR", "en": "Emergency First Response & CPR", "fr": "Emergency First Response & CPR" }, "price": 120 },
-        { "value": "divemaster", "label": { "de": "Divemaster", "ru": "Divemaster", "ar": "Divemaster", "en": "Divemaster", "fr": "Divemaster" }, "price": 1000 }
+        {
+          "value": "scuba",
+          "label": {
+            "de": "Scuba Diver",
+            "ru": "Scuba Diver",
+            "en": "Scuba Diver",
+            "fr": "Scuba Diver"
+          },
+          "price": 260
+        },
+        {
+          "value": "owd",
+          "label": {
+            "de": "Open Water Diver (OWD)",
+            "ru": "Open Water Diver (OWD)",
+            "en": "Open Water Diver (OWD)",
+            "fr": "Open Water Diver (OWD)"
+          },
+          "price": 335
+        },
+        {
+          "value": "aowd",
+          "label": {
+            "de": "Advanced Open Water Diver (AOWD)",
+            "ru": "Advanced Open Water Diver (AOWD)",
+            "en": "Advanced Open Water Diver (AOWD)",
+            "fr": "Advanced Open Water Diver (AOWD)"
+          },
+          "price": 250
+        },
+        {
+          "value": "rescue",
+          "label": {
+            "de": "Rescue Diver",
+            "ru": "Rescue Diver",
+            "en": "Rescue Diver",
+            "fr": "Rescue Diver"
+          },
+          "price": 350
+        },
+        {
+          "value": "efr",
+          "label": {
+            "de": "Emergency First Response & CPR",
+            "ru": "Emergency First Response & CPR",
+            "en": "Emergency First Response & CPR",
+            "fr": "Emergency First Response & CPR"
+          },
+          "price": 120
+        },
+        {
+          "value": "divemaster",
+          "label": {
+            "de": "Divemaster",
+            "ru": "Divemaster",
+            "en": "Divemaster",
+            "fr": "Divemaster"
+          },
+          "price": 1000
+        }
       ],
       "features": {
         "de": "Zertifizierung & Material inklusive",
         "ru": "Сертификация и материалы включены",
-        "ar": "الشهادة والمواد مشمولة",
         "en": "Certification & materials included",
         "fr": "Certification et matériel inclus"
       },
       "contentDetails": {
-        "de": ["PADI Manual inklusive", "PADI Zertifizierung inklusive", "Tauchausrüstung inklusive"],
-        "ru": ["Руководство PADI включено", "Сертификация PADI включена", "Снаряжение для дайвинга включено"],
-        "ar": ["دليل PADI مشمول", "شهادة PADI مشمولة", "معدات الغوص مشمولة"],
-        "en": ["PADI Manual included", "PADI Certification included", "Dive equipment included"],
-        "fr": ["Manuel PADI inclus", "Certification PADI incluse", "Équipement de plongée inclus"]
+        "de": [
+          "PADI Manual inklusive",
+          "PADI Zertifizierung inklusive",
+          "Tauchausrüstung inklusive"
+        ],
+        "ru": [
+          "Руководство PADI включено",
+          "Сертификация PADI включена",
+          "Снаряжение для дайвинга включено"
+        ],
+        "en": [
+          "PADI Manual included",
+          "PADI Certification included",
+          "Dive equipment included"
+        ],
+        "fr": [
+          "Manuel PADI inclus",
+          "Certification PADI incluse",
+          "Équipement de plongée inclus"
+        ]
       },
       "reachLabel": {
         "de": "Kursdauer: 3-5 Tage",
         "ru": "Продолжительность курса: 3-5 дней",
-        "ar": "مدة الدورة: 3-5 أيام",
         "en": "Course duration: 3-5 days",
         "fr": "Durée du cours: 3-5 jours"
       },
@@ -211,7 +463,6 @@
           "label": {
             "de": "PADI Zertifizierung",
             "ru": "Сертификация PADI",
-            "ar": "شهادة PADI",
             "en": "PADI Certification",
             "fr": "Certification PADI"
           },
@@ -221,7 +472,6 @@
           "label": {
             "de": "Material & Logbuch",
             "ru": "Материалы и журнал",
-            "ar": "المواد وسجل الغوص",
             "en": "Materials & logbook",
             "fr": "Matériel et carnet de plongée"
           },
@@ -233,42 +483,98 @@
       "title": {
         "de": "Spezialkurse PADI Kurse",
         "ru": "Специализированные курсы PADI",
-        "ar": "دورات PADI المتخصصة",
         "en": "Specialty PADI Courses",
         "fr": "Cours PADI spécialisés"
       },
       "selectLabel": {
         "de": "Spezialkurs auswählen:",
         "ru": "Выберите специализированный курс:",
-        "ar": "اختر دورة متخصصة:",
         "en": "Select specialty course:",
         "fr": "Sélectionner un cours spécialisé:"
       },
       "options": [
-        { "value": "nitrox", "label": { "de": "Enriched Air (Nitrox)", "ru": "Обогащенный воздух (Nitrox)", "ar": "الهواء المخصب (Nitrox)", "en": "Enriched Air (Nitrox)", "fr": "Air enrichi (Nitrox)" }, "price": 250 },
-        { "value": "wreck", "label": { "de": "Wreck Diver", "ru": "Дайвер по затонувшим кораблям", "ar": "غواص حطام", "en": "Wreck Diver", "fr": "Plongeur d'épaves" }, "price": 300 },
-        { "value": "deep", "label": { "de": "Deep Diver", "ru": "Глубоководный дайвер", "ar": "غواص عميق", "en": "Deep Diver", "fr": "Plongeur profond" }, "price": 350 },
-        { "value": "night", "label": { "de": "Night Diver", "ru": "Ночной дайвер", "ar": "غواص ليلي", "en": "Night Diver", "fr": "Plongeur de nuit" }, "price": 280 },
-        { "value": "underwater-photography", "label": { "de": "Underwater Photography", "ru": "Подводная фотография", "ar": "التصوير تحت الماء", "en": "Underwater Photography", "fr": "Photographie sous-marine" }, "price": 400 }
+        {
+          "value": "nitrox",
+          "label": {
+            "de": "Enriched Air (Nitrox)",
+            "ru": "Обогащенный воздух (Nitrox)",
+            "en": "Enriched Air (Nitrox)",
+            "fr": "Air enrichi (Nitrox)"
+          },
+          "price": 250
+        },
+        {
+          "value": "wreck",
+          "label": {
+            "de": "Wreck Diver",
+            "ru": "Дайвер по затонувшим кораблям",
+            "en": "Wreck Diver",
+            "fr": "Plongeur d'épaves"
+          },
+          "price": 300
+        },
+        {
+          "value": "deep",
+          "label": {
+            "de": "Deep Diver",
+            "ru": "Глубоководный дайвер",
+            "en": "Deep Diver",
+            "fr": "Plongeur profond"
+          },
+          "price": 350
+        },
+        {
+          "value": "night",
+          "label": {
+            "de": "Night Diver",
+            "ru": "Ночной дайвер",
+            "en": "Night Diver",
+            "fr": "Plongeur de nuit"
+          },
+          "price": 280
+        },
+        {
+          "value": "underwater-photography",
+          "label": {
+            "de": "Underwater Photography",
+            "ru": "Подводная фотография",
+            "en": "Underwater Photography",
+            "fr": "Photographie sous-marine"
+          },
+          "price": 400
+        }
       ],
       "features": {
         "de": "Spezialausrüstung & Zertifizierung",
         "ru": "Специализированное снаряжение и сертификация",
-        "ar": "معدات متخصصة وشهادة",
         "en": "Specialty equipment & certification",
         "fr": "Équipement spécialisé et certification"
       },
       "contentDetails": {
-        "de": ["Spezialkurse PADI Zertifizierung", "Spezialausrüstung", "Erfahrene Instruktoren"],
-        "ru": ["Специализированная сертификация PADI", "Специализированное снаряжение", "Опытные инструкторы"],
-        "ar": ["شهادة PADI متخصصة", "معدات متخصصة", "مدربون ذوو خبرة"],
-        "en": ["Specialty PADI Certification", "Specialty equipment", "Experienced instructors"],
-        "fr": ["Certification PADI spécialisée", "Équipement spécialisé", "Instructeurs expérimentés"]
+        "de": [
+          "Spezialkurse PADI Zertifizierung",
+          "Spezialausrüstung",
+          "Erfahrene Instruktoren"
+        ],
+        "ru": [
+          "Специализированная сертификация PADI",
+          "Специализированное снаряжение",
+          "Опытные инструкторы"
+        ],
+        "en": [
+          "Specialty PADI Certification",
+          "Specialty equipment",
+          "Experienced instructors"
+        ],
+        "fr": [
+          "Certification PADI spécialisée",
+          "Équipement spécialisé",
+          "Instructeurs expérimentés"
+        ]
       },
       "reachLabel": {
         "de": "Kursdauer: 1-3 Tage",
         "ru": "Продолжительность курса: 1-3 дня",
-        "ar": "مدة الدورة: 1-3 أيام",
         "en": "Course duration: 1-3 days",
         "fr": "Durée du cours: 1-3 jours"
       },
@@ -277,7 +583,6 @@
           "label": {
             "de": "Spezialkurse Zertifizierung",
             "ru": "Специализированная сертификация",
-            "ar": "شهادة متخصصة",
             "en": "Specialty certification",
             "fr": "Certification spécialisée"
           },
@@ -287,7 +592,6 @@
           "label": {
             "de": "Spezialausrüstung",
             "ru": "Специализированное снаряжение",
-            "ar": "معدات متخصصة",
             "en": "Specialty equipment",
             "fr": "Équipement spécialisé"
           },
@@ -301,7 +605,6 @@
         "name": {
           "de": "BASIC",
           "ru": "БАЗОВЫЙ",
-          "ar": "أساسي",
           "en": "BASIC",
           "fr": "BASIQUE"
         },
@@ -311,7 +614,6 @@
             "label": {
               "de": "Tauchgänge",
               "ru": "Погружения",
-              "ar": "غوصات",
               "en": "Dives",
               "fr": "Plongées"
             },
@@ -322,7 +624,6 @@
             "label": {
               "de": "Tauchausrüstung",
               "ru": "Снаряжение для дайвинга",
-              "ar": "معدات الغوص",
               "en": "Diving Equipment",
               "fr": "Équipement de plongée"
             },
@@ -334,14 +635,12 @@
           {
             "de": "1 Tauchgang",
             "ru": "1 погружение",
-            "ar": "1 غوصة",
             "en": "1 Dive",
             "fr": "1 plongée"
           },
           {
             "de": "Max. Tiefe: 18m",
             "ru": "Макс. глубина: 18м",
-            "ar": "العمق الأقصى: 18م",
             "en": "Max. Depth: 18m",
             "fr": "Profondeur max: 18m"
           }
@@ -350,7 +649,6 @@
         "reachLabel": {
           "de": "Tauchgang pro Tag",
           "ru": "Погружение в день",
-          "ar": "غوصة في اليوم",
           "en": "Dive per day",
           "fr": "Plongée par jour"
         },
@@ -359,7 +657,6 @@
             "label": {
               "de": "Ausrüstung inklusive",
               "ru": "Снаряжение включено",
-              "ar": "المعدات مشمولة",
               "en": "Equipment included",
               "fr": "Équipement inclus"
             },
@@ -369,7 +666,6 @@
             "label": {
               "de": "Tauchführer inklusive",
               "ru": "Гид включен",
-              "ar": "مرشد الغوص مشمول",
               "en": "Dive guide included",
               "fr": "Guide de plongée inclus"
             },
@@ -379,14 +675,12 @@
         "duration": {
           "de": "1 Tag",
           "ru": "1 день",
-          "ar": "يوم واحد",
           "en": "1 Day",
           "fr": "1 jour"
         },
         "cta": {
           "de": "Jetzt buchen",
           "ru": "Забронировать сейчас",
-          "ar": "احجز الآن",
           "en": "Book Now",
           "fr": "Réserver maintenant"
         }
@@ -396,7 +690,6 @@
         "name": {
           "de": "PROFESSIONAL",
           "ru": "ПРОФЕССИОНАЛЬНЫЙ",
-          "ar": "احترافي",
           "en": "PROFESSIONAL",
           "fr": "PROFESSIONNEL"
         },
@@ -406,7 +699,6 @@
             "label": {
               "de": "Tauchgänge",
               "ru": "Погружения",
-              "ar": "غوصات",
               "en": "Dives",
               "fr": "Plongées"
             },
@@ -417,7 +709,6 @@
             "label": {
               "de": "Tauchausrüstung",
               "ru": "Снаряжение для дайвинга",
-              "ar": "معدات الغوص",
               "en": "Diving Equipment",
               "fr": "Équipement de plongée"
             },
@@ -429,21 +720,18 @@
           {
             "de": "3 Tauchgänge",
             "ru": "3 погружения",
-            "ar": "3 غوصات",
             "en": "3 Dives",
             "fr": "3 plongées"
           },
           {
             "de": "Max. Tiefe: 30m",
             "ru": "Макс. глубина: 30м",
-            "ar": "العمق الأقصى: 30م",
             "en": "Max. Depth: 30m",
             "fr": "Profondeur max: 30m"
           },
           {
             "de": "Bootstransfer inklusive",
             "ru": "Трансфер на лодке включен",
-            "ar": "نقل القارب مشمول",
             "en": "Boat transfer included",
             "fr": "Transfert en bateau inclus"
           }
@@ -452,7 +740,6 @@
         "reachLabel": {
           "de": "Tauchgänge pro Paket",
           "ru": "Погружения в пакете",
-          "ar": "غوصات في الباقة",
           "en": "Dives per package",
           "fr": "Plongées par forfait"
         },
@@ -461,7 +748,6 @@
             "label": {
               "de": "Ausrüstung inklusive",
               "ru": "Снаряжение включено",
-              "ar": "المعدات مشمولة",
               "en": "Equipment included",
               "fr": "Équipement inclus"
             },
@@ -471,7 +757,6 @@
             "label": {
               "de": "Erfahrene Tauchführer",
               "ru": "Опытные гиды",
-              "ar": "مرشدو غوص ذوو خبرة",
               "en": "Experienced dive guides",
               "fr": "Guides de plongée expérimentés"
             },
@@ -481,14 +766,12 @@
         "duration": {
           "de": "3 Tage",
           "ru": "3 дня",
-          "ar": "3 أيام",
           "en": "3 Days",
           "fr": "3 jours"
         },
         "cta": {
           "de": "Jetzt buchen",
           "ru": "Забронировать сейчас",
-          "ar": "احجز الآن",
           "en": "Book Now",
           "fr": "Réserver maintenant"
         }
@@ -498,7 +781,6 @@
         "name": {
           "de": "PREMIUM",
           "ru": "ПРЕМИУМ",
-          "ar": "مميز",
           "en": "PREMIUM",
           "fr": "PREMIUM"
         },
@@ -508,7 +790,6 @@
             "label": {
               "de": "Tauchgänge",
               "ru": "Погружения",
-              "ar": "غوصات",
               "en": "Dives",
               "fr": "Plongées"
             },
@@ -519,7 +800,6 @@
             "label": {
               "de": "Premium Ausrüstung",
               "ru": "Премиум снаряжение",
-              "ar": "معدات مميزة",
               "en": "Premium Equipment",
               "fr": "Équipement premium"
             },
@@ -531,21 +811,18 @@
           {
             "de": "10 Tauchgänge",
             "ru": "10 погружений",
-            "ar": "10 غوصات",
             "en": "10 Dives",
             "fr": "10 plongées"
           },
           {
             "de": "Max. Tiefe: 40m",
             "ru": "Макс. глубина: 40м",
-            "ar": "العمق الأقصى: 40م",
             "en": "Max. Depth: 40m",
             "fr": "Profondeur max: 40m"
           },
           {
             "de": "VIP Bootstransfer",
             "ru": "VIP трансфер на лодке",
-            "ar": "نقل قارب VIP",
             "en": "VIP Boat Transfer",
             "fr": "Transfert VIP en bateau"
           }
@@ -554,7 +831,6 @@
         "reachLabel": {
           "de": "Tauchgänge pro Paket",
           "ru": "Погружения в пакете",
-          "ar": "غوصات في الباقة",
           "en": "Dives per package",
           "fr": "Plongées par forfait"
         },
@@ -563,7 +839,6 @@
             "label": {
               "de": "Premium Ausrüstung",
               "ru": "Премиум снаряжение",
-              "ar": "معدات مميزة",
               "en": "Premium equipment",
               "fr": "Équipement premium"
             },
@@ -573,7 +848,6 @@
             "label": {
               "de": "Persönlicher Tauchführer",
               "ru": "Личный гид",
-              "ar": "مرشد غوص شخصي",
               "en": "Personal dive guide",
               "fr": "Guide de plongée personnel"
             },
@@ -583,14 +857,12 @@
         "duration": {
           "de": "10 Tage",
           "ru": "10 дней",
-          "ar": "10 أيام",
           "en": "10 Days",
           "fr": "10 jours"
         },
         "cta": {
           "de": "Jetzt buchen",
           "ru": "Забронировать сейчас",
-          "ar": "احجز الآن",
           "en": "Book Now",
           "fr": "Réserver maintenant"
         }
@@ -602,23 +874,61 @@
       "title": {
         "de": "Diving Prices",
         "ru": "Цены на дайвинг",
-        "ar": "أسعار الغوص",
         "en": "Diving Prices",
         "fr": "Tarifs de plongée"
       },
       "selectLabel": {
         "de": "Anzahl Tauchtage:",
         "ru": "Количество дней дайвинга:",
-        "ar": "عدد أيام الغوص:",
         "en": "Number of diving days:",
         "fr": "Nombre de jours de plongée:"
       },
       "options": [
-        { "value": 1, "label": { "de": "1 Tag", "ru": "1 день", "ar": "يوم واحد", "en": "1 Day", "fr": "1 jour" } },
-        { "value": 2, "label": { "de": "2 Tage", "ru": "2 дня", "ar": "يومان", "en": "2 Days", "fr": "2 jours" } },
-        { "value": 3, "label": { "de": "3 Tage", "ru": "3 дня", "ar": "3 أيام", "en": "3 Days", "fr": "3 jours" } },
-        { "value": 5, "label": { "de": "5 Tage", "ru": "5 дней", "ar": "5 أيام", "en": "5 Days", "fr": "5 jours" } },
-        { "value": 10, "label": { "de": "10 Tage", "ru": "10 дней", "ar": "10 أيام", "en": "10 Days", "fr": "10 jours" } }
+        {
+          "value": 1,
+          "label": {
+            "de": "1 Tag",
+            "ru": "1 день",
+            "en": "1 Day",
+            "fr": "1 jour"
+          }
+        },
+        {
+          "value": 2,
+          "label": {
+            "de": "2 Tage",
+            "ru": "2 дня",
+            "en": "2 Days",
+            "fr": "2 jours"
+          }
+        },
+        {
+          "value": 3,
+          "label": {
+            "de": "3 Tage",
+            "ru": "3 дня",
+            "en": "3 Days",
+            "fr": "3 jours"
+          }
+        },
+        {
+          "value": 5,
+          "label": {
+            "de": "5 Tage",
+            "ru": "5 дней",
+            "en": "5 Days",
+            "fr": "5 jours"
+          }
+        },
+        {
+          "value": 10,
+          "label": {
+            "de": "10 Tage",
+            "ru": "10 дней",
+            "en": "10 Days",
+            "fr": "10 jours"
+          }
+        }
       ],
       "basePrices": {
         "1": 50,
@@ -627,28 +937,58 @@
         "5": 225,
         "10": 400
       },
-      "discount": 0.10
+      "discount": 0.1
     },
     "padi": {
       "title": {
         "de": "PADI Diving Kurse",
         "ru": "Курсы PADI по дайвингу",
-        "ar": "دورات PADI للغوص",
         "en": "PADI Diving Courses",
         "fr": "Cours de plongée PADI"
       },
       "selectLabel": {
         "de": "Kurs auswählen:",
         "ru": "Выберите курс:",
-        "ar": "اختر الدورة:",
         "en": "Select course:",
         "fr": "Sélectionner un cours:"
       },
       "options": [
-        { "value": "open-water", "label": { "de": "Open Water Diver", "ru": "Open Water Diver", "ar": "Open Water Diver", "en": "Open Water Diver", "fr": "Open Water Diver" } },
-        { "value": "advanced", "label": { "de": "Advanced Open Water", "ru": "Advanced Open Water", "ar": "Advanced Open Water", "en": "Advanced Open Water", "fr": "Advanced Open Water" } },
-        { "value": "rescue", "label": { "de": "Rescue Diver", "ru": "Rescue Diver", "ar": "Rescue Diver", "en": "Rescue Diver", "fr": "Rescue Diver" } },
-        { "value": "divemaster", "label": { "de": "Divemaster", "ru": "Divemaster", "ar": "Divemaster", "en": "Divemaster", "fr": "Divemaster" } }
+        {
+          "value": "open-water",
+          "label": {
+            "de": "Open Water Diver",
+            "ru": "Open Water Diver",
+            "en": "Open Water Diver",
+            "fr": "Open Water Diver"
+          }
+        },
+        {
+          "value": "advanced",
+          "label": {
+            "de": "Advanced Open Water",
+            "ru": "Advanced Open Water",
+            "en": "Advanced Open Water",
+            "fr": "Advanced Open Water"
+          }
+        },
+        {
+          "value": "rescue",
+          "label": {
+            "de": "Rescue Diver",
+            "ru": "Rescue Diver",
+            "en": "Rescue Diver",
+            "fr": "Rescue Diver"
+          }
+        },
+        {
+          "value": "divemaster",
+          "label": {
+            "de": "Divemaster",
+            "ru": "Divemaster",
+            "en": "Divemaster",
+            "fr": "Divemaster"
+          }
+        }
       ],
       "basePrices": {
         "open-water": 450,
@@ -656,21 +996,19 @@
         "rescue": 400,
         "divemaster": 800
       },
-      "discount": 0.10
+      "discount": 0.1
     }
   },
   "courses": {
     "title": {
       "de": "Unsere Tauchkurse",
       "ru": "Курсы и специализации",
-      "ar": "دوراتنا في الغوص",
       "en": "Our Diving Courses",
       "fr": "Nos cours de plongée"
     },
     "description": {
       "de": "Entdecken Sie unsere vielfältigen Tauchkurse, die für jedes Niveau geeignet sind.",
       "ru": "Откройте для себя наши разнообразные курсы дайвинга, подходящие для любого уровня.",
-      "ar": "اكتشف دورات الغوص المتنوعة لدينا، المناسبة لكل مستوى.",
       "en": "Discover our diverse diving courses, suitable for every level.",
       "fr": "Découvrez nos cours de plongée variés, adaptés à tous les niveaux."
     },
@@ -679,7 +1017,6 @@
         "title": {
           "de": "Daily Diving",
           "ru": "Ежедневный дайвинг",
-          "ar": "الغوص اليومي",
           "en": "Daily Diving",
           "fr": "Plongée quotidienne"
         },
@@ -689,7 +1026,6 @@
             "name": {
               "de": "1 Tag - 2 Tauchgänge",
               "ru": "1 день - 2 погружения",
-              "ar": "يوم واحد - 2 غوصات",
               "en": "1 Day - 2 dives",
               "fr": "1 jour - 2 plongées"
             },
@@ -699,23 +1035,40 @@
             "shortDescription": {
               "de": "Perfekt für Einsteiger - zwei Tauchgänge an einem Tag",
               "ru": "Идеально для начинающих - два погружения за один день",
-              "ar": "مثالي للمبتدئين - غطستان في يوم واحد",
               "en": "Perfect for beginners - two dives in one day",
               "fr": "Parfait pour les débutants - deux plongées en une journée"
             },
             "fullDescription": {
               "de": "Unser 1-Tages-Paket ist ideal für alle, die das Tauchen ausprobieren möchten. Sie erhalten zwei geführte Tauchgänge mit einem erfahrenen Tauchlehrer und eine Einführung in die Grundlagen des Tauchens. Ausrüstung kann gegen Aufpreis gemietet werden (€ 15/Tag).",
               "ru": "Наш 1-дневный пакет идеально подходит для всех, кто хочет попробовать дайвинг. Вы получите два погружения с опытным инструктором и введение в основы дайвинга. Снаряжение можно арендовать за дополнительную плату (€ 15/день).",
-              "ar": "باقة اليوم الواحد لدينا مثالية لأولئك الذين يريدون تجربة الغوص. ستحصل على غطستين مع مدرب غوص ذي خبرة ومقدمة في أساسيات الغوص. يمكن استئجار المعدات مقابل رسوم إضافية (15 يورو/يوم).",
               "en": "Our 1-day package is ideal for anyone who wants to try diving. You'll get two guided dives with an experienced instructor and an introduction to the basics of diving. Equipment can be rented for an additional fee (€ 15/day).",
               "fr": "Notre forfait 1 jour est idéal pour tous ceux qui veulent essayer la plongée. Vous bénéficierez de deux plongées guidées avec un instructeur expérimenté et d'une introduction aux bases de la plongée. L'équipement peut être loué moyennant un supplément (€ 15/jour)."
             },
             "includes": {
-              "de": ["2 Tauchgänge", "Tauchlehrer", "Bootstransfer", "Ausrüstung nicht enthalten (€ 15/Tag)"],
-              "ru": ["2 погружения", "Инструктор", "Трансфер на лодке", "Снаряжение не включено (€ 15/день)"],
-              "ar": ["غطستان", "مدرب غوص", "نقل بالقارب", "المعدات غير مشمولة (15 يورو/يوم)"],
-              "en": ["2 dives", "Dive instructor", "Boat transfer", "Equipment not included (€ 15/day)"],
-              "fr": ["2 plongées", "Instructeur de plongée", "Transfert en bateau", "Équipement non inclus (€ 15/jour)"]
+              "de": [
+                "2 Tauchgänge",
+                "Tauchlehrer",
+                "Bootstransfer",
+                "Ausrüstung nicht enthalten (€ 15/Tag)"
+              ],
+              "ru": [
+                "2 погружения",
+                "Инструктор",
+                "Трансфер на лодке",
+                "Снаряжение не включено (€ 15/день)"
+              ],
+              "en": [
+                "2 dives",
+                "Dive instructor",
+                "Boat transfer",
+                "Equipment not included (€ 15/day)"
+              ],
+              "fr": [
+                "2 plongées",
+                "Instructeur de plongée",
+                "Transfert en bateau",
+                "Équipement non inclus (€ 15/jour)"
+              ]
             }
           },
           {
@@ -723,7 +1076,6 @@
             "name": {
               "de": "2 Tage - 4 Tauchgänge",
               "ru": "2 дня - 4 погружения",
-              "ar": "يومان - 4 غوصات",
               "en": "2 Days - 4 dives",
               "fr": "2 jours - 4 plongées"
             },
@@ -733,23 +1085,44 @@
             "shortDescription": {
               "de": "Zwei Tage voller Tauchabenteuer im Roten Meer",
               "ru": "Два дня полных приключений дайвинга в Красном море",
-              "ar": "يومان من مغامرات الغوص في البحر الأحمر",
               "en": "Two days full of diving adventures in the Red Sea",
               "fr": "Deux jours pleins d'aventures de plongée en mer Rouge"
             },
             "fullDescription": {
               "de": "Erleben Sie das Beste des Roten Meeres mit unserem 2-Tages-Paket. Vier Tauchgänge an verschiedenen Tauchplätzen, die Ihnen die Vielfalt der Unterwasserwelt zeigen.",
               "ru": "Испытайте лучшее из Красного моря с нашим 2-дневным пакетом. Четыре погружения на разных местах, которые покажут вам разнообразие подводного мира.",
-              "ar": "استمتع بأفضل ما في البحر الأحمر مع باقة اليومين. أربع غطسات في مواقع مختلفة تظهر لك تنوع العالم تحت الماء.",
               "en": "Experience the best of the Red Sea with our 2-day package. Four dives at different dive sites that show you the diversity of the underwater world.",
               "fr": "Découvrez le meilleur de la mer Rouge avec notre forfait 2 jours. Quatre plongées sur différents sites qui vous montrent la diversité du monde sous-marin."
             },
             "includes": {
-              "de": ["4 Tauchgänge", "Tauchlehrer", "Bootstransfer", "Mittagessen", "Ausrüstung nicht enthalten (€ 15/Tag)"],
-              "ru": ["4 погружения", "Инструктор", "Трансфер на лодке", "Обед", "Снаряжение не включено (€ 15/день)"],
-              "ar": ["4 غطسات", "مدرب غوص", "نقل بالقارب", "غداء", "المعدات غير مشمولة (15 يورو/يوم)"],
-              "en": ["4 dives", "Dive instructor", "Boat transfer", "Lunch", "Equipment not included (€ 15/day)"],
-              "fr": ["4 plongées", "Instructeur de plongée", "Transfert en bateau", "Déjeuner", "Équipement non inclus (€ 15/jour)"]
+              "de": [
+                "4 Tauchgänge",
+                "Tauchlehrer",
+                "Bootstransfer",
+                "Mittagessen",
+                "Ausrüstung nicht enthalten (€ 15/Tag)"
+              ],
+              "ru": [
+                "4 погружения",
+                "Инструктор",
+                "Трансфер на лодке",
+                "Обед",
+                "Снаряжение не включено (€ 15/день)"
+              ],
+              "en": [
+                "4 dives",
+                "Dive instructor",
+                "Boat transfer",
+                "Lunch",
+                "Equipment not included (€ 15/day)"
+              ],
+              "fr": [
+                "4 plongées",
+                "Instructeur de plongée",
+                "Transfert en bateau",
+                "Déjeuner",
+                "Équipement non inclus (€ 15/jour)"
+              ]
             }
           },
           {
@@ -757,7 +1130,6 @@
             "name": {
               "de": "3 Tage - 6 Tauchgänge",
               "ru": "3 дня - 6 погружений",
-              "ar": "3 أيام - 6 غوصات",
               "en": "3 Days - 6 dives",
               "fr": "3 jours - 6 plongées"
             },
@@ -767,23 +1139,48 @@
             "shortDescription": {
               "de": "Drei Tage intensives Tauchen für echte Enthusiasten",
               "ru": "Три дня интенсивного дайвинга для настоящих энтузиастов",
-              "ar": "ثلاثة أيام من الغوص المكثف لعشاق الغوص الحقيقيين",
               "en": "Three days of intensive diving for true enthusiasts",
               "fr": "Trois jours de plongée intensive pour les vrais passionnés"
             },
             "fullDescription": {
               "de": "Unser 3-Tages-Paket bietet sechs Tauchgänge an den besten Tauchplätzen Hurghadas. Perfekt für Taucher, die mehr Zeit unter Wasser verbringen möchten.",
               "ru": "Наш 3-дневный пакет предлагает шесть погружений на лучших местах Хургады. Идеально подходит для дайверов, которые хотят провести больше времени под водой.",
-              "ar": "باقة الثلاثة أيام لدينا تقدم ست غطسات في أفضل مواقع الغوص في الغردقة. مثالية للغواصين الذين يريدون قضاء المزيد من الوقت تحت الماء.",
               "en": "Our 3-day package offers six dives at Hurghada's best dive sites. Perfect for divers who want to spend more time underwater.",
               "fr": "Notre forfait 3 jours offre six plongées sur les meilleurs sites de plongée de Hurghada. Parfait pour les plongeurs qui veulent passer plus de temps sous l'eau."
             },
             "includes": {
-              "de": ["6 Tauchgänge", "Tauchlehrer", "Bootstransfer", "Mittagessen", "Getränke", "Ausrüstung nicht enthalten (€ 15/Tag)"],
-              "ru": ["6 погружений", "Инструктор", "Трансфер на лодке", "Обед", "Напитки", "Снаряжение не включено (€ 15/день)"],
-              "ar": ["6 غطسات", "مدرب غوص", "نقل بالقارب", "غداء", "مشروبات", "المعدات غير مشمولة (15 يورو/يوم)"],
-              "en": ["6 dives", "Dive instructor", "Boat transfer", "Lunch", "Drinks", "Equipment not included (€ 15/day)"],
-              "fr": ["6 plongées", "Instructeur de plongée", "Transfert en bateau", "Déjeuner", "Boissons", "Équipement non inclus (€ 15/jour)"]
+              "de": [
+                "6 Tauchgänge",
+                "Tauchlehrer",
+                "Bootstransfer",
+                "Mittagessen",
+                "Getränke",
+                "Ausrüstung nicht enthalten (€ 15/Tag)"
+              ],
+              "ru": [
+                "6 погружений",
+                "Инструктор",
+                "Трансфер на лодке",
+                "Обед",
+                "Напитки",
+                "Снаряжение не включено (€ 15/день)"
+              ],
+              "en": [
+                "6 dives",
+                "Dive instructor",
+                "Boat transfer",
+                "Lunch",
+                "Drinks",
+                "Equipment not included (€ 15/day)"
+              ],
+              "fr": [
+                "6 plongées",
+                "Instructeur de plongée",
+                "Transfert en bateau",
+                "Déjeuner",
+                "Boissons",
+                "Équipement non inclus (€ 15/jour)"
+              ]
             }
           },
           {
@@ -791,7 +1188,6 @@
             "name": {
               "de": "4 Tage - 8 Tauchgänge",
               "ru": "4 дня - 8 погружений",
-              "ar": "4 أيام - 8 غوصات",
               "en": "4 Days - 8 dives",
               "fr": "4 jours - 8 plongées"
             },
@@ -801,23 +1197,48 @@
             "shortDescription": {
               "de": "Vier Tage voller Tauchabenteuer an den besten Spots",
               "ru": "Четыре дня полных приключений дайвинга на лучших местах",
-              "ar": "أربعة أيام من مغامرات الغوص في أفضل المواقع",
               "en": "Four days full of diving adventures at the best spots",
               "fr": "Quatre jours pleins d'aventures de plongée sur les meilleurs sites"
             },
             "fullDescription": {
               "de": "Unser 4-Tages-Paket bietet acht Tauchgänge an verschiedenen Tauchplätzen. Ideal für Taucher, die mehrere Tage tauchen möchten und die Vielfalt des Roten Meeres erleben wollen.",
               "ru": "Наш 4-дневный пакет предлагает восемь погружений на различных местах. Идеально подходит для дайверов, которые хотят нырять несколько дней и испытать разнообразие Красного моря.",
-              "ar": "باقة الأربعة أيام لدينا تقدم ثماني غطسات في مواقع مختلفة. مثالية للغواصين الذين يريدون الغوص لعدة أيام وتجربة تنوع البحر الأحمر.",
               "en": "Our 4-day package offers eight dives at various dive sites. Ideal for divers who want to dive for several days and experience the diversity of the Red Sea.",
               "fr": "Notre forfait 4 jours offre huit plongées sur différents sites. Idéal pour les plongeurs qui veulent plonger plusieurs jours et découvrir la diversité de la mer Rouge."
             },
             "includes": {
-              "de": ["8 Tauchgänge", "Tauchlehrer", "Bootstransfer", "Mittagessen", "Getränke", "Ausrüstung nicht enthalten (€ 15/Tag)"],
-              "ru": ["8 погружений", "Инструктор", "Трансфер на лодке", "Обед", "Напитки", "Снаряжение не включено (€ 15/день)"],
-              "ar": ["8 غطسات", "مدرب غوص", "نقل بالقارب", "غداء", "مشروبات", "المعدات غير مشمولة (15 يورو/يوم)"],
-              "en": ["8 dives", "Dive instructor", "Boat transfer", "Lunch", "Drinks", "Equipment not included (€ 15/day)"],
-              "fr": ["8 plongées", "Instructeur de plongée", "Transfert en bateau", "Déjeuner", "Boissons", "Équipement non inclus (€ 15/jour)"]
+              "de": [
+                "8 Tauchgänge",
+                "Tauchlehrer",
+                "Bootstransfer",
+                "Mittagessen",
+                "Getränke",
+                "Ausrüstung nicht enthalten (€ 15/Tag)"
+              ],
+              "ru": [
+                "8 погружений",
+                "Инструктор",
+                "Трансфер на лодке",
+                "Обед",
+                "Напитки",
+                "Снаряжение не включено (€ 15/день)"
+              ],
+              "en": [
+                "8 dives",
+                "Dive instructor",
+                "Boat transfer",
+                "Lunch",
+                "Drinks",
+                "Equipment not included (€ 15/day)"
+              ],
+              "fr": [
+                "8 plongées",
+                "Instructeur de plongée",
+                "Transfert en bateau",
+                "Déjeuner",
+                "Boissons",
+                "Équipement non inclus (€ 15/jour)"
+              ]
             }
           },
           {
@@ -825,7 +1246,6 @@
             "name": {
               "de": "5 Tage - 10 Tauchgänge",
               "ru": "5 дней - 10 погружений",
-              "ar": "5 أيام - 10 غوصات",
               "en": "5 Days - 10 dives",
               "fr": "5 jours - 10 plongées"
             },
@@ -835,23 +1255,48 @@
             "shortDescription": {
               "de": "Fünf Tage intensives Tauchen - perfekt für Tauchbegeisterte",
               "ru": "Пять дней интенсивного дайвинга - идеально для энтузиастов",
-              "ar": "خمسة أيام من الغوص المكثف - مثالي لعشاق الغوص",
               "en": "Five days of intensive diving - perfect for diving enthusiasts",
               "fr": "Cinq jours de plongée intensive - parfait pour les passionnés de plongée"
             },
             "fullDescription": {
               "de": "Unser 5-Tages-Paket ist perfekt für alle, die eine Woche voller Tauchabenteuer erleben möchten. Zehn Tauchgänge an den besten Tauchplätzen Hurghadas.",
               "ru": "Наш 5-дневный пакет идеально подходит для всех, кто хочет провести неделю полную приключений дайвинга. Десять погружений на лучших местах Хургады.",
-              "ar": "باقة الخمسة أيام لدينا مثالية لأولئك الذين يريدون قضاء أسبوع كامل من مغامرات الغوص. عشر غطسات في أفضل مواقع الغوص في الغردقة.",
               "en": "Our 5-day package is perfect for anyone who wants to experience a week full of diving adventures. Ten dives at Hurghada's best dive sites.",
               "fr": "Notre forfait 5 jours est parfait pour tous ceux qui veulent vivre une semaine pleine d'aventures de plongée. Dix plongées sur les meilleurs sites de plongée de Hurghada."
             },
             "includes": {
-              "de": ["10 Tauchgänge", "Tauchlehrer", "Bootstransfer", "Mittagessen", "Getränke", "Ausrüstung nicht enthalten (€ 15/Tag)"],
-              "ru": ["10 погружений", "Инструктор", "Трансфер на лодке", "Обед", "Напитки", "Снаряжение не включено (€ 15/день)"],
-              "ar": ["10 غطسات", "مدرب غوص", "نقل بالقارب", "غداء", "مشروبات", "المعدات غير مشمولة (15 يورو/يوم)"],
-              "en": ["10 dives", "Dive instructor", "Boat transfer", "Lunch", "Drinks", "Equipment not included (€ 15/day)"],
-              "fr": ["10 plongées", "Instructeur de plongée", "Transfert en bateau", "Déjeuner", "Boissons", "Équipement non inclus (€ 15/jour)"]
+              "de": [
+                "10 Tauchgänge",
+                "Tauchlehrer",
+                "Bootstransfer",
+                "Mittagessen",
+                "Getränke",
+                "Ausrüstung nicht enthalten (€ 15/Tag)"
+              ],
+              "ru": [
+                "10 погружений",
+                "Инструктор",
+                "Трансфер на лодке",
+                "Обед",
+                "Напитки",
+                "Снаряжение не включено (€ 15/день)"
+              ],
+              "en": [
+                "10 dives",
+                "Dive instructor",
+                "Boat transfer",
+                "Lunch",
+                "Drinks",
+                "Equipment not included (€ 15/day)"
+              ],
+              "fr": [
+                "10 plongées",
+                "Instructeur de plongée",
+                "Transfert en bateau",
+                "Déjeuner",
+                "Boissons",
+                "Équipement non inclus (€ 15/jour)"
+              ]
             }
           },
           {
@@ -859,7 +1304,6 @@
             "name": {
               "de": "6 Tage - 12 Tauchgänge",
               "ru": "6 дней - 12 погружений",
-              "ar": "6 أيام - 12 غوصة",
               "en": "6 Days - 12 dives",
               "fr": "6 jours - 12 plongées"
             },
@@ -869,23 +1313,48 @@
             "shortDescription": {
               "de": "Sechs Tage voller Tauchabenteuer im Roten Meer",
               "ru": "Шесть дней полных приключений дайвинга в Красном море",
-              "ar": "ستة أيام من مغامرات الغوص في البحر الأحمر",
               "en": "Six days full of diving adventures in the Red Sea",
               "fr": "Six jours pleins d'aventures de plongée en mer Rouge"
             },
             "fullDescription": {
               "de": "Unser 6-Tages-Paket bietet zwölf Tauchgänge an verschiedenen Tauchplätzen. Perfekt für Taucher, die eine längere Tauchreise planen.",
               "ru": "Наш 6-дневный пакет предлагает двенадцать погружений на различных местах. Идеально подходит для дайверов, которые планируют более длительную поездку для дайвинга.",
-              "ar": "باقة الستة أيام لدينا تقدم اثنتي عشرة غطسة في مواقع مختلفة. مثالية للغواصين الذين يخططون لرحلة غوص أطول.",
               "en": "Our 6-day package offers twelve dives at various dive sites. Perfect for divers planning a longer diving trip.",
               "fr": "Notre forfait 6 jours offre douze plongées sur différents sites. Parfait pour les plongeurs qui planifient un voyage de plongée plus long."
             },
             "includes": {
-              "de": ["12 Tauchgänge", "Tauchlehrer", "Bootstransfer", "Mittagessen", "Getränke", "Ausrüstung nicht enthalten (€ 15/Tag)"],
-              "ru": ["12 погружений", "Инструктор", "Трансфер на лодке", "Обед", "Напитки", "Снаряжение не включено (€ 15/день)"],
-              "ar": ["12 غطسة", "مدرب غوص", "نقل بالقارب", "غداء", "مشروبات", "المعدات غير مشمولة (15 يورو/يوم)"],
-              "en": ["12 dives", "Dive instructor", "Boat transfer", "Lunch", "Drinks", "Equipment not included (€ 15/day)"],
-              "fr": ["12 plongées", "Instructeur de plongée", "Transfert en bateau", "Déjeuner", "Boissons", "Équipement non inclus (€ 15/jour)"]
+              "de": [
+                "12 Tauchgänge",
+                "Tauchlehrer",
+                "Bootstransfer",
+                "Mittagessen",
+                "Getränke",
+                "Ausrüstung nicht enthalten (€ 15/Tag)"
+              ],
+              "ru": [
+                "12 погружений",
+                "Инструктор",
+                "Трансфер на лодке",
+                "Обед",
+                "Напитки",
+                "Снаряжение не включено (€ 15/день)"
+              ],
+              "en": [
+                "12 dives",
+                "Dive instructor",
+                "Boat transfer",
+                "Lunch",
+                "Drinks",
+                "Equipment not included (€ 15/day)"
+              ],
+              "fr": [
+                "12 plongées",
+                "Instructeur de plongée",
+                "Transfert en bateau",
+                "Déjeuner",
+                "Boissons",
+                "Équipement non inclus (€ 15/jour)"
+              ]
             }
           },
           {
@@ -893,7 +1362,6 @@
             "name": {
               "de": "7 Tage - 14 Tauchgänge",
               "ru": "7 дней - 14 погружений",
-              "ar": "7 أيام - 14 غوصة",
               "en": "7 Days - 14 dives",
               "fr": "7 jours - 14 plongées"
             },
@@ -903,23 +1371,48 @@
             "shortDescription": {
               "de": "Eine ganze Woche voller Tauchabenteuer",
               "ru": "Целая неделя полных приключений дайвинга",
-              "ar": "أسبوع كامل من مغامرات الغوص",
               "en": "A whole week full of diving adventures",
               "fr": "Une semaine entière pleine d'aventures de plongée"
             },
             "fullDescription": {
               "de": "Unser 7-Tages-Paket ist ideal für eine komplette Tauchwoche. Vierzehn Tauchgänge an den besten Tauchplätzen des Roten Meeres.",
               "ru": "Наш 7-дневный пакет идеален для полной недели дайвинга. Четырнадцать погружений на лучших местах Красного моря.",
-              "ar": "باقة السبعة أيام لدينا مثالية لأسبوع غوص كامل. أربع عشرة غطسة في أفضل مواقع البحر الأحمر.",
               "en": "Our 7-day package is ideal for a complete diving week. Fourteen dives at the Red Sea's best dive sites.",
               "fr": "Notre forfait 7 jours est idéal pour une semaine complète de plongée. Quatorze plongées sur les meilleurs sites de plongée de la mer Rouge."
             },
             "includes": {
-              "de": ["14 Tauchgänge", "Tauchlehrer", "Bootstransfer", "Mittagessen", "Getränke", "Ausrüstung nicht enthalten (€ 15/Tag)"],
-              "ru": ["14 погружений", "Инструктор", "Трансфер на лодке", "Обед", "Напитки", "Снаряжение не включено (€ 15/день)"],
-              "ar": ["14 غطسة", "مدرب غوص", "نقل بالقارب", "غداء", "مشروبات", "المعدات غير مشمولة (15 يورو/يوم)"],
-              "en": ["14 dives", "Dive instructor", "Boat transfer", "Lunch", "Drinks", "Equipment not included (€ 15/day)"],
-              "fr": ["14 plongées", "Instructeur de plongée", "Transfert en bateau", "Déjeuner", "Boissons", "Équipement non inclus (€ 15/jour)"]
+              "de": [
+                "14 Tauchgänge",
+                "Tauchlehrer",
+                "Bootstransfer",
+                "Mittagessen",
+                "Getränke",
+                "Ausrüstung nicht enthalten (€ 15/Tag)"
+              ],
+              "ru": [
+                "14 погружений",
+                "Инструктор",
+                "Трансфер на лодке",
+                "Обед",
+                "Напитки",
+                "Снаряжение не включено (€ 15/день)"
+              ],
+              "en": [
+                "14 dives",
+                "Dive instructor",
+                "Boat transfer",
+                "Lunch",
+                "Drinks",
+                "Equipment not included (€ 15/day)"
+              ],
+              "fr": [
+                "14 plongées",
+                "Instructeur de plongée",
+                "Transfert en bateau",
+                "Déjeuner",
+                "Boissons",
+                "Équipement non inclus (€ 15/jour)"
+              ]
             }
           },
           {
@@ -927,7 +1420,6 @@
             "name": {
               "de": "8 Tage - 16 Tauchgänge",
               "ru": "8 дней - 16 погружений",
-              "ar": "8 أيام - 16 غوصة",
               "en": "8 Days - 16 dives",
               "fr": "8 jours - 16 plongées"
             },
@@ -937,23 +1429,48 @@
             "shortDescription": {
               "de": "Acht Tage intensives Tauchen für echte Profis",
               "ru": "Восемь дней интенсивного дайвинга для настоящих профессионалов",
-              "ar": "ثمانية أيام من الغوص المكثف للمحترفين الحقيقيين",
               "en": "Eight days of intensive diving for true professionals",
               "fr": "Huit jours de plongée intensive pour les vrais professionnels"
             },
             "fullDescription": {
               "de": "Unser 8-Tages-Paket bietet sechzehn Tauchgänge für erfahrene Taucher, die das Beste aus ihrem Urlaub herausholen möchten.",
               "ru": "Наш 8-дневный пакет предлагает шестнадцать погружений для опытных дайверов, которые хотят получить максимум от своего отпуска.",
-              "ar": "باقة الثمانية أيام لدينا تقدم ست عشرة غطسة للغواصين ذوي الخبرة الذين يريدون الاستفادة القصوى من إجازتهم.",
               "en": "Our 8-day package offers sixteen dives for experienced divers who want to get the most out of their vacation.",
               "fr": "Notre forfait 8 jours offre seize plongées pour les plongeurs expérimentés qui veulent tirer le meilleur parti de leurs vacances."
             },
             "includes": {
-              "de": ["16 Tauchgänge", "Tauchlehrer", "Bootstransfer", "Mittagessen", "Getränke", "Ausrüstung nicht enthalten (€ 15/Tag)"],
-              "ru": ["16 погружений", "Инструктор", "Трансфер на лодке", "Обед", "Напитки", "Снаряжение не включено (€ 15/день)"],
-              "ar": ["16 غطسة", "مدرب غوص", "نقل بالقارب", "غداء", "مشروبات", "المعدات غير مشمولة (15 يورو/يوم)"],
-              "en": ["16 dives", "Dive instructor", "Boat transfer", "Lunch", "Drinks", "Equipment not included (€ 15/day)"],
-              "fr": ["16 plongées", "Instructeur de plongée", "Transfert en bateau", "Déjeuner", "Boissons", "Équipement non inclus (€ 15/jour)"]
+              "de": [
+                "16 Tauchgänge",
+                "Tauchlehrer",
+                "Bootstransfer",
+                "Mittagessen",
+                "Getränke",
+                "Ausrüstung nicht enthalten (€ 15/Tag)"
+              ],
+              "ru": [
+                "16 погружений",
+                "Инструктор",
+                "Трансфер на лодке",
+                "Обед",
+                "Напитки",
+                "Снаряжение не включено (€ 15/день)"
+              ],
+              "en": [
+                "16 dives",
+                "Dive instructor",
+                "Boat transfer",
+                "Lunch",
+                "Drinks",
+                "Equipment not included (€ 15/day)"
+              ],
+              "fr": [
+                "16 plongées",
+                "Instructeur de plongée",
+                "Transfert en bateau",
+                "Déjeuner",
+                "Boissons",
+                "Équipement non inclus (€ 15/jour)"
+              ]
             }
           },
           {
@@ -961,7 +1478,6 @@
             "name": {
               "de": "9 Tage - 18 Tauchgänge",
               "ru": "9 дней - 18 погружений",
-              "ar": "9 أيام - 18 غوصة",
               "en": "9 Days - 18 dives",
               "fr": "9 jours - 18 plongées"
             },
@@ -971,23 +1487,48 @@
             "shortDescription": {
               "de": "Neun Tage voller Tauchabenteuer - das ultimative Paket",
               "ru": "Девять дней полных приключений дайвинга - ультимативный пакет",
-              "ar": "تسعة أيام من مغامرات الغوص - الباقة المثالية",
               "en": "Nine days full of diving adventures - the ultimate package",
               "fr": "Neuf jours pleins d'aventures de plongée - le forfait ultime"
             },
             "fullDescription": {
               "de": "Unser 9-Tages-Paket ist das ultimative Tauchabenteuer. Achtzehn Tauchgänge an den besten Tauchplätzen des Roten Meeres.",
               "ru": "Наш 9-дневный пакет - это ультимативное приключение дайвинга. Восемнадцать погружений на лучших местах Красного моря.",
-              "ar": "باقة التسعة أيام لدينا هي مغامرة الغوص المثالية. ثماني عشرة غطسة في أفضل مواقع البحر الأحمر.",
               "en": "Our 9-day package is the ultimate diving adventure. Eighteen dives at the Red Sea's best dive sites.",
               "fr": "Notre forfait 9 jours est l'aventure de plongée ultime. Dix-huit plongées sur les meilleurs sites de plongée de la mer Rouge."
             },
             "includes": {
-              "de": ["18 Tauchgänge", "Tauchlehrer", "Bootstransfer", "Mittagessen", "Getränke", "Ausrüstung nicht enthalten (€ 15/Tag)"],
-              "ru": ["18 погружений", "Инструктор", "Трансфер на лодке", "Обед", "Напитки", "Снаряжение не включено (€ 15/день)"],
-              "ar": ["18 غطسة", "مدرب غوص", "نقل بالقارب", "غداء", "مشروبات", "المعدات غير مشمولة (15 يورو/يوم)"],
-              "en": ["18 dives", "Dive instructor", "Boat transfer", "Lunch", "Drinks", "Equipment not included (€ 15/day)"],
-              "fr": ["18 plongées", "Instructeur de plongée", "Transfert en bateau", "Déjeuner", "Boissons", "Équipement non inclus (€ 15/jour)"]
+              "de": [
+                "18 Tauchgänge",
+                "Tauchlehrer",
+                "Bootstransfer",
+                "Mittagessen",
+                "Getränke",
+                "Ausrüstung nicht enthalten (€ 15/Tag)"
+              ],
+              "ru": [
+                "18 погружений",
+                "Инструктор",
+                "Трансфер на лодке",
+                "Обед",
+                "Напитки",
+                "Снаряжение не включено (€ 15/день)"
+              ],
+              "en": [
+                "18 dives",
+                "Dive instructor",
+                "Boat transfer",
+                "Lunch",
+                "Drinks",
+                "Equipment not included (€ 15/day)"
+              ],
+              "fr": [
+                "18 plongées",
+                "Instructeur de plongée",
+                "Transfert en bateau",
+                "Déjeuner",
+                "Boissons",
+                "Équipement non inclus (€ 15/jour)"
+              ]
             }
           },
           {
@@ -995,7 +1536,6 @@
             "name": {
               "de": "10 Tage - 20 Tauchgänge",
               "ru": "10 дней - 20 погружений",
-              "ar": "10 أيام - 20 غوصة",
               "en": "10 Days - 20 dives",
               "fr": "10 jours - 20 plongées"
             },
@@ -1005,39 +1545,78 @@
             "shortDescription": {
               "de": "Zehn Tage - das komplette Tauchabenteuer",
               "ru": "Десять дней - полное приключение дайвинга",
-              "ar": "عشرة أيام - مغامرة الغوص الكاملة",
               "en": "Ten days - the complete diving adventure",
               "fr": "Dix jours - l'aventure de plongée complète"
             },
             "fullDescription": {
               "de": "Unser 10-Tages-Paket ist das umfassendste Tauchabenteuer. Zwanzig Tauchgänge an den besten Tauchplätzen des Roten Meeres. Perfekt für Taucher, die eine komplette Tauchwoche erleben möchten.",
               "ru": "Наш 10-дневный пакет - это самое полное приключение дайвинга. Двадцать погружений на лучших местах Красного моря. Идеально подходит для дайверов, которые хотят испытать полную неделю дайвинга.",
-              "ar": "باقة العشرة أيام لدينا هي مغامرة الغوص الأكثر شمولاً. عشرون غطسة في أفضل مواقع البحر الأحمر. مثالية للغواصين الذين يريدون تجربة أسبوع غوص كامل.",
               "en": "Our 10-day package is the most comprehensive diving adventure. Twenty dives at the Red Sea's best dive sites. Perfect for divers who want to experience a complete diving week.",
               "fr": "Notre forfait 10 jours est l'aventure de plongée la plus complète. Vingt plongées sur les meilleurs sites de plongée de la mer Rouge. Parfait pour les plongeurs qui veulent vivre une semaine complète de plongée."
             },
             "includes": {
-              "de": ["20 Tauchgänge", "Tauchlehrer", "Bootstransfer", "Mittagessen", "Getränke", "Ausrüstung nicht enthalten (€ 15/Tag)"],
-              "ru": ["20 погружений", "Инструктор", "Трансфер на лодке", "Обед", "Напитки", "Снаряжение не включено (€ 15/день)"],
-              "ar": ["20 غطسة", "مدرب غوص", "نقل بالقارب", "غداء", "مشروبات", "المعدات غير مشمولة (15 يورو/يوم)"],
-              "en": ["20 dives", "Dive instructor", "Boat transfer", "Lunch", "Drinks", "Equipment not included (€ 15/day)"],
-              "fr": ["20 plongées", "Instructeur de plongée", "Transfert en bateau", "Déjeuner", "Boissons", "Équipement non inclus (€ 15/jour)"]
+              "de": [
+                "20 Tauchgänge",
+                "Tauchlehrer",
+                "Bootstransfer",
+                "Mittagessen",
+                "Getränke",
+                "Ausrüstung nicht enthalten (€ 15/Tag)"
+              ],
+              "ru": [
+                "20 погружений",
+                "Инструктор",
+                "Трансфер на лодке",
+                "Обед",
+                "Напитки",
+                "Снаряжение не включено (€ 15/день)"
+              ],
+              "en": [
+                "20 dives",
+                "Dive instructor",
+                "Boat transfer",
+                "Lunch",
+                "Drinks",
+                "Equipment not included (€ 15/day)"
+              ],
+              "fr": [
+                "20 plongées",
+                "Instructeur de plongée",
+                "Transfert en bateau",
+                "Déjeuner",
+                "Boissons",
+                "Équipement non inclus (€ 15/jour)"
+              ]
             }
           }
         ],
         "additionalInfo": {
-          "de": ["Tauchausrüstung Miete: € 15 pro Tag", "Schnorcheltour / Nicht-Taucher: 25€", "Transfer: Für Hotels in Hurghada ist der Transfer vom/zum Hotel kostenlos. Für Hotels in Makadi Bay, Sahl Hasheesh und El Gouna beträgt der Transfer vom/zum Hotel einen Aufpreis von € 20 pro Tag."],
-          "ru": ["Аренда снаряжения для дайвинга: € 15 в день", "Снорклинг-тур / Не дайверы: 25€", "Трансфер: Для отелей в Хургаде трансфер от/до отеля бесплатный. Для отелей в Макади Бэй, Сахль Хашиш и Эль Гуна трансфер от/до отеля стоит дополнительно € 20 в день."],
-          "ar": ["إيجار معدات الغوص: 15 يورو في اليوم", "رحلة الغطس / غير الغواصين: 25 يورو", "النقل: للفنادق داخل الغردقة، النقل من/إلى الفندق مجاني. للفنادق في مكادي باي، سهل حشيش والجونة، النقل من/إلى الفندق مقابل رسوم إضافية قدرها 20 يورو في اليوم."],
-          "en": ["Dive equipment rental: € 15 per day", "Snorkeling Trip / Non Divers: 25€", "Transfer: For hotels inside Hurghada, Transfer from/to Hotel is free of charge. For Hotels in Makadi Bay, Sahl Hasheesh and El Gouna, Transfer from /To Hotel is for a surcharge of € 20 per day."],
-          "fr": ["Location d'équipement de plongée: € 15 par jour", "Excursion snorkeling / Non plongeurs: 25€", "Transfert: Pour les hôtels à Hurghada, le transfert depuis/vers l'hôtel est gratuit. Pour les hôtels à Makadi Bay, Sahl Hasheesh et El Gouna, le transfert depuis/vers l'hôtel coûte un supplément de € 20 par jour."]
+          "de": [
+            "Tauchausrüstung Miete: € 15 pro Tag",
+            "Schnorcheltour / Nicht-Taucher: 25€",
+            "Transfer: Für Hotels in Hurghada ist der Transfer vom/zum Hotel kostenlos. Für Hotels in Makadi Bay, Sahl Hasheesh und El Gouna beträgt der Transfer vom/zum Hotel einen Aufpreis von € 20 pro Tag."
+          ],
+          "ru": [
+            "Аренда снаряжения для дайвинга: € 15 в день",
+            "Снорклинг-тур / Не дайверы: 25€",
+            "Трансфер: Для отелей в Хургаде трансфер от/до отеля бесплатный. Для отелей в Макади Бэй, Сахль Хашиш и Эль Гуна трансфер от/до отеля стоит дополнительно € 20 в день."
+          ],
+          "en": [
+            "Dive equipment rental: € 15 per day",
+            "Snorkeling Trip / Non Divers: 25€",
+            "Transfer: For hotels inside Hurghada, Transfer from/to Hotel is free of charge. For Hotels in Makadi Bay, Sahl Hasheesh and El Gouna, Transfer from /To Hotel is for a surcharge of € 20 per day."
+          ],
+          "fr": [
+            "Location d'équipement de plongée: € 15 par jour",
+            "Excursion snorkeling / Non plongeurs: 25€",
+            "Transfert: Pour les hôtels à Hurghada, le transfert depuis/vers l'hôtel est gratuit. Pour les hôtels à Makadi Bay, Sahl Hasheesh et El Gouna, le transfert depuis/vers l'hôtel coûte un supplément de € 20 par jour."
+          ]
         }
       },
       "padi": {
         "title": {
           "de": "Tauchkurse",
           "ru": "Курсы PADI",
-          "ar": "دورات الغوص",
           "en": "Diving Courses",
           "fr": "Cours de plongée"
         },
@@ -1047,7 +1626,6 @@
             "name": {
               "de": "Scuba Diver",
               "ru": "Дайвер с аквалангом",
-              "ar": "Scuba Diver",
               "en": "Scuba Diver",
               "fr": "Scuba Diver"
             },
@@ -1057,23 +1635,40 @@
             "shortDescription": {
               "de": "Ihr erster Schritt ins Tauchen - perfekt für Anfänger",
               "ru": "Ваш первый шаг в дайвинг - идеально для начинающих",
-              "ar": "خطوتك الأولى في الغوص - مثالي للمبتدئين",
               "en": "Your first step into diving - perfect for beginners",
               "fr": "Votre premier pas dans la plongée - parfait pour les débutants"
             },
             "fullDescription": {
               "de": "Der Scuba Diver Kurs ist ein Teil des Open Water Diver Kurses und ideal für alle, die das Tauchen in kürzerer Zeit erlernen möchten. Sie lernen die Grundlagen des Tauchens und können bis zu 12 Meter tief tauchen.",
               "ru": "Курс Scuba Diver является частью курса Open Water Diver и идеально подходит для всех, кто хочет научиться дайвингу за более короткое время. Вы изучите основы дайвинга и сможете нырять до 12 метров.",
-              "ar": "دورة Scuba Diver هي جزء من دورة Open Water Diver ومثالية لأولئك الذين يريدون تعلم الغوص في وقت أقصر. ستتعلم أساسيات الغوص ويمكنك الغوص حتى 12 مترًا.",
               "en": "The Scuba Diver course is part of the Open Water Diver course and ideal for anyone who wants to learn diving in a shorter time. You'll learn the basics of diving and can dive up to 12 meters deep.",
               "fr": "Le cours Scuba Diver fait partie du cours Open Water Diver et est idéal pour tous ceux qui veulent apprendre la plongée en moins de temps. Vous apprendrez les bases de la plongée et pourrez plonger jusqu'à 12 mètres de profondeur."
             },
             "includes": {
-              "de": ["3 Tauchgänge", "PADI Zertifizierung", "Komplette Ausrüstung", "Tauchlehrer"],
-              "ru": ["3 погружения", "Сертификация PADI", "Полное снаряжение", "Инструктор"],
-              "ar": ["3 غطسات", "شهادة PADI", "معدات كاملة", "مدرب غوص"],
-              "en": ["3 dives", "PADI Certification", "Complete Equipment", "Dive Instructor"],
-              "fr": ["3 plongées", "Certification PADI", "Équipement complet", "Instructeur de plongée"]
+              "de": [
+                "3 Tauchgänge",
+                "PADI Zertifizierung",
+                "Komplette Ausrüstung",
+                "Tauchlehrer"
+              ],
+              "ru": [
+                "3 погружения",
+                "Сертификация PADI",
+                "Полное снаряжение",
+                "Инструктор"
+              ],
+              "en": [
+                "3 dives",
+                "PADI Certification",
+                "Complete Equipment",
+                "Dive Instructor"
+              ],
+              "fr": [
+                "3 plongées",
+                "Certification PADI",
+                "Équipement complet",
+                "Instructeur de plongée"
+              ]
             }
           },
           {
@@ -1081,7 +1676,6 @@
             "name": {
               "de": "Open Water Diver (OWD)",
               "ru": "Дайвер открытой воды (OWD)",
-              "ar": "Open Water Diver (OWD)",
               "en": "Open Water Diver (OWD)",
               "fr": "Open Water Diver (OWD)"
             },
@@ -1091,23 +1685,44 @@
             "shortDescription": {
               "de": "Ihr erster PADI-Zertifizierungskurs - der Einstieg in die Welt des Tauchens",
               "ru": "Ваш первый сертификационный курс PADI - вход в мир дайвинга",
-              "ar": "دورتك الأولى للحصول على شهادة PADI - مدخل إلى عالم الغوص",
               "en": "Your first PADI certification course - the entry into the world of diving",
               "fr": "Votre premier cours de certification PADI - l'entrée dans le monde de la plongée"
             },
             "fullDescription": {
               "de": "Der Open Water Diver ist der weltweit beliebteste Tauchkurs. Millionen von Menschen haben mit diesem Kurs das Tauchen gelernt. Sie lernen die Grundlagen des Tauchens, einschließlich Tauchausrüstung, Tauchtechniken und Sicherheitsverfahren. Der Kurs umfasst Theorie, Pool-Training und vier Freiwassertauchgänge.",
               "ru": "Open Water Diver - самый популярный курс дайвинга в мире. Миллионы людей научились дайвингу с этим курсом. Вы изучите основы дайвинга, включая снаряжение, технику погружения и процедуры безопасности. Курс включает теорию, тренировки в бассейне и четыре погружения в открытой воде.",
-              "ar": "Open Water Diver هو دورة الغوص الأكثر شعبية في العالم. تعلم الملايين من الناس الغوص بهذه الدورة. ستتعلم أساسيات الغوص، بما في ذلك معدات الغوص، وتقنيات الغوص، وإجراءات السلامة. تتضمن الدورة النظرية، والتدريب في المسبح، وأربع غطسات في المياه المفتوحة.",
               "en": "The Open Water Diver is the world's most popular scuba diving course. Millions of people have learned to dive with this course. You'll learn the fundamentals of scuba diving, including dive equipment, dive techniques, and safety procedures. The course includes theory, pool training, and four open water dives.",
               "fr": "L'Open Water Diver est le cours de plongée le plus populaire au monde. Des millions de personnes ont appris à plonger avec ce cours. Vous apprendrez les fondamentaux de la plongée, y compris l'équipement, les techniques de plongée et les procédures de sécurité. Le cours comprend la théorie, l'entraînement en piscine et quatre plongées en eau libre."
             },
             "includes": {
-              "de": ["PADI Manual", "PADI Zertifizierung", "4 Freiwassertauchgänge", "Komplette Ausrüstung", "Tauchlehrer"],
-              "ru": ["Руководство PADI", "Сертификация PADI", "4 погружения в открытой воде", "Полное снаряжение", "Инструктор"],
-              "ar": ["دليل PADI", "شهادة PADI", "4 غطسات في المياه المفتوحة", "معدات كاملة", "مدرب غوص"],
-              "en": ["PADI Manual", "PADI Certification", "4 Open Water Dives", "Complete Equipment", "Dive Instructor"],
-              "fr": ["Manuel PADI", "Certification PADI", "4 plongées en eau libre", "Équipement complet", "Instructeur de plongée"]
+              "de": [
+                "PADI Manual",
+                "PADI Zertifizierung",
+                "4 Freiwassertauchgänge",
+                "Komplette Ausrüstung",
+                "Tauchlehrer"
+              ],
+              "ru": [
+                "Руководство PADI",
+                "Сертификация PADI",
+                "4 погружения в открытой воде",
+                "Полное снаряжение",
+                "Инструктор"
+              ],
+              "en": [
+                "PADI Manual",
+                "PADI Certification",
+                "4 Open Water Dives",
+                "Complete Equipment",
+                "Dive Instructor"
+              ],
+              "fr": [
+                "Manuel PADI",
+                "Certification PADI",
+                "4 plongées en eau libre",
+                "Équipement complet",
+                "Instructeur de plongée"
+              ]
             }
           },
           {
@@ -1115,7 +1730,6 @@
             "name": {
               "de": "Advanced Open Water Diver (AOWD)",
               "ru": "Продвинутый дайвер открытой воды (AOWD)",
-              "ar": "Advanced Open Water Diver (AOWD)",
               "en": "Advanced Open Water Diver (AOWD)",
               "fr": "Advanced Open Water Diver (AOWD)"
             },
@@ -1125,23 +1739,40 @@
             "shortDescription": {
               "de": "Erweitern Sie Ihre Tauchfähigkeiten mit fünf Spezialtauchgängen",
               "ru": "Расширьте свои навыки дайвинга пятью специализированными погружениями",
-              "ar": "طور مهاراتك في الغوص بخمس غطسات متخصصة",
               "en": "Expand your diving skills with five specialty dives",
               "fr": "Développez vos compétences de plongée avec cinq plongées spécialisées"
             },
             "fullDescription": {
               "de": "Der Advanced Open Water Diver Kurs hilft Ihnen, mehr Selbstvertrauen zu entwickeln und Ihre Tauchfähigkeiten zu erweitern. Sie absolvieren fünf Abenteuer-Tauchgänge: Tieftauchen, Navigation und drei weitere Ihrer Wahl. Dieser Kurs ist perfekt für Taucher, die mehr Erfahrung sammeln möchten.",
               "ru": "Курс Advanced Open Water Diver поможет вам развить больше уверенности и расширить свои навыки дайвинга. Вы выполните пять приключенческих погружений: глубоководное погружение, навигация и три других на ваш выбор. Этот курс идеально подходит для дайверов, которые хотят получить больше опыта.",
-              "ar": "دورة Advanced Open Water Diver تساعدك على تطوير المزيد من الثقة وتوسيع مهاراتك في الغوص. ستقوم بخمس غطسات مغامرة: الغوص العميق، والملاحة، وثلاثة أخرى من اختيارك. هذه الدورة مثالية للغواصين الذين يريدون اكتساب المزيد من الخبرة.",
               "en": "The Advanced Open Water Diver course helps you develop more confidence and expand your diving skills. You'll complete five adventure dives: Deep Diving, Navigation, and three others of your choice. This course is perfect for divers who want to gain more experience.",
               "fr": "Le cours Advanced Open Water Diver vous aide à développer plus de confiance et à élargir vos compétences de plongée. Vous effectuerez cinq plongées d'aventure : plongée profonde, navigation et trois autres de votre choix. Ce cours est parfait pour les plongeurs qui veulent acquérir plus d'expérience."
             },
             "includes": {
-              "de": ["5 Abenteuer-Tauchgänge", "PADI Zertifizierung", "Komplette Ausrüstung", "Tauchlehrer"],
-              "ru": ["5 приключенческих погружений", "Сертификация PADI", "Полное снаряжение", "Инструктор"],
-              "ar": ["5 غطسات مغامرة", "شهادة PADI", "معدات كاملة", "مدرب غوص"],
-              "en": ["5 Adventure Dives", "PADI Certification", "Complete Equipment", "Dive Instructor"],
-              "fr": ["5 plongées d'aventure", "Certification PADI", "Équipement complet", "Instructeur de plongée"]
+              "de": [
+                "5 Abenteuer-Tauchgänge",
+                "PADI Zertifizierung",
+                "Komplette Ausrüstung",
+                "Tauchlehrer"
+              ],
+              "ru": [
+                "5 приключенческих погружений",
+                "Сертификация PADI",
+                "Полное снаряжение",
+                "Инструктор"
+              ],
+              "en": [
+                "5 Adventure Dives",
+                "PADI Certification",
+                "Complete Equipment",
+                "Dive Instructor"
+              ],
+              "fr": [
+                "5 plongées d'aventure",
+                "Certification PADI",
+                "Équipement complet",
+                "Instructeur de plongée"
+              ]
             }
           },
           {
@@ -1149,7 +1780,6 @@
             "name": {
               "de": "Rescue Diver",
               "ru": "Спасатель-дайвер",
-              "ar": "Rescue Diver",
               "en": "Rescue Diver",
               "fr": "Rescue Diver"
             },
@@ -1159,23 +1789,44 @@
             "shortDescription": {
               "de": "Lernen Sie, Tauchunfälle zu verhindern und zu managen",
               "ru": "Научитесь предотвращать и управлять несчастными случаями при дайвинге",
-              "ar": "تعلم منع وإدارة حوادث الغوص",
               "en": "Learn to prevent and manage diving accidents",
               "fr": "Apprenez à prévenir et gérer les accidents de plongée"
             },
             "fullDescription": {
               "de": "Der Rescue Diver Kurs ist eine anspruchsvolle und lohnende Erfahrung. Sie lernen, Probleme zu erkennen und zu verhindern und im Notfall zu handeln. Dieser Kurs macht Sie zu einem besseren Tauchpartner und bereitet Sie auf die Divemaster-Ausbildung vor.",
               "ru": "Курс Rescue Diver - это сложный и полезный опыт. Вы научитесь распознавать и предотвращать проблемы, а также действовать в чрезвычайных ситуациях. Этот курс сделает вас лучшим напарником по дайвингу и подготовит вас к обучению Divemaster.",
-              "ar": "دورة Rescue Diver هي تجربة صعبة ومجزية. ستتعلم التعرف على المشاكل ومنعها، والتصرف في حالات الطوارئ. هذه الدورة تجعلك شريك غوص أفضل وتعدك لتدريب Divemaster.",
               "en": "The Rescue Diver course is a challenging and rewarding experience. You'll learn to recognize and prevent problems, and to act in emergency situations. This course makes you a better dive buddy and prepares you for Divemaster training.",
               "fr": "Le cours Rescue Diver est une expérience stimulante et enrichissante. Vous apprendrez à reconnaître et prévenir les problèmes, et à agir en situation d'urgence. Ce cours fait de vous un meilleur compagnon de plongée et vous prépare à la formation Divemaster."
             },
             "includes": {
-              "de": ["4 Rettungstauchgänge", "PADI Zertifizierung", "Komplette Ausrüstung", "Tauchlehrer", "Erste-Hilfe-Training"],
-              "ru": ["4 спасательных погружения", "Сертификация PADI", "Полное снаряжение", "Инструктор", "Обучение первой помощи"],
-              "ar": ["4 غطسات إنقاذ", "شهادة PADI", "معدات كاملة", "مدرب غوص", "تدريب الإسعافات الأولية"],
-              "en": ["4 Rescue Dives", "PADI Certification", "Complete Equipment", "Dive Instructor", "First Aid Training"],
-              "fr": ["4 plongées de sauvetage", "Certification PADI", "Équipement complet", "Instructeur de plongée", "Formation aux premiers secours"]
+              "de": [
+                "4 Rettungstauchgänge",
+                "PADI Zertifizierung",
+                "Komplette Ausrüstung",
+                "Tauchlehrer",
+                "Erste-Hilfe-Training"
+              ],
+              "ru": [
+                "4 спасательных погружения",
+                "Сертификация PADI",
+                "Полное снаряжение",
+                "Инструктор",
+                "Обучение первой помощи"
+              ],
+              "en": [
+                "4 Rescue Dives",
+                "PADI Certification",
+                "Complete Equipment",
+                "Dive Instructor",
+                "First Aid Training"
+              ],
+              "fr": [
+                "4 plongées de sauvetage",
+                "Certification PADI",
+                "Équipement complet",
+                "Instructeur de plongée",
+                "Formation aux premiers secours"
+              ]
             }
           },
           {
@@ -1183,7 +1834,6 @@
             "name": {
               "de": "Emergency First Response & CPR",
               "ru": "Экстренная первая помощь и СЛР",
-              "ar": "Emergency First Response & CPR",
               "en": "Emergency First Response & CPR",
               "fr": "Emergency First Response & CPR"
             },
@@ -1193,23 +1843,40 @@
             "shortDescription": {
               "de": "Erste-Hilfe und Wiederbelebung für Taucher",
               "ru": "Первая помощь и реанимация для дайверов",
-              "ar": "الإسعافات الأولية وإنعاش القلب والرئتين للغواصين",
               "en": "First aid and resuscitation for divers",
               "fr": "Premiers secours et réanimation pour les plongeurs"
             },
             "fullDescription": {
               "de": "Der Emergency First Response Kurs lehrt Sie lebensrettende Fähigkeiten für Notfälle. Sie lernen HLW, Erste-Hilfe-Techniken und wie Sie in Notfallsituationen handeln. Dieser Kurs ist Voraussetzung für den Rescue Diver Kurs.",
               "ru": "Курс Emergency First Response научит вас жизненно важным навыкам для чрезвычайных ситуаций. Вы изучите СЛР, техники первой помощи и как действовать в чрезвычайных ситуациях. Этот курс является предварительным условием для курса Rescue Diver.",
-              "ar": "دورة Emergency First Response تعلمك المهارات المنقذة للحياة في حالات الطوارئ. ستتعلم الإنعاش القلبي الرئوي، وتقنيات الإسعافات الأولية، وكيفية التصرف في حالات الطوارئ. هذه الدورة هي شرط مسبق لدورة Rescue Diver.",
               "en": "The Emergency First Response course teaches you life-saving skills for emergencies. You'll learn CPR, first aid techniques, and how to act in emergency situations. This course is a prerequisite for the Rescue Diver course.",
               "fr": "Le cours Emergency First Response vous apprend des compétences vitales pour les urgences. Vous apprendrez la RCP, les techniques de premiers secours et comment agir en situation d'urgence. Ce cours est un prérequis pour le cours Rescue Diver."
             },
             "includes": {
-              "de": ["EFR Zertifizierung", "HLW Training", "Erste-Hilfe Training", "Material"],
-              "ru": ["Сертификация EFR", "Обучение СЛР", "Обучение первой помощи", "Материалы"],
-              "ar": ["شهادة EFR", "تدريب الإنعاش القلبي الرئوي", "تدريب الإسعافات الأولية", "المواد"],
-              "en": ["EFR Certification", "CPR Training", "First Aid Training", "Materials"],
-              "fr": ["Certification EFR", "Formation RCP", "Formation aux premiers secours", "Matériel"]
+              "de": [
+                "EFR Zertifizierung",
+                "HLW Training",
+                "Erste-Hilfe Training",
+                "Material"
+              ],
+              "ru": [
+                "Сертификация EFR",
+                "Обучение СЛР",
+                "Обучение первой помощи",
+                "Материалы"
+              ],
+              "en": [
+                "EFR Certification",
+                "CPR Training",
+                "First Aid Training",
+                "Materials"
+              ],
+              "fr": [
+                "Certification EFR",
+                "Formation RCP",
+                "Formation aux premiers secours",
+                "Matériel"
+              ]
             }
           },
           {
@@ -1217,7 +1884,6 @@
             "name": {
               "de": "Divemaster",
               "ru": "Мастер-дайвер",
-              "ar": "Divemaster",
               "en": "Divemaster",
               "fr": "Divemaster"
             },
@@ -1227,23 +1893,44 @@
             "shortDescription": {
               "de": "Werden Sie ein professioneller Tauchlehrer",
               "ru": "Станьте профессиональным инструктором по дайвингу",
-              "ar": "كن مدرب غوص محترف",
               "en": "Become a professional dive instructor",
               "fr": "Devenez un instructeur de plongée professionnel"
             },
             "fullDescription": {
               "de": "Der Divemaster Kurs ist der erste professionelle Tauchkurs. Sie lernen, Tauchgänge zu führen, Tauchschüler zu betreuen und Tauchaktivitäten zu organisieren. Dieser Kurs bereitet Sie auf eine Karriere im Tauchsport vor.",
               "ru": "Курс Divemaster - это первый профессиональный курс дайвинга. Вы научитесь проводить погружения, помогать студентам и организовывать дайвинг-активности. Этот курс готовит вас к карьере в дайвинге.",
-              "ar": "دورة Divemaster هي أول دورة غوص احترافية. ستتعلم قيادة الغطسات، ومساعدة طلاب الغوص، وتنظيم أنشطة الغوص. هذه الدورة تعدك لمهنة في الغوص.",
               "en": "The Divemaster course is the first professional diving course. You'll learn to lead dives, assist dive students, and organize diving activities. This course prepares you for a career in diving.",
               "fr": "Le cours Divemaster est le premier cours de plongée professionnel. Vous apprendrez à diriger des plongées, à assister les étudiants en plongée et à organiser des activités de plongée. Ce cours vous prépare à une carrière dans la plongée."
             },
             "includes": {
-              "de": ["PADI Divemaster Zertifizierung", "20 Tauchgänge", "Komplette Ausbildung", "Material", "Tauchlehrer"],
-              "ru": ["Сертификация PADI Divemaster", "20 погружений", "Полное обучение", "Материалы", "Инструктор"],
-              "ar": ["شهادة PADI Divemaster", "20 غطسة", "تدريب كامل", "المواد", "مدرب غوص"],
-              "en": ["PADI Divemaster Certification", "20 dives", "Complete training", "Materials", "Dive Instructor"],
-              "fr": ["Certification PADI Divemaster", "20 plongées", "Formation complète", "Matériel", "Instructeur de plongée"]
+              "de": [
+                "PADI Divemaster Zertifizierung",
+                "20 Tauchgänge",
+                "Komplette Ausbildung",
+                "Material",
+                "Tauchlehrer"
+              ],
+              "ru": [
+                "Сертификация PADI Divemaster",
+                "20 погружений",
+                "Полное обучение",
+                "Материалы",
+                "Инструктор"
+              ],
+              "en": [
+                "PADI Divemaster Certification",
+                "20 dives",
+                "Complete training",
+                "Materials",
+                "Dive Instructor"
+              ],
+              "fr": [
+                "Certification PADI Divemaster",
+                "20 plongées",
+                "Formation complète",
+                "Matériel",
+                "Instructeur de plongée"
+              ]
             }
           }
         ]
@@ -1252,7 +1939,6 @@
         "title": {
           "de": "Spezialkurse",
           "ru": "Специализированные курсы PADI",
-          "ar": "متخصص",
           "en": "Specialty",
           "fr": "Spécialité"
         },
@@ -1262,7 +1948,6 @@
             "name": {
               "de": "Enriched Air (Nitrox)",
               "ru": "Обогащенный воздух (Nitrox)",
-              "ar": "الهواء المخصب (Nitrox)",
               "en": "Enriched Air (Nitrox)",
               "fr": "Air enrichi (Nitrox)"
             },
@@ -1272,23 +1957,40 @@
             "shortDescription": {
               "de": "Lernen Sie, mit Nitrox zu tauchen und längere Nullzeiten zu genießen",
               "ru": "Научитесь нырять с нитроксом и наслаждайтесь более длительными бездекомпрессионными остановками",
-              "ar": "تعلم الغوص بالنيتروكس والاستمتاع بأوقات عدم الضغط الأطول",
               "en": "Learn to dive with Nitrox and enjoy longer no-decompression times",
               "fr": "Apprenez à plonger avec le Nitrox et profitez de temps sans décompression plus longs"
             },
             "fullDescription": {
               "de": "Nitrox ist ein Atemgasgemisch mit einem höheren Sauerstoffgehalt als normale Luft. Dies ermöglicht längere Nullzeiten und kürzere Oberflächenintervalle. Der Kurs umfasst Theorie und zwei Tauchgänge mit Nitrox.",
               "ru": "Нитрокс - это дыхательная смесь с более высоким содержанием кислорода, чем обычный воздух. Это позволяет более длительные бездекомпрессионные остановки и более короткие интервалы на поверхности. Курс включает теорию и два погружения с нитроксом.",
-              "ar": "النيتروكس هو خليط غازي للتنفس يحتوي على نسبة أكسجين أعلى من الهواء العادي. هذا يسمح بأوقات عدم الضغط الأطول وفترات السطح الأقصر. تتضمن الدورة النظرية وغطستين بالنيتروكس.",
               "en": "Nitrox is a breathing gas mixture with a higher oxygen content than normal air. This allows for longer no-decompression times and shorter surface intervals. The course includes theory and two dives with Nitrox.",
               "fr": "Le Nitrox est un mélange de gaz respiratoire avec une teneur en oxygène plus élevée que l'air normal. Cela permet des temps sans décompression plus longs et des intervalles de surface plus courts. Le cours comprend la théorie et deux plongées avec Nitrox."
             },
             "includes": {
-              "de": ["2 Nitrox-Tauchgänge", "PADI Zertifizierung", "Komplette Ausrüstung", "Tauchlehrer"],
-              "ru": ["2 погружения с нитроксом", "Сертификация PADI", "Полное снаряжение", "Инструктор"],
-              "ar": ["غطستان بالنيتروكس", "شهادة PADI", "معدات كاملة", "مدرب غوص"],
-              "en": ["2 Nitrox Dives", "PADI Certification", "Complete Equipment", "Dive Instructor"],
-              "fr": ["2 plongées Nitrox", "Certification PADI", "Équipement complet", "Instructeur de plongée"]
+              "de": [
+                "2 Nitrox-Tauchgänge",
+                "PADI Zertifizierung",
+                "Komplette Ausrüstung",
+                "Tauchlehrer"
+              ],
+              "ru": [
+                "2 погружения с нитроксом",
+                "Сертификация PADI",
+                "Полное снаряжение",
+                "Инструктор"
+              ],
+              "en": [
+                "2 Nitrox Dives",
+                "PADI Certification",
+                "Complete Equipment",
+                "Dive Instructor"
+              ],
+              "fr": [
+                "2 plongées Nitrox",
+                "Certification PADI",
+                "Équipement complet",
+                "Instructeur de plongée"
+              ]
             }
           },
           {
@@ -1296,7 +1998,6 @@
             "name": {
               "de": "Wreck Diver",
               "ru": "Дайвер по затонувшим кораблям",
-              "ar": "غواص حطام",
               "en": "Wreck Diver",
               "fr": "Plongeur d'épaves"
             },
@@ -1306,23 +2007,40 @@
             "shortDescription": {
               "de": "Erkunden Sie versunkene Schiffe und Wracks sicher",
               "ru": "Исследуйте затонувшие корабли и обломки безопасно",
-              "ar": "استكشف السفن الغارقة والحطام بأمان",
               "en": "Explore sunken ships and wrecks safely",
               "fr": "Explorez les navires coulés et les épaves en toute sécurité"
             },
             "fullDescription": {
               "de": "Der Wreck Diver Kurs lehrt Sie, wie man sicher in und um Wracks taucht. Sie lernen Wrackkartierung, Penetrationstechniken und Sicherheitsverfahren. Vier Tauchgänge an verschiedenen Wracks im Roten Meer.",
               "ru": "Курс Wreck Diver научит вас безопасно нырять в затонувшие корабли и вокруг них. Вы изучите картографирование обломков, техники проникновения и процедуры безопасности. Четыре погружения на различных обломках в Красном море.",
-              "ar": "دورة Wreck Diver تعلمك كيفية الغوص بأمان داخل وحول الحطام. ستتعلم رسم خرائط الحطام، وتقنيات الاختراق، وإجراءات السلامة. أربع غطسات في حطام مختلفة في البحر الأحمر.",
               "en": "The Wreck Diver course teaches you how to safely dive in and around wrecks. You'll learn wreck mapping, penetration techniques, and safety procedures. Four dives at different wrecks in the Red Sea.",
               "fr": "Le cours Wreck Diver vous apprend à plonger en toute sécurité dans et autour des épaves. Vous apprendrez la cartographie des épaves, les techniques de pénétration et les procédures de sécurité. Quatre plongées sur différentes épaves en mer Rouge."
             },
             "includes": {
-              "de": ["4 Wrack-Tauchgänge", "PADI Zertifizierung", "Komplette Ausrüstung", "Tauchlehrer"],
-              "ru": ["4 погружения на обломках", "Сертификация PADI", "Полное снаряжение", "Инструктор"],
-              "ar": ["4 غطسات حطام", "شهادة PADI", "معدات كاملة", "مدرب غوص"],
-              "en": ["4 Wreck Dives", "PADI Certification", "Complete Equipment", "Dive Instructor"],
-              "fr": ["4 plongées d'épaves", "Certification PADI", "Équipement complet", "Instructeur de plongée"]
+              "de": [
+                "4 Wrack-Tauchgänge",
+                "PADI Zertifizierung",
+                "Komplette Ausrüstung",
+                "Tauchlehrer"
+              ],
+              "ru": [
+                "4 погружения на обломках",
+                "Сертификация PADI",
+                "Полное снаряжение",
+                "Инструктор"
+              ],
+              "en": [
+                "4 Wreck Dives",
+                "PADI Certification",
+                "Complete Equipment",
+                "Dive Instructor"
+              ],
+              "fr": [
+                "4 plongées d'épaves",
+                "Certification PADI",
+                "Équipement complet",
+                "Instructeur de plongée"
+              ]
             }
           },
           {
@@ -1330,7 +2048,6 @@
             "name": {
               "de": "Deep Diver",
               "ru": "Глубоководный дайвер",
-              "ar": "غواص عميق",
               "en": "Deep Diver",
               "fr": "Plongeur profond"
             },
@@ -1340,23 +2057,40 @@
             "shortDescription": {
               "de": "Tauchen Sie tiefer - bis zu 40 Meter",
               "ru": "Ныряйте глубже - до 40 метров",
-              "ar": "اغطس أعمق - حتى 40 مترًا",
               "en": "Dive deeper - up to 40 meters",
               "fr": "Plongez plus profond - jusqu'à 40 mètres"
             },
             "fullDescription": {
               "de": "Der Deep Diver Kurs ermöglicht es Ihnen, sicher bis zu 40 Meter zu tauchen. Sie lernen Tiefentauchtechniken, Stickstoffnarkose-Management und Sicherheitsverfahren für Tiefentauchgänge.",
               "ru": "Курс Deep Diver позволяет вам безопасно нырять до 40 метров. Вы изучите техники глубоководного погружения, управление азотным наркозом и процедуры безопасности для глубоководных погружений.",
-              "ar": "دورة Deep Diver تسمح لك بالغطس بأمان حتى 40 مترًا. ستتعلم تقنيات الغوص العميق، وإدارة التخدير بالنيتروجين، وإجراءات السلامة للغطسات العميقة.",
               "en": "The Deep Diver course allows you to safely dive to 40 meters. You'll learn deep diving techniques, nitrogen narcosis management, and safety procedures for deep dives.",
               "fr": "Le cours Deep Diver vous permet de plonger en toute sécurité jusqu'à 40 mètres. Vous apprendrez les techniques de plongée profonde, la gestion de la narcose à l'azote et les procédures de sécurité pour les plongées profondes."
             },
             "includes": {
-              "de": ["4 Tiefentauchgänge", "PADI Zertifizierung", "Komplette Ausrüstung", "Tauchlehrer"],
-              "ru": ["4 глубоководных погружения", "Сертификация PADI", "Полное снаряжение", "Инструктор"],
-              "ar": ["4 غطسات عميقة", "شهادة PADI", "معدات كاملة", "مدرب غوص"],
-              "en": ["4 Deep Dives", "PADI Certification", "Complete Equipment", "Dive Instructor"],
-              "fr": ["4 plongées profondes", "Certification PADI", "Équipement complet", "Instructeur de plongée"]
+              "de": [
+                "4 Tiefentauchgänge",
+                "PADI Zertifizierung",
+                "Komplette Ausrüstung",
+                "Tauchlehrer"
+              ],
+              "ru": [
+                "4 глубоководных погружения",
+                "Сертификация PADI",
+                "Полное снаряжение",
+                "Инструктор"
+              ],
+              "en": [
+                "4 Deep Dives",
+                "PADI Certification",
+                "Complete Equipment",
+                "Dive Instructor"
+              ],
+              "fr": [
+                "4 plongées profondes",
+                "Certification PADI",
+                "Équipement complet",
+                "Instructeur de plongée"
+              ]
             }
           },
           {
@@ -1364,7 +2098,6 @@
             "name": {
               "de": "Night Diver",
               "ru": "Ночной дайвер",
-              "ar": "غواص ليلي",
               "en": "Night Diver",
               "fr": "Plongeur de nuit"
             },
@@ -1374,23 +2107,44 @@
             "shortDescription": {
               "de": "Erkunden Sie die Unterwasserwelt bei Nacht",
               "ru": "Исследуйте подводный мир ночью",
-              "ar": "استكشف العالم تحت الماء ليلاً",
               "en": "Explore the underwater world at night",
               "fr": "Explorez le monde sous-marin la nuit"
             },
             "fullDescription": {
               "de": "Der Night Diver Kurs lehrt Sie, sicher bei Nacht zu tauchen. Sie lernen die Verwendung von Taucherlampen, Nachttauchtechniken und wie Sie die einzigartige Unterwasserwelt bei Nacht erleben können.",
               "ru": "Курс Night Diver научит вас безопасно нырять ночью. Вы изучите использование фонарей, техники ночного дайвинга и как испытать уникальный подводный мир ночью.",
-              "ar": "دورة Night Diver تعلمك الغوص بأمان ليلاً. ستتعلم استخدام المصابيح، وتقنيات الغوص الليلي، وكيفية تجربة العالم تحت الماء الفريد ليلاً.",
               "en": "The Night Diver course teaches you to dive safely at night. You'll learn to use dive lights, night diving techniques, and how to experience the unique underwater world at night.",
               "fr": "Le cours Night Diver vous apprend à plonger en toute sécurité la nuit. Vous apprendrez à utiliser les lampes de plongée, les techniques de plongée de nuit et comment découvrir le monde sous-marin unique la nuit."
             },
             "includes": {
-              "de": ["3 Nachttauchgänge", "PADI Zertifizierung", "Taucherlampe", "Komplette Ausrüstung", "Tauchlehrer"],
-              "ru": ["3 ночных погружения", "Сертификация PADI", "Фонарь", "Полное снаряжение", "Инструктор"],
-              "ar": ["3 غطسات ليلية", "شهادة PADI", "مصباح غوص", "معدات كاملة", "مدرب غوص"],
-              "en": ["3 Night Dives", "PADI Certification", "Dive Light", "Complete Equipment", "Dive Instructor"],
-              "fr": ["3 plongées de nuit", "Certification PADI", "Lampe de plongée", "Équipement complet", "Instructeur de plongée"]
+              "de": [
+                "3 Nachttauchgänge",
+                "PADI Zertifizierung",
+                "Taucherlampe",
+                "Komplette Ausrüstung",
+                "Tauchlehrer"
+              ],
+              "ru": [
+                "3 ночных погружения",
+                "Сертификация PADI",
+                "Фонарь",
+                "Полное снаряжение",
+                "Инструктор"
+              ],
+              "en": [
+                "3 Night Dives",
+                "PADI Certification",
+                "Dive Light",
+                "Complete Equipment",
+                "Dive Instructor"
+              ],
+              "fr": [
+                "3 plongées de nuit",
+                "Certification PADI",
+                "Lampe de plongée",
+                "Équipement complet",
+                "Instructeur de plongée"
+              ]
             }
           },
           {
@@ -1398,7 +2152,6 @@
             "name": {
               "de": "Underwater Photography",
               "ru": "Подводная фотография",
-              "ar": "التصوير تحت الماء",
               "en": "Underwater Photography",
               "fr": "Photographie sous-marine"
             },
@@ -1408,23 +2161,40 @@
             "shortDescription": {
               "de": "Lernen Sie, unter Wasser zu fotografieren",
               "ru": "Научитесь фотографировать под водой",
-              "ar": "تعلم التصوير تحت الماء",
               "en": "Learn to photograph underwater",
               "fr": "Apprenez à photographier sous l'eau"
             },
             "fullDescription": {
               "de": "Der Underwater Photography Kurs lehrt Sie, die Schönheit der Unterwasserwelt einzufangen. Sie lernen Kameraeinstellungen, Beleuchtungstechniken und Komposition für Unterwasserfotografie.",
               "ru": "Курс Underwater Photography научит вас запечатлеть красоту подводного мира. Вы изучите настройки камеры, техники освещения и композицию для подводной фотографии.",
-              "ar": "دورة Underwater Photography تعلمك التقاط جمال العالم تحت الماء. ستتعلم إعدادات الكاميرا، وتقنيات الإضاءة، والتكوين للتصوير تحت الماء.",
               "en": "The Underwater Photography course teaches you to capture the beauty of the underwater world. You'll learn camera settings, lighting techniques, and composition for underwater photography.",
               "fr": "Le cours Underwater Photography vous apprend à capturer la beauté du monde sous-marin. Vous apprendrez les réglages de l'appareil photo, les techniques d'éclairage et la composition pour la photographie sous-marine."
             },
             "includes": {
-              "de": ["4 Fotografie-Tauchgänge", "PADI Zertifizierung", "Kamera-Ausrüstung", "Tauchlehrer"],
-              "ru": ["4 погружения для фотографии", "Сертификация PADI", "Фотооборудование", "Инструктор"],
-              "ar": ["4 غطسات تصوير", "شهادة PADI", "معدات الكاميرا", "مدرب غوص"],
-              "en": ["4 Photography Dives", "PADI Certification", "Camera Equipment", "Dive Instructor"],
-              "fr": ["4 plongées photographie", "Certification PADI", "Équipement photo", "Instructeur de plongée"]
+              "de": [
+                "4 Fotografie-Tauchgänge",
+                "PADI Zertifizierung",
+                "Kamera-Ausrüstung",
+                "Tauchlehrer"
+              ],
+              "ru": [
+                "4 погружения для фотографии",
+                "Сертификация PADI",
+                "Фотооборудование",
+                "Инструктор"
+              ],
+              "en": [
+                "4 Photography Dives",
+                "PADI Certification",
+                "Camera Equipment",
+                "Dive Instructor"
+              ],
+              "fr": [
+                "4 plongées photographie",
+                "Certification PADI",
+                "Équipement photo",
+                "Instructeur de plongée"
+              ]
             }
           }
         ]
@@ -1433,7 +2203,6 @@
     "transferInfo": {
       "de": "Transfer: Für Hotels in Hurghada ist der Transfer vom/zum Hotel kostenlos. Für Hotels in Makadi Bay, Sahl Hasheesh und El Gouna beträgt der Transfer vom/zum Hotel einen Aufpreis von € 20 pro Tag pro Auto.",
       "ru": "Трансфер: Для отелей в Хургаде трансфер от/до отеля бесплатный. Для отелей в Макади Бэй, Сахль Хашиш и Эль Гуна трансфер от/до отеля стоит дополнительно € 20 в день за машину.",
-      "ar": "النقل: للفنادق داخل الغردقة، النقل من/إلى الفندق مجاني. للفنادق في مكادي باي، سهل حشيش والجونة، النقل من/إلى الفندق مقابل رسوم إضافية قدرها 20 يورو في اليوم لكل سيارة.",
       "en": "Transfer: For hotels inside Hurghada, Transfer from/to Hotel is free of charge. For Hotels in Makadi Bay, Sahl Hasheesh and El Gouna, Transfer from /To Hotel is for a surcharge of € 20 per day per car.",
       "fr": "Transfert: Pour les hôtels à Hurghada, le transfert depuis/vers l'hôtel est gratuit. Pour les hôtels à Makadi Bay, Sahl Hasheesh et El Gouna, le transfert depuis/vers l'hôtel coûte un supplément de € 20 par jour par voiture."
     }
@@ -1443,7 +2212,6 @@
       "title": {
         "de": "Kontakt",
         "ru": "Контакты",
-        "ar": "اتصل بنا",
         "en": "Contact",
         "fr": "Contact"
       },
@@ -1454,7 +2222,6 @@
       "title": {
         "de": "Standort",
         "ru": "Местоположение",
-        "ar": "الموقع",
         "en": "Location",
         "fr": "Localisation"
       },
@@ -1466,29 +2233,49 @@
       "title": {
         "de": "Folgen Sie uns",
         "ru": "Следите за нами",
-        "ar": "تابعنا",
         "en": "Follow Us",
         "fr": "Suivez-nous"
       },
       "links": [
-        { "name": "Instagram", "url": "#", "icon": "instagram" },
-        { "name": "Facebook", "url": "#", "icon": "facebook" }
+        {
+          "name": "Instagram",
+          "url": "#",
+          "icon": "instagram"
+        },
+        {
+          "name": "Facebook",
+          "url": "#",
+          "icon": "facebook"
+        }
       ]
     },
     "copyright": {
       "de": "© 2026 Tauchwelt Hurghada. Alle Rechte vorbehalten.",
       "ru": "© 2026 Мир дайвинга Хургады. Все права защищены.",
-      "ar": "© 2026 عالم الغوص في الغردقة. جميع الحقوق محفوظة.",
       "en": "© 2026 Diving World Hurghada. All rights reserved.",
       "fr": "© 2026 Monde de la plongée Hurghada. Tous droits réservés."
     }
   },
   "languages": [
-    { "code": "de", "name": "Deutsch", "flag": "🇩🇪" },
-    { "code": "ru", "name": "Русский", "flag": "🇷🇺" },
-    { "code": "ar", "name": "العربية", "flag": "🇪🇬" },
-    { "code": "en", "name": "English", "flag": "🇬🇧" },
-    { "code": "fr", "name": "Français", "flag": "🇫🇷" }
+    {
+      "code": "de",
+      "name": "Deutsch",
+      "flag": "🇩🇪"
+    },
+    {
+      "code": "ru",
+      "name": "Русский",
+      "flag": "🇷🇺"
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "flag": "🇬🇧"
+    },
+    {
+      "code": "fr",
+      "name": "Français",
+      "flag": "🇫🇷"
+    }
   ]
 }
-

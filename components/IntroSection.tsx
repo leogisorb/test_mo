@@ -21,7 +21,7 @@ export function IntroSection() {
                 <div className="relative w-full h-[300px] md:h-[400px] lg:h-[500px] rounded-lg overflow-hidden shadow-xl">
                   <img
                     src={getAssetPath('/assets/images/mohamed-salah.jpg')}
-                    alt={language === 'de' ? 'Mohamed Salah - Tauchlehrer' : language === 'ru' ? 'Мохамед Салах - инструктор по дайвингу' : language === 'ar' ? 'محمد صلاح - مدرب غوص' : language === 'en' ? 'Mohamed Salah - Diving Instructor' : 'Mohamed Salah - Instructeur de plongée'}
+                    alt={language === 'de' ? 'Mohamed Salah - Tauchlehrer' : language === 'ru' ? 'Мохамед Салах - инструктор по дайвингу' : language === 'en' ? 'Mohamed Salah - Diving Instructor' : 'Mohamed Salah - Instructeur de plongée'}
                     className="w-full h-full object-cover"
                   />
                 </div>

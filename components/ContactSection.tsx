@@ -98,7 +98,7 @@ export function ContactSection() {
     if (dailyDays > 0) {
       const dailyLabel = content.prices.dailyDiving.options.find(opt => opt.value === dailyDays)?.label;
       if (dailyLabel) {
-        parts.push(`${getText(dailyLabel, language)} (${persons} ${language === 'de' ? 'Person(en)' : language === 'ru' ? 'человек(а)' : language === 'ar' ? 'شخص(أشخاص)' : language === 'en' ? 'person(s)' : 'personne(s)'})`);
+        parts.push(`${getText(dailyLabel, language)} (${persons} ${language === 'de' ? 'Person(en)' : language === 'ru' ? 'человек(а)' :  language === 'en' ? 'person(s)' : 'personne(s)'})`);
       }
     }
     
@@ -107,7 +107,7 @@ export function ContactSection() {
         const course = content.prices.courses.options.find(opt => opt.value === courseId);
         return course ? getText(course.label, language) : courseId;
       });
-      parts.push(`${language === 'de' ? 'Tauchkurse' : language === 'ru' ? 'Курсы дайвинга' : language === 'ar' ? 'دورات الغوص' : language === 'en' ? 'Diving Courses' : 'Cours de plongée'}: ${courseLabels.join(', ')}`);
+      parts.push(`${language === 'de' ? 'Tauchkurse' : language === 'ru' ? 'Курсы дайвинга' :  language === 'en' ? 'Diving Courses' : 'Cours de plongée'}: ${courseLabels.join(', ')}`);
     }
     
     if (selectedSpecialties.length > 0) {
@@ -115,7 +115,7 @@ export function ContactSection() {
         const specialty = content.prices.specialty.options.find(opt => opt.value === specialtyId);
         return specialty ? getText(specialty.label, language) : specialtyId;
       });
-      parts.push(`${language === 'de' ? 'Spezialkurse' : language === 'ru' ? 'Специализированные курсы' : language === 'ar' ? 'دورات متخصصة' : language === 'en' ? 'Specialty Courses' : 'Cours spécialisés'}: ${specialtyLabels.join(', ')}`);
+      parts.push(`${language === 'de' ? 'Spezialkurse' : language === 'ru' ? 'Специализированные курсы' :  language === 'en' ? 'Specialty Courses' : 'Cours spécialisés'}: ${specialtyLabels.join(', ')}`);
     }
     
     return parts.join('\n\n');
@@ -144,19 +144,19 @@ export function ContactSection() {
     if (!formData.name.trim()) {
       newErrors.name = language === 'de' ? 'Name ist erforderlich' : 
                        language === 'ru' ? 'Имя обязательно' :
-                       language === 'ar' ? 'الاسم مطلوب' :
+                       
                        language === 'en' ? 'Name is required' : 'Le nom est requis';
     }
     
     if (!formData.email.trim()) {
       newErrors.email = language === 'de' ? 'E-Mail ist erforderlich' : 
                         language === 'ru' ? 'Email обязателен' :
-                        language === 'ar' ? 'البريد الإلكتروني مطلوب' :
+                        
                         language === 'en' ? 'Email is required' : 'L\'email est requis';
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
       newErrors.email = language === 'de' ? 'Ungültige E-Mail-Adresse' : 
                         language === 'ru' ? 'Неверный адрес электронной почты' :
-                        language === 'ar' ? 'عنوان بريد إلكتروني غير صالح' :
+                        
                         language === 'en' ? 'Invalid email address' : 'Adresse email invalide';
     }
     
@@ -196,7 +196,7 @@ export function ContactSection() {
         message: emailBody,
         // Additional info for email headers (if needed)
         from_email: formData.email,
-        subject: formData.subject || (language === 'de' ? 'Kontaktanfrage' : language === 'ru' ? 'Запрос' : language === 'ar' ? 'استفسار' : language === 'en' ? 'Contact Request' : 'Demande de contact'),
+        subject: formData.subject || (language === 'de' ? 'Kontaktanfrage' : language === 'ru' ? 'Запрос' :  language === 'en' ? 'Contact Request' : 'Demande de contact'),
       };
 
       // Send email via EmailJS
@@ -260,14 +260,14 @@ export function ContactSection() {
                 <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6">
                   {language === 'de' ? 'Kontaktieren Sie uns' : 
                    language === 'ru' ? 'Свяжитесь с нами' :
-                   language === 'ar' ? 'اتصل بنا' :
+                   
                    language === 'en' ? 'Contact Us' : 'Contactez-nous'}
                 </h3>
                 
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">
-                      {language === 'de' ? 'Name' : language === 'ru' ? 'Имя' : language === 'ar' ? 'الاسم' : language === 'en' ? 'Name' : 'Nom'} *
+                      {language === 'de' ? 'Name' : language === 'ru' ? 'Имя' :  language === 'en' ? 'Name' : 'Nom'} *
                     </label>
                     <input
                       type="text"
@@ -285,7 +285,7 @@ export function ContactSection() {
 
                   <div>
                     <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
-                      {language === 'de' ? 'E-Mail' : language === 'ru' ? 'Email' : language === 'ar' ? 'البريد الإلكتروني' : language === 'en' ? 'Email' : 'Email'} *
+                      {language === 'de' ? 'E-Mail' : language === 'ru' ? 'Email' :  language === 'en' ? 'Email' : 'Email'} *
                     </label>
                     <input
                       type="email"
@@ -303,7 +303,7 @@ export function ContactSection() {
 
                   <div>
                     <label htmlFor="subject" className="block text-sm font-semibold text-gray-700 mb-2">
-                      {language === 'de' ? 'Betreff' : language === 'ru' ? 'Тема' : language === 'ar' ? 'الموضوع' : language === 'en' ? 'Subject' : 'Sujet'}
+                      {language === 'de' ? 'Betreff' : language === 'ru' ? 'Тема' :  language === 'en' ? 'Subject' : 'Sujet'}
                     </label>
                     <input
                       type="text"
@@ -317,7 +317,7 @@ export function ContactSection() {
 
                   <div>
                     <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-2">
-                      {language === 'de' ? 'Nachricht' : language === 'ru' ? 'Сообщение' : language === 'ar' ? 'الرسالة' : language === 'en' ? 'Message' : 'Message'}
+                      {language === 'de' ? 'Nachricht' : language === 'ru' ? 'Сообщение' :  language === 'en' ? 'Message' : 'Message'}
                     </label>
                     <textarea
                       id="message"
@@ -335,19 +335,19 @@ export function ContactSection() {
                     className="w-full bg-primary-button text-white px-6 py-3 font-semibold text-lg rounded-lg hover:bg-primary-hover transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     {isSubmitting 
-                      ? (language === 'de' ? 'Wird gesendet...' : language === 'ru' ? 'Отправка...' : language === 'ar' ? 'جاري الإرسال...' : language === 'en' ? 'Sending...' : 'Envoi...')
-                      : (language === 'de' ? 'Absenden' : language === 'ru' ? 'Отправить' : language === 'ar' ? 'إرسال' : language === 'en' ? 'Submit' : 'Envoyer')
+                      ? (language === 'de' ? 'Wird gesendet...' : language === 'ru' ? 'Отправка...' :  language === 'en' ? 'Sending...' : 'Envoi...')
+                      : (language === 'de' ? 'Absenden' : language === 'ru' ? 'Отправить' :  language === 'en' ? 'Submit' : 'Envoyer')
                     }
                   </button>
 
                   {submitStatus === 'success' && (
                     <div className="p-4 bg-green-50 border border-green-200 rounded-lg text-green-700">
-                      {language === 'de' ? 'Nachricht erfolgreich gesendet!' : language === 'ru' ? 'Сообщение успешно отправлено!' : language === 'ar' ? 'تم إرسال الرسالة بنجاح!' : language === 'en' ? 'Message sent successfully!' : 'Message envoyé avec succès!'}
+                      {language === 'de' ? 'Nachricht erfolgreich gesendet!' : language === 'ru' ? 'Сообщение успешно отправлено!' :  language === 'en' ? 'Message sent successfully!' : 'Message envoyé avec succès!'}
                     </div>
                   )}
                   {submitStatus === 'error' && (
                     <div className="p-4 bg-red-50 border border-red-200 rounded-lg text-red-700">
-                      {language === 'de' ? 'Fehler beim Senden. Bitte versuchen Sie es erneut.' : language === 'ru' ? 'Ошибка при отправке. Пожалуйста, попробуйте снова.' : language === 'ar' ? 'خطأ في الإرسال. يرجى المحاولة مرة أخرى.' : language === 'en' ? 'Error sending message. Please try again.' : 'Erreur lors de l\'envoi. Veuillez réessayer.'}
+                      {language === 'de' ? 'Fehler beim Senden. Bitte versuchen Sie es erneut.' : language === 'ru' ? 'Ошибка при отправке. Пожалуйста, попробуйте снова.' :  language === 'en' ? 'Error sending message. Please try again.' : 'Erreur lors de l\'envoi. Veuillez réessayer.'}
                     </div>
                   )}
                 </form>
@@ -359,12 +359,12 @@ export function ContactSection() {
               {/* Card 1: Persons & Daily Courses */}
               <div className="bg-white rounded-lg shadow-lg p-6 flex-1">
                 <h4 className="text-xl font-bold text-primary mb-4">
-                  {language === 'de' ? 'Personen & Tageskurse' : language === 'ru' ? 'Люди и дневные курсы' : language === 'ar' ? 'الأشخاص والدورات اليومية' : language === 'en' ? 'Persons & Daily Courses' : 'Personnes et cours quotidiens'}
+                  {language === 'de' ? 'Personen & Tageskurse' : language === 'ru' ? 'Люди и дневные курсы' :  language === 'en' ? 'Persons & Daily Courses' : 'Personnes et cours quotidiens'}
                 </h4>
                 <div className="space-y-4">
                   <div>
                     <label className="block text-xs font-semibold text-gray-700 mb-2">
-                      {language === 'de' ? 'Anzahl Personen' : language === 'ru' ? 'Количество человек' : language === 'ar' ? 'عدد الأشخاص' : language === 'en' ? 'Number of Persons' : 'Nombre de personnes'}
+                      {language === 'de' ? 'Anzahl Personen' : language === 'ru' ? 'Количество человек' :  language === 'en' ? 'Number of Persons' : 'Nombre de personnes'}
                     </label>
                     <input
                       type="number"
@@ -405,7 +405,7 @@ export function ContactSection() {
               {/* Card 2: Courses & Specialties */}
               <div className="bg-white rounded-lg shadow-lg p-6 flex-1">
                 <h4 className="text-xl font-bold text-primary mb-4">
-                  {language === 'de' ? 'Kurse & Spezialkurse' : language === 'ru' ? 'Курсы и специализации' : language === 'ar' ? 'الدورات والدورات المتخصصة' : language === 'en' ? 'Courses & Specialties' : 'Cours et spécialités'}
+                  {language === 'de' ? 'Kurse & Spezialkurse' : language === 'ru' ? 'Курсы и специализации' :  language === 'en' ? 'Courses & Specialties' : 'Cours et spécialités'}
                 </h4>
                 <div className="space-y-4">
                   <div>
@@ -452,7 +452,7 @@ export function ContactSection() {
             <div className="lg:col-span-1 order-2 flex h-full">
               <div className="bg-primary text-white rounded-lg shadow-lg p-6 w-full flex flex-col h-full">
                 <h4 className="text-xl font-bold mb-4">
-                  {language === 'de' ? 'Gesamtpreis' : language === 'ru' ? 'Общая цена' : language === 'ar' ? 'السعر الإجمالي' : language === 'en' ? 'Total Price' : 'Prix total'}
+                  {language === 'de' ? 'Gesamtpreis' : language === 'ru' ? 'Общая цена' :  language === 'en' ? 'Total Price' : 'Prix total'}
                 </h4>
                 <div className="space-y-2">
                   <div className="flex justify-between items-center">
@@ -466,7 +466,6 @@ export function ContactSection() {
                   <p className="text-sm text-white/80 mt-4">
                     {language === 'de' ? `für ${persons} ${persons === 1 ? 'Person' : 'Personen'}` : 
                      language === 'ru' ? `для ${persons} ${persons === 1 ? 'человека' : 'человек'}` :
-                     language === 'ar' ? `لـ ${persons} ${persons === 1 ? 'شخص' : 'أشخاص'}` :
                      language === 'en' ? `for ${persons} ${persons === 1 ? 'person' : 'persons'}` :
                      `pour ${persons} ${persons === 1 ? 'personne' : 'personnes'}`}
                   </p>
