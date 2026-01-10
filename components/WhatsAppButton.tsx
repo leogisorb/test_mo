@@ -4,15 +4,8 @@ export function WhatsAppButton() {
   // WhatsApp-Nummer
   // Format: 201007077738 (ohne + und Leerzeichen, nur Ziffern)
   const whatsappNumber = '201007077738';
-  
-  // Button immer anzeigen, auch wenn noch keine Nummer eingetragen ist
-  // Wenn keine Nummer vorhanden, wird ein Platzhalter-Link verwendet
   const whatsappMessage = encodeURIComponent('Hallo! Ich habe eine Frage zu Ihren Tauchkursen.');
-  
-  // WhatsApp-Link erstellen - falls Nummer vorhanden, sonst Platzhalter
-  const whatsappUrl = whatsappNumber && whatsappNumber !== 'PLATZHALTER_NUMMER' && /^\d+$/.test(whatsappNumber)
-    ? `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`
-    : '#'; // Platzhalter, bis Nummer eingetragen ist
+  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
   return (
     <a

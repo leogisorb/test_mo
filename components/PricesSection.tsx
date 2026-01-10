@@ -287,7 +287,7 @@ export function PricesSection() {
                   }}
                   className="mt-auto border-2 border-black rounded-lg py-2 px-4 text-sm font-semibold text-black hover:bg-black hover:text-white transition-colors"
                 >
-                  {getText({ de: 'Jetzt buchen', ru: 'Забронировать сейчас', ar: 'احجز الآن', en: 'Book Now', fr: 'Réserver maintenant' }, language)}
+                  {getText({ de: 'Jetzt buchen', ru: 'Забронировать сейчас', en: 'Book Now', fr: 'Réserver maintenant' }, language)}
                 </button>
                 </div>
               </div>
