@@ -40,9 +40,9 @@ export function SocialSection() {
   }, []);
 
   return (
-    <section className="section bg-gray-50">
-      <div className="w-[85%] mx-auto">
-          <h2 className="section-title">
+    <section className="bg-gray-50 py-section">
+      <div className="w-full">
+          <h2 className="section-title px-4 md:px-8">
             {getText(content.social.title, language)}
           </h2>
           <div 
