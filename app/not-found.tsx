@@ -13,6 +13,9 @@ export default function NotFound() {
             src={getAssetPath('/logo_v2_white.svg')}
             alt="Tauchwelt Hurghada Logo"
             className="h-24 md:h-32 lg:h-40 w-auto mx-auto mb-8"
+            width={320}
+            height={320}
+            loading="eager"
           />
           <h1 className="text-6xl md:text-8xl font-bold text-primary mb-4">404</h1>
           <h2 className="text-2xl md:text-3xl font-bold text-text mb-4">

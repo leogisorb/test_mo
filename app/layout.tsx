@@ -80,6 +80,8 @@ export default function RootLayout({
   return (
     <html lang="de" suppressHydrationWarning>
       <head>
+        <link rel="preconnect" href="https://use.typekit.net" crossOrigin="anonymous" />
+        <link rel="preload" href="https://use.typekit.net/zcs0fuj.css" as="style" />
         <link rel="stylesheet" href="https://use.typekit.net/zcs0fuj.css" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="icon" type="image/png" href="/favicon.png" />

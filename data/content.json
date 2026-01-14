@@ -551,6 +551,26 @@
             "fr": "Photographie sous-marine"
           },
           "price": 400
+        },
+        {
+          "value": "sidemount",
+          "label": {
+            "de": "Sidemount Diver",
+            "ru": "Дайвер с боковым креплением",
+            "en": "Sidemount Diver",
+            "fr": "Plongeur Sidemount"
+          },
+          "price": 400
+        },
+        {
+          "value": "solo",
+          "label": {
+            "de": "Solo Diver",
+            "ru": "Соло-дайвер",
+            "en": "Solo Diver",
+            "fr": "Plongeur Solo"
+          },
+          "price": 450
         }
       ],
       "features": {
@@ -2202,6 +2222,110 @@
                 "4 plongées photographie",
                 "Certification PADI",
                 "Équipement photo",
+                "Instructeur de plongée"
+              ]
+            }
+          },
+          {
+            "id": "sidemount",
+            "name": {
+              "de": "Sidemount Diver",
+              "ru": "Дайвер с боковым креплением",
+              "en": "Sidemount Diver",
+              "fr": "Plongeur Sidemount"
+            },
+            "price": 400,
+            "days": 2,
+            "dives": 4,
+            "shortDescription": {
+              "de": "Tauchen Sie mit seitlich montierten Flaschen für mehr Flexibilität und Komfort",
+              "ru": "Ныряйте с боковыми баллонами для большей гибкости и комфорта",
+              "en": "Dive with side-mounted tanks for more flexibility and comfort",
+              "fr": "Plongez avec des bouteilles montées latéralement pour plus de flexibilité et de confort"
+            },
+            "fullDescription": {
+              "de": "Der Sidemount Diver Kurs lehrt Sie, mit seitlich montierten Tauchflaschen zu tauchen. Diese Konfiguration bietet mehr Flexibilität, bessere Hydrodynamik und einfacheren Transport. Sie lernen die richtige Montage, Trim-Techniken und das Tauchen mit zwei unabhängigen Systemen. Ideal für Taucher, die mehr Freiheit und Komfort beim Tauchen suchen.",
+              "ru": "Курс Sidemount Diver научит вас нырять с боковыми баллонами. Эта конфигурация обеспечивает большую гибкость, лучшую гидродинамику и более простую транспортировку. Вы изучите правильную установку, техники балансировки и дайвинг с двумя независимыми системами. Идеально для дайверов, которые ищут больше свободы и комфорта.",
+              "en": "The Sidemount Diver course teaches you to dive with side-mounted scuba tanks. This configuration offers more flexibility, better hydrodynamics, and easier transport. You'll learn proper mounting, trim techniques, and diving with two independent systems. Ideal for divers seeking more freedom and comfort while diving.",
+              "fr": "Le cours Sidemount Diver vous apprend à plonger avec des bouteilles montées latéralement. Cette configuration offre plus de flexibilité, une meilleure hydrodynamique et un transport plus facile. Vous apprendrez le montage correct, les techniques de trim et la plongée avec deux systèmes indépendants. Idéal pour les plongeurs recherchant plus de liberté et de confort."
+            },
+            "includes": {
+              "de": [
+                "4 Sidemount-Tauchgänge",
+                "PADI Zertifizierung",
+                "Sidemount-Ausrüstung",
+                "Tauchlehrer"
+              ],
+              "ru": [
+                "4 погружения с боковым креплением",
+                "Сертификация PADI",
+                "Снаряжение Sidemount",
+                "Инструктор"
+              ],
+              "en": [
+                "4 Sidemount Dives",
+                "PADI Certification",
+                "Sidemount Equipment",
+                "Dive Instructor"
+              ],
+              "fr": [
+                "4 plongées Sidemount",
+                "Certification PADI",
+                "Équipement Sidemount",
+                "Instructeur de plongée"
+              ]
+            }
+          },
+          {
+            "id": "solo",
+            "name": {
+              "de": "Solo Diver",
+              "ru": "Соло-дайвер",
+              "en": "Solo Diver",
+              "fr": "Plongeur Solo"
+            },
+            "price": 450,
+            "days": 3,
+            "dives": 4,
+            "shortDescription": {
+              "de": "Lernen Sie, sicher alleine zu tauchen mit speziellen Sicherheitsverfahren",
+              "ru": "Научитесь безопасно нырять в одиночку с особыми процедурами безопасности",
+              "en": "Learn to dive safely alone with special safety procedures",
+              "fr": "Apprenez à plonger en toute sécurité seul avec des procédures de sécurité spéciales"
+            },
+            "fullDescription": {
+              "de": "Der Solo Diver Kurs lehrt Sie, sicher alleine zu tauchen. Sie lernen erweiterte Sicherheitsverfahren, redundante Ausrüstungskonfigurationen und Selbstrettungstechniken. Dieser Kurs ist für erfahrene Taucher, die die Fähigkeit erwerben möchten, unabhängig zu tauchen, während sie höchste Sicherheitsstandards einhalten. Voraussetzung: PADI Advanced Open Water Diver oder gleichwertig, mindestens 100 geloggte Tauchgänge.",
+              "ru": "Курс Solo Diver научит вас безопасно нырять в одиночку. Вы изучите расширенные процедуры безопасности, конфигурации резервного снаряжения и техники самоспасения. Этот курс предназначен для опытных дайверов, которые хотят получить возможность нырять независимо, соблюдая высочайшие стандарты безопасности. Требования: PADI Advanced Open Water Diver или эквивалент, минимум 100 зарегистрированных погружений.",
+              "en": "The Solo Diver course teaches you to dive safely alone. You'll learn advanced safety procedures, redundant equipment configurations, and self-rescue techniques. This course is for experienced divers who want to gain the ability to dive independently while maintaining the highest safety standards. Prerequisites: PADI Advanced Open Water Diver or equivalent, minimum 100 logged dives.",
+              "fr": "Le cours Solo Diver vous apprend à plonger en toute sécurité seul. Vous apprendrez des procédures de sécurité avancées, des configurations d'équipement redondantes et des techniques d'auto-sauvetage. Ce cours est destiné aux plongeurs expérimentés qui souhaitent acquérir la capacité de plonger indépendamment tout en maintenant les normes de sécurité les plus élevées. Prérequis: PADI Advanced Open Water Diver ou équivalent, minimum 100 plongées enregistrées."
+            },
+            "includes": {
+              "de": [
+                "4 Solo-Tauchgänge",
+                "PADI Zertifizierung",
+                "Redundante Ausrüstung",
+                "Erweiterte Sicherheitsschulung",
+                "Tauchlehrer"
+              ],
+              "ru": [
+                "4 соло-погружения",
+                "Сертификация PADI",
+                "Резервное снаряжение",
+                "Расширенное обучение безопасности",
+                "Инструктор"
+              ],
+              "en": [
+                "4 Solo Dives",
+                "PADI Certification",
+                "Redundant Equipment",
+                "Advanced Safety Training",
+                "Dive Instructor"
+              ],
+              "fr": [
+                "4 plongées solo",
+                "Certification PADI",
+                "Équipement redondant",
+                "Formation avancée en sécurité",
                 "Instructeur de plongée"
               ]
             }

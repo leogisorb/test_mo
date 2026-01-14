@@ -39,6 +39,9 @@ export default function GalleryPage() {
             src={getAssetPath('/logo_v2.svg')}
             alt="Tauchwelt Hurghada Logo"
             className="h-24 md:h-32 lg:h-40 w-auto mx-auto mb-8"
+            width={320}
+            height={320}
+            loading="eager"
           />
           <h1 className="text-4xl md:text-6xl font-bold text-primary mb-6">
             {translations.title[language]}

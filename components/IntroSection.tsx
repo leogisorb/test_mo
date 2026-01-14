@@ -29,6 +29,9 @@ export function IntroSection() {
                       ? 'Mohamed Salah - Diving Instructor in Hurghada'
                       : 'Mohamed Salah - Moniteur de plongée à Hurghada'}
                     className="w-full h-full object-cover"
+                    width={800}
+                    height={600}
+                    loading="lazy"
                   />
                 </div>
               </div>

@@ -88,6 +88,9 @@ export function Header() {
                 src={getAssetPath('/logo_v2.svg')}
                 alt="Tauchwelt Hurghada Logo - Tauchschule für Deutsche in Ägypten | Tauchlehrer Hurghada"
                 className="h-9 md:h-12 w-auto"
+                width={120}
+                height={48}
+                loading="eager"
               />
             </a>
             <ul

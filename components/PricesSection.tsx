@@ -159,6 +159,9 @@ export function PricesSection() {
                       ? `${getText(card.title, language)} - Tauchschule Hurghada | Tauchen Ägypten | Tauchlehrer`
                       : getText(card.title, language)}
                     className="w-full h-full object-cover"
+                    width={400}
+                    height={144}
+                    loading="lazy"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
                       target.style.background = 'linear-gradient(135deg, #0077B6, #00B4D8)';
