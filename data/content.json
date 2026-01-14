@@ -56,10 +56,10 @@
   },
   "hero": {
     "title": {
-      "de": "Willkommen in der Tauchwelt Hurghada",
-      "ru": "Добро пожаловать в мир дайвинга Хургады",
-      "en": "Welcome to Diving World Hurghada",
-      "fr": "Bienvenue dans le monde de la plongée à Hurghada"
+      "de": "Tauchschule Hurghada | Deutscher Tauchlehrer | Tauchen Ägypten | PADI Kurse",
+      "ru": "Дайвинг школа Хургада | Немецкий инструктор | Дайвинг Египет | Курсы PADI",
+      "en": "Diving School Hurghada | German Diving Instructor | Diving Egypt | PADI Courses",
+      "fr": "École de plongée Hurghada | Moniteur allemand | Plongée Égypte | Cours PADI"
     },
     "cta": {
       "contact": {
@@ -82,10 +82,10 @@
   },
   "intro": {
     "title": {
-      "de": "Willkommen in unserer Tauchwelt",
-      "ru": "Добро пожаловать в наш мир дайвинга",
-      "en": "Welcome to Our Diving World",
-      "fr": "Bienvenue dans notre monde de la plongée"
+      "de": "Deutscher Tauchlehrer in Hurghada - Professionelle Tauchschule für Deutsche",
+      "ru": "Немецкий инструктор по дайвингу в Хургаде - Профессиональная дайвинг школа для немцев",
+      "en": "German Diving Instructor in Hurghada - Professional Diving School for Germans",
+      "fr": "Moniteur de plongée allemand à Hurghada - École de plongée professionnelle pour Allemands"
     },
     "aboutMe": {
       "de": "Wir sind ein Team von Tauchlehrern und arbeiten seit 2004 in Hurghada. Das Rote Meer ist unser Arbeitsplatz, und nach über 20 Jahren kennen wir seine Riffe, Wracks und Strömungen in- und auswendig.\n\nAls zertifizierte PADI- und SSI-Tauchlehrer begleiten wir sowohl Anfänger bei ihren ersten Atemzügen unter Wasser als auch erfahrene Taucher bei anspruchsvolleren Tauchgängen. Wir unterrichten in kleinen Gruppen und legen Wert auf persönliche Betreuung, denn jeder Taucher hat sein eigenes Tempo. Unsere Spezialisierungen reichen von Sidemount- und Tieftauchen über Nitrox- und Wracktauchen bis hin zu Solo-Diving und Trockentauchen. Als Emergency First Responder und Oxygen Provider ist Sicherheit für uns selbstverständlich und nicht verhandelbar.\n\nMit fundiertem Wissen und zwei Jahrzehnten Erfahrung zeigen wir Ihnen das Rote Meer so, wie es ist: faszinierend, vielfältig und manchmal auch herausfordernd.",
@@ -106,55 +106,55 @@
       {
         "src": "/assets/images/dive-1.jpg",
         "alt": {
-          "de": "Tauchbild 1",
-          "ru": "Изображение дайвинга 1",
-          "en": "Diving Image 1",
-          "fr": "Image de plongée 1"
+          "de": "Tauchen im Roten Meer Hurghada - Tauchschule für Deutsche | Tauchabenteuer Ägypten",
+          "ru": "Дайвинг в Красном море Хургада - Дайвинг школа для немцев | Приключения дайвинг Египет",
+          "en": "Diving in Red Sea Hurghada - Diving School for Germans | Diving Adventures Egypt",
+          "fr": "Plongée en mer Rouge Hurghada - École de plongée pour Allemands | Aventures de plongée Égypte"
         }
       },
       {
         "src": "/assets/images/dive-2.jpg",
         "alt": {
-          "de": "Tauchbild 2",
-          "ru": "Изображение дайвинга 2",
-          "en": "Diving Image 2",
-          "fr": "Image de plongée 2"
+          "de": "Tauchlehrer Hurghada - PADI Kurse | Tauchen für Deutsche in Ägypten",
+          "ru": "Инструктор по дайвингу Хургада - Курсы PADI | Дайвинг для немцев в Египте",
+          "en": "Diving Instructor Hurghada - PADI Courses | Diving for Germans in Egypt",
+          "fr": "Moniteur de plongée Hurghada - Cours PADI | Plongée pour Allemands en Égypte"
         }
       },
       {
         "src": "/assets/images/dive-3.jpg",
         "alt": {
-          "de": "Tauchbild 3",
-          "ru": "Изображение дайвинга 3",
-          "en": "Diving Image 3",
-          "fr": "Image de plongée 3"
+          "de": "Tauchausbildung Hurghada - Tauchkurse Rotes Meer | Deutscher Tauchlehrer",
+          "ru": "Обучение дайвингу Хургада - Курсы дайвинга Красное море | Немецкий инструктор",
+          "en": "Diving Training Hurghada - Diving Courses Red Sea | German Diving Instructor",
+          "fr": "Formation plongée Hurghada - Cours de plongée mer Rouge | Moniteur de plongée allemand"
         }
       },
       {
         "src": "/assets/images/dive-4.jpg",
         "alt": {
-          "de": "Tauchbild 4",
-          "ru": "Изображение дайвинга 4",
-          "en": "Diving Image 4",
-          "fr": "Image de plongée 4"
+          "de": "Tauchreisen Ägypten - Tauchurlaub Hurghada | Tauchschule für Deutsche",
+          "ru": "Дайвинг туры Египет - Дайвинг отпуск Хургада | Дайвинг школа для немцев",
+          "en": "Diving Trips Egypt - Diving Holiday Hurghada | Diving School for Germans",
+          "fr": "Voyages de plongée Égypte - Vacances plongée Hurghada | École de plongée pour Allemands"
         }
       },
       {
         "src": "/assets/images/dive-5.jpg",
         "alt": {
-          "de": "Tauchbild 5",
-          "ru": "Изображение дайвинга 5",
-          "en": "Diving Image 5",
-          "fr": "Image de plongée 5"
+          "de": "PADI Tauchkurse Hurghada - Tauchschule Ägypten | Tauchen für Anfänger",
+          "ru": "Курсы дайвинга PADI Хургада - Дайвинг школа Египет | Дайвинг для начинающих",
+          "en": "PADI Diving Courses Hurghada - Diving School Egypt | Diving for Beginners",
+          "fr": "Cours de plongée PADI Hurghada - École de plongée Égypte | Plongée pour débutants"
         }
       },
       {
         "src": "/assets/images/dive-6.jpg",
         "alt": {
-          "de": "Tauchbild 6",
-          "ru": "Изображение дайвинга 6",
-          "en": "Diving Image 6",
-          "fr": "Image de plongée 6"
+          "de": "Tauchabenteuer Rotes Meer - Tauchschule Hurghada | Tauchlehrer Deutsch",
+          "ru": "Приключения дайвинг Красное море - Дайвинг школа Хургада | Инструктор немецкий",
+          "en": "Diving Adventures Red Sea - Diving School Hurghada | German Diving Instructor",
+          "fr": "Aventures de plongée mer Rouge - École de plongée Hurghada | Moniteur de plongée allemand"
         }
       }
     ]

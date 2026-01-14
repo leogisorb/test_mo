@@ -15,7 +15,7 @@ export function Footer() {
               <a href="/" aria-label="Home">
                 <img
                   src={getAssetPath('/logo_v2_white.svg')}
-                  alt="Tauchwelt Hurghada Logo"
+                  alt="Tauchwelt Hurghada Logo - Professionelle Tauchschule für Deutsche | Tauchen Ägypten"
                   className="h-20 md:h-28 lg:h-32 w-auto"
                 />
               </a>

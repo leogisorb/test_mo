@@ -86,7 +86,7 @@ export function Header() {
             >
               <img
                 src={getAssetPath('/logo_v2.svg')}
-                alt="Tauchwelt Hurghada Logo"
+                alt="Tauchwelt Hurghada Logo - Tauchschule für Deutsche in Ägypten | Tauchlehrer Hurghada"
                 className="h-9 md:h-12 w-auto"
               />
             </a>

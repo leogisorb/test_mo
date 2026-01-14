@@ -21,7 +21,13 @@ export function IntroSection() {
                 <div className="relative w-full h-[300px] md:h-[400px] lg:h-[500px] rounded-lg overflow-hidden shadow-xl">
                   <img
                     src={getAssetPath('/assets/images/mohamed-salah.jpg')}
-                    alt={language === 'de' ? 'Mohamed Salah - Tauchlehrer' : language === 'ru' ? 'Мохамед Салах - инструктор по дайвингу' : language === 'en' ? 'Mohamed Salah - Diving Instructor' : 'Mohamed Salah - Instructeur de plongée'}
+                    alt={language === 'de' 
+                      ? 'Mohamed Salah - Deutscher Tauchlehrer in Hurghada, Ägypten | PADI zertifizierter Tauchlehrer | Tauchschule Rotes Meer'
+                      : language === 'ru'
+                      ? 'Мохамед Салах - Немецкий инструктор по дайвингу в Хургаде, Египет | Сертифицированный инструктор PADI | Дайвинг школа Красное море'
+                      : language === 'en'
+                      ? 'Mohamed Salah - German Diving Instructor in Hurghada, Egypt | PADI certified dive instructor | Diving School Red Sea'
+                      : 'Mohamed Salah - Moniteur de plongée allemand à Hurghada, Égypte | Moniteur certifié PADI | École de plongée mer Rouge'}
                     className="w-full h-full object-cover"
                   />
                 </div>

@@ -155,7 +155,9 @@ export function PricesSection() {
                 <div className="w-full h-28 md:h-36 relative">
                   <img
                     src={card.image}
-                    alt={getText(card.title, language)}
+                    alt={language === 'de' 
+                      ? `${getText(card.title, language)} - Tauchschule Hurghada | Tauchen Ägypten | Tauchlehrer`
+                      : getText(card.title, language)}
                     className="w-full h-full object-cover"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;

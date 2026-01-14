@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://tauchwelthurghada.com/sitemap.xml
+
+# Crawl-delay (optional, kann entfernt werden wenn nicht benötigt)
+Crawl-delay: 1

@@ -37,9 +37,9 @@ export function Hero() {
         <div className="absolute inset-0 bg-black/50" />
       </div>
       <div className="relative z-10 text-left w-[85%] mx-auto">
-        <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white drop-shadow-lg mb-8">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white drop-shadow-lg mb-8">
           {getText(content.hero.title, language)}
-        </h2>
+        </h1>
         <div className="flex flex-col sm:flex-row gap-4">
           <button
             onClick={() => scrollToSection('contact')}

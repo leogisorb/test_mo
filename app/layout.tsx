@@ -3,31 +3,72 @@ import './globals.css';
 import { LanguageProvider } from '@/components/LanguageProvider';
 import { BookingProvider } from '@/components/BookingProvider';
 import { WhatsAppButton } from '@/components/WhatsAppButton';
+import { StructuredData } from '@/components/StructuredData';
 
 export const metadata: Metadata = {
-  title: 'Tauchwelt Hurghada - Professionelle Tauchschule',
-  description: 'Professionelle Tauchschule in Hurghada, Ägypten. Tauchkurse, PADI-Zertifizierung und unvergessliche Tauchabenteuer im Roten Meer.',
+  metadataBase: new URL('https://tauchwelthurghada.com'),
+  title: 'Tauchschule Hurghada | Tauchlehrer | Tauchen Ägypten | PADI Kurse | Deutsch',
+  description: 'Professionelle Tauchschule in Hurghada, Ägypten. Deutscher Tauchlehrer, PADI-zertifizierte Tauchkurse für Anfänger und Fortgeschrittene. Tauchen im Roten Meer für Deutsche. Tauchausbildung, Tauchabenteuer, Tauchreisen. Jetzt buchen!',
+  keywords: [
+    'Tauchschule Hurghada', 'Tauchlehrer Hurghada', 'Tauchen Hurghada', 'Tauchen Ägypten', 'Tauchen Rotes Meer',
+    'PADI Kurse Ägypten', 'PADI Zertifizierung', 'Tauchausbildung Ägypten', 'Tauchkurse Hurghada',
+    'Deutscher Tauchlehrer', 'Tauchlehrer Deutsch', 'Tauchschule Deutsch', 'Tauchen für Deutsche',
+    'Tauchschule Deutschland', 'Tauchreisen Ägypten', 'Tauchurlaub Hurghada', 'Tauchabenteuer Ägypten',
+    'PADI Open Water', 'PADI Advanced', 'PADI Rescue Diver', 'Tauchkurs Anfänger', 'Tauchkurs Fortgeschrittene',
+    'Rotes Meer Tauchen', 'Hurghada Tauchen', 'Ägypten Tauchen', 'Tauchschule Rotes Meer',
+    'Tauchlehrer Ägypten', 'Tauchausbildung Hurghada', 'Tauchschule PADI', 'SSI Tauchschule',
+    'Tauchschule für Deutsche', 'Deutschsprachiger Tauchlehrer', 'Tauchschule deutsch', 'Tauchen deutschland',
+    'Tauchreise Ägypten', 'Tauchurlaub Ägypten', 'Tauchschule online buchen', 'Tauchkurs buchen'
+  ],
+  authors: [{ name: 'Tauchwelt Hurghada' }],
+  creator: 'Tauchwelt Hurghada',
+  publisher: 'Tauchwelt Hurghada',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   openGraph: {
-    title: 'Tauchwelt Hurghada - Professionelle Tauchschule',
-    description: 'Professionelle Tauchschule in Hurghada, Ägypten. Tauchkurse, PADI-Zertifizierung und unvergessliche Tauchabenteuer im Roten Meer.',
-    url: 'https://tauchwelt-hurghada.com',
+    title: 'Tauchschule Hurghada | Deutscher Tauchlehrer | Tauchen Ägypten | PADI Kurse',
+    description: 'Professionelle Tauchschule in Hurghada, Ägypten. Deutscher Tauchlehrer, PADI-zertifizierte Tauchkurse für Anfänger und Fortgeschrittene. Tauchen im Roten Meer für Deutsche. Tauchausbildung, Tauchabenteuer, Tauchreisen.',
+    url: 'https://tauchwelthurghada.com',
     siteName: 'Tauchwelt Hurghada',
     images: [
       {
-        url: '/logo_v2_white.svg',
+        url: '/logo_v2.png',
         width: 856,
         height: 852,
-        alt: 'Tauchwelt Hurghada Logo',
+        alt: 'Tauchwelt Hurghada Logo - Tauchschule für Deutsche in Ägypten',
       },
     ],
     locale: 'de_DE',
     type: 'website',
+    alternateLocale: ['en_US', 'ru_RU', 'fr_FR'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Tauchwelt Hurghada - Professionelle Tauchschule',
-    description: 'Professionelle Tauchschule in Hurghada, Ägypten. Tauchkurse, PADI-Zertifizierung und unvergessliche Tauchabenteuer im Roten Meer.',
-    images: ['/logo_v2_white.svg'],
+    title: 'Tauchschule Hurghada | Deutscher Tauchlehrer | Tauchen Ägypten | PADI Kurse',
+    description: 'Professionelle Tauchschule in Hurghada, Ägypten. Deutscher Tauchlehrer, PADI-zertifizierte Tauchkurse. Tauchen im Roten Meer für Deutsche.',
+    images: ['/logo_v2.png'],
+  },
+  alternates: {
+    canonical: 'https://tauchwelthurghada.com',
+    languages: {
+      'de': 'https://tauchwelthurghada.com/?lang=de',
+      'en': 'https://tauchwelthurghada.com/?lang=en',
+      'ru': 'https://tauchwelthurghada.com/?lang=ru',
+      'fr': 'https://tauchwelthurghada.com/?lang=fr',
+    },
+  },
+  verification: {
+    // Google Search Console Verification Code - wird später hinzugefügt
+    // google: 'your-verification-code',
   },
 };
 
@@ -66,6 +107,7 @@ export default function RootLayout({
             `,
           }}
         />
+        <StructuredData />
         <LanguageProvider>
           <BookingProvider>
             {children}
