@@ -2,8 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tauchwelthurghada.com/</loc>
-    <lastmod>2026-01-13</lastmod>
+    <loc>https://tauchwelthurghada.com</loc>
+    <lastmod>2026-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://tauchwelthurghada.com/?lang=de"/>
@@ -12,8 +12,8 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://tauchwelthurghada.com/?lang=fr"/>
   </url>
   <url>
-    <loc>https://tauchwelthurghada.com/courses/</loc>
-    <lastmod>2026-01-13</lastmod>
+    <loc>https://tauchwelthurghada.com/courses</loc>
+    <lastmod>2026-01-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://tauchwelthurghada.com/courses/?lang=de"/>
@@ -22,8 +22,8 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://tauchwelthurghada.com/courses/?lang=fr"/>
   </url>
   <url>
-    <loc>https://tauchwelthurghada.com/gallery/</loc>
-    <lastmod>2026-01-13</lastmod>
+    <loc>https://tauchwelthurghada.com/gallery</loc>
+    <lastmod>2026-01-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://tauchwelthurghada.com/gallery/?lang=de"/>
