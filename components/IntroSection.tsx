@@ -22,12 +22,12 @@ export function IntroSection() {
                   <img
                     src={getAssetPath('/assets/images/mohamed-salah.jpg')}
                     alt={language === 'de' 
-                      ? 'Mohamed Salah - Deutscher Tauchlehrer in Hurghada, Ägypten | PADI zertifizierter Tauchlehrer | Tauchschule Rotes Meer'
+                      ? 'Mohamed Salah - Tauchlehrer in Hurghada'
                       : language === 'ru'
-                      ? 'Мохамед Салах - Немецкий инструктор по дайвингу в Хургаде, Египет | Сертифицированный инструктор PADI | Дайвинг школа Красное море'
+                      ? 'Мохамед Салах - Инструктор по дайвингу в Хургаде'
                       : language === 'en'
-                      ? 'Mohamed Salah - German Diving Instructor in Hurghada, Egypt | PADI certified dive instructor | Diving School Red Sea'
-                      : 'Mohamed Salah - Moniteur de plongée allemand à Hurghada, Égypte | Moniteur certifié PADI | École de plongée mer Rouge'}
+                      ? 'Mohamed Salah - Diving Instructor in Hurghada'
+                      : 'Mohamed Salah - Moniteur de plongée à Hurghada'}
                     className="w-full h-full object-cover"
                   />
                 </div>
